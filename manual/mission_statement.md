@@ -1,2 +1,4 @@
 # Mission and philosophy
 
+
+\newpage

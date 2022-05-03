@@ -34,6 +34,10 @@
 
 ## Books
 
+## Tutorials
+
+- Data visualization / figure making with Python: https://github.com/frankligy/python_visualization_tutorial
+
 
 ## Software packages
 
@@ -66,6 +70,9 @@ Be aware of the direction of their development and new versions by subscribing t
 ### Visualization
 - matplotlib (https://matplotlib.org/)
 - seaborn (https://seaborn.pydata.org/)
+- inkscape (https://inkscape.org/):
+    - https://www.inkscapeforstem.com/Inkscape-For-STEM-ee6dacb7a2e543218f87a29f69177fee
+    - https://bioicons.com/
 - napari (https://napari.org/)
 - bokeh (https://docs.bokeh.org/en/latest/)
 - plotly (https://plotly.com/)
@@ -74,8 +81,12 @@ Be aware of the direction of their development and new versions by subscribing t
 ### Data-specific
 - skimage (https://scikit-image.org/)
 - FlowKit (https://github.com/whitews/FlowKit)
+
+Computational Pathology:
 - QuPath (https://qupath.github.io/)
 - Cytomine (https://doc.cytomine.org/, https://cytomine.com/)
+- PathML (https://github.com/Dana-Farber-AIOS/pathml)
+- CLAM (https://github.com/mahmoodlab/CLAM)
 
 ### Web
 - Flask (https://flask.palletsprojects.com/en/2.1.x/)
@@ -98,3 +109,6 @@ Be aware of the direction of their development and new versions by subscribing t
 - jupyter-notebook (https://jupyter.org/)
 - conda (https://docs.conda.io/en/latest/)
 - docker (https://www.docker.com/)
+
+
+\newpage
