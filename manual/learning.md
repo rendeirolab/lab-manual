@@ -27,13 +27,34 @@
 
 ### Data types
 
-H&E
-IF
-IHC/ISH
-IMC
-CyCIF
-CODEX
-Spatial transcriptomics
+- H&E whole slide images (WSI):
+    - Coudray et al. Classification and mutation prediction from non–small cell lung cancer histopathology images using deep learning, Nat. Medicine (2018), https://doi.org/10.1038/s41591-018-0177-5
+    - Amgad et al. Structured crowdsourcing enables convolutional segmentation of histology images, Bioinformatics (2019), https://doi.org/10.1093/bioinformatics/btz083
+    - Pati et al. HACT-Net: A Hierarchical Cell-to-Tissue Graph Neural Network for Histopathological Image Classification (2020), https://arxiv.org/abs/2007.00584
+    - Lu et al. CLAM: Data-efficient and weakly supervised computational pathology on whole-slide images (2021), https://doi.org/10.1038/s41551-020-00682-w
+    - Chen et al. Pan-cancer integrative histology-genomic analysis via multimodal deep learning Cancer Cell (2022), https://10.1016/j.ccell.2022.07.004
+    - Chen et al. Scaling Vision Transformers to Gigapixel Images via Hierarchical Self-Supervised Learning (2022), https://arxiv.org/abs/2206.02647
+- IF:
+- IHC/ISH:
+- mIF:
+    - Gerdes, M. J. et al. Highly multiplexed single-cell analysis of formalin-fixed, paraffin-embedded cancer tissue. Proc. Natl. Acad. Sci. U. S. A. 110, 11982–11987 (2013). https://doi.org/10.1073/pnas.1300136110
+- 4i:
+    - Multiplexed protein maps link subcellular organization to cellular states Gut et al. Science (2018), https://doi.org/10.1126/science.aar7042
+- IMC:
+    - Giesen, C. et al. Highly multiplexed imaging of tumor tissues with subcellular resolution by mass cytometry. Nat. Methods 11, 417–422 (2014), https://doi.org/10.1038/nmeth.2869
+- MIBI:
+    - Angelo, M. et al. Multiplexed ion beam imaging of human breast tumors. Nat. Med. 20, 436–442 (2014), https://doi.org/10.1038/nm.3488
+- CyCIF:
+    - Lin, J.-R., Fallahi-Sichani, M. & Sorger, P. K. Highly multiplexed imaging of single cells using a high-throughput cyclic immunofluorescence method. Nat. Commun. 6, 8390 (2015), https://doi.org/10.1038/ncomms9390
+- CODEX:
+    - Goltsev, Y. et al. Deep profiling of mouse splenic architecture with CODEX multiplexed imaging. Cell (2018) https://doi.org/10.1016/j.cell.2018.07.010
+- smFISH:
+    - Chen, K. H., Boettiger, A. N., Moffitt, J. R., Wang, S. & Zhuang, X. RNA imaging. Spatially resolved, highly multiplexed RNA profiling in single cells. Science 348, aaa6090 (2015), https://doi.org/10.1126/science.aaa6090
+    - Eng, C.-H. L. et al. Transcriptome-scale super-resolved imaging in tissues by RNA seqFISH. Nature 568, 235–239 (2019), https://doi.org/10.1038/s41586-019-1049-y
+- Spatial transcriptomics:
+    - Stickels, R. R. et al. Highly sensitive spatial transcriptomics at near-cellular resolution with SlideseqV2. Nat. Biotechnol. (2020), https://10.1038/s41587-020-0739-1
+    - Merritt, C. R. et al. Multiplex digital spatial profiling of proteins and RNA in fixed tissue. Nat. Biotechnol. 38, 586–599 (5/2020), https://doi.org/10.1038/s41587-020-0472-9
+    - Salmén, F. et al. Barcoded solid-phase RNA capture for Spatial Transcriptomics profiling in mammalian tissue sections. Nat. Protoc. 13, 2501–2534 (2018), https://doi.org/10.1038/s41596-018-0045-2
 
 
 ## Courses
