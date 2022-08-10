@@ -16,14 +16,29 @@ Read about the lab philosophy, X, Y, Z
 
 # Get started
 
-## IT services
+### Lab-specific
+
+Onboarding to-dos (responsability on the PI):
+1. Ask the new team member for their contact information (optional, but recommende for safety reasons);
+2. Add the new team member to lab mailing list;
+3. Share the lab's resources:
+	- the lab manual
+	- the lab code of conduct
+	- the Github account
+	- lab VMs (such as Cytomine, create an account)
+4. Make sure the new team member follow up with the remaining of CeMM onboarding (IT, safety)
+
+
+### CeMM-specific
+
+#### IT services
 
 Please read https://cemmat.sharepoint.com/sites/IT-Resources for updated information.
 
-### Intranet
+##### Intranet
 Consult the intranet for updated information on everything CeMM: https://cemmat.sharepoint.com/sites/Intranet
 
-### Mail
+##### Mail
 The default email addressess have the form <user>@cemm.oeaw.ac.at due to our relationship with the Austrian Academy of Sciences.
 The short form <user>@cemm.at can also receive emails and is mandatory to access/register Microsoft Office 365 cloud resources: OneDrive, Teams, Word, Excel, PowerPoint, etc.
 
@@ -31,7 +46,7 @@ Web portal: portal.office.com
 Webmail: outlook.com/cemm.at
 Forwarding CeMM emails to external services is disabled.
 
-### Shared drives and directories
+##### Shared drives and directories
 Windows shares:
 	- Groupdata: smb://int.cemm.at/files/groupdata/
 	- Labs: smb://int.cemm.at/files/labs/
@@ -41,7 +56,7 @@ Cluster shares:
 
 Login with your CeMM credentials and the domain name (if asked) is "cemmint".
 
-### VPN
+##### VPN
 
 1. Get a MUW ID by submitting a form to the CeMM IT team (https://cemmat.sharepoint.com/sites/IT-Resources).
 2. Get authorization from MUW to access VPN, submit the form to the CeMM IT team.

@@ -17,4 +17,16 @@ Ask at the get go:
  - be joint last-author
  - have allocated resources in grant if submitting one
 
+
+
+## Interesting 
+
+- Pathology @MUW
+- https://www.bioimaging-austria.at/
+- https://www.cir.meduniwien.ac.at/team/langs/
+- https://www.bsimaging.at/
+
+
+
 \newpage
+
