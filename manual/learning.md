@@ -128,6 +128,7 @@ Be aware of the direction of their development and new versions by subscribing t
 ### Visualization
 - matplotlib (https://matplotlib.org/)
 - seaborn (https://seaborn.pydata.org/)
+- scikit-yb (https://www.scikit-yb.org/en/latest)
 - inkscape (https://inkscape.org/):
     - https://www.inkscapeforstem.com/Inkscape-For-STEM-ee6dacb7a2e543218f87a29f69177fee
     - https://bioicons.com/
