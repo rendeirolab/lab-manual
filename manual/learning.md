@@ -162,6 +162,7 @@ Computational Pathology:
 ### Productivity
 - sublimetext (https://www.sublimetext.com/)
 - vscode (https://code.visualstudio.com/)
+- obsidian (https://obsidian.md/, https://github.com/obsidianmd)
 - notable (https://notable.app/)
 - inkscape (https://inkscape.org/)
 - sphinx (https://www.sphinx-doc.org/en/master/)
