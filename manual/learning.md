@@ -143,6 +143,10 @@ Imaging:
 Flow cytometry:
 - FlowKit (https://github.com/whitews/FlowKit)
 
+Survival data:
+- Lifelines (https://lifelines.readthedocs.io/en/latest/)
+- Auton-survival (https://github.com/autonlab/auton-survival)
+
 Computational Pathology:
 - QuPath (https://qupath.github.io/)
 - PathML (https://github.com/Dana-Farber-AIOS/pathml)
