@@ -87,13 +87,11 @@
 - https://www.biocode.ltd/courses
 
 ## Books
-
-- "Deep Medicine", Eric Topol
 - "Deep Medicine", Eric Topol
 
 
 ## Tutorials
-
+- Gradient descent and backpropagation: https://www.youtube.com/watch?v=VMj-3S1tku0
 - Data visualization / figure making with Python: https://github.com/frankligy/python_visualization_tutorial
 - Histology: http://medcell.org/histology/histology.php
 
