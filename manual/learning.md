@@ -126,6 +126,7 @@ Be aware of the direction of their development and new versions by subscribing t
 - fastai (https://docs.fast.ai/)
 - fiftyone (https://voxel51.com/docs/fiftyone/)
 - weightsandbiases (https://wandb.ai/site)
+- transformers (https://github.com/huggingface/transformers)
 
 ### Visualization
 - matplotlib (https://matplotlib.org/)
