@@ -68,9 +68,13 @@
 - Practical deep learning for coders (Fast.ai), https://course.fast.ai/, https://www.youtube.com/watch?v=_QUEXsHfsA0&list=PLfYUBJiXbdtRL3FMB3GoWHRI8ieU6FhfM
 - Deep learning in life sciences (MIT), https://www.youtube.com/playlist?list=PLypiXJdtIca5sxV7aE3-PS9fYX3vUdIOX
 - Introduction to Deep Learning - 170 Video Lectures from Adaptive Linear Neurons to Zero-shot Classification with Transformers (Sebastian Raschka), https://sebastianraschka.com/blog/2021/dl-course.html
+- Deep learning course (François Fleuret, University of Geneva) (https://fleuret.org/dlc/?s=09)
 
 ### Statistics
 - Statistical Rethinking (2022 Edition), https://github.com/rmcelreath/stat_rethinking_2022, https://github.com/pymc-devs/pymc-resources/tree/main/Rethinking_2
+
+### Bioinformatics
+- Bioinformatics training materials (Swiss Bioinformatics Institute), https://github.com/sib-swiss/training-collection
 
 ### Genomics
 - Applied Computational Genomics (University of Utah), https://www.youtube.com/playlist?list=PLCbXw1opqIQeNfF26-wWegdGoCC1aut0P
