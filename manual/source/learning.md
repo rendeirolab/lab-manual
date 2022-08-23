@@ -65,6 +65,7 @@
 - Hypermodern Python (CLAUDIO JOLOWICZ) (https://cjolowicz.github.io/posts/hypermodern-python-01-setup/)
 
 ### Machine Learning / Deep Learning
+- Deep learning for image analysis, https://www.embl.org/about/info/course-and-conference-office/events/mac23-01/
 - Practical deep learning for coders (Fast.ai), https://course.fast.ai/, https://www.youtube.com/watch?v=_QUEXsHfsA0&list=PLfYUBJiXbdtRL3FMB3GoWHRI8ieU6FhfM
 - Deep learning in life sciences (MIT), https://www.youtube.com/playlist?list=PLypiXJdtIca5sxV7aE3-PS9fYX3vUdIOX
 - Introduction to Deep Learning - 170 Video Lectures from Adaptive Linear Neurons to Zero-shot Classification with Transformers (Sebastian Raschka), https://sebastianraschka.com/blog/2021/dl-course.html
@@ -85,6 +86,9 @@
 - Pathology (University of Edinburgh MBChB), https://pathologia.ed.ac.uk/
 
 
+### Aging
+- The ageing genome: from mechanisms to disease, https://www.embl.org/about/info/course-and-conference-office/events/ees23-04/
+
 
 ### Other courses (paid):
 - https://carpentries.org/workshops/
@@ -98,6 +102,7 @@
 - Gradient descent and backpropagation: https://www.youtube.com/watch?v=VMj-3S1tku0
 - Data visualization / figure making with Python: https://github.com/frankligy/python_visualization_tutorial
 - Histology: http://medcell.org/histology/histology.php
+- Immunology: https://www.youtube.com/watch?v=iwB8kKdNgdQ
 
 ## Software packages
 
@@ -157,6 +162,7 @@ Computational Pathology:
 - HistomicsTK (https://digitalslidearchive.github.io/HistomicsTK)
 - CLAM (https://github.com/mahmoodlab/CLAM)
 - Cytomine (https://doc.cytomine.org/, https://cytomine.com/)
+- ASAP (https://github.com/GeertLitjens/ASAP)
 
 ### Web
 - Flask (https://flask.palletsprojects.com/en/2.1.x/)
@@ -181,5 +187,10 @@ Computational Pathology:
 - conda (https://docs.conda.io/en/latest/)
 - docker (https://www.docker.com/)
 
+#### Repositories
+Useful to deposit data for publication
+- Zenodo (https://zenodo.org/)
+- GigaDB (http://gigadb.org/)
+- Synapse (https://www.synapse.org/)
 
 \newpage
