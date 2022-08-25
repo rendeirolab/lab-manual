@@ -101,7 +101,8 @@
 ## Tutorials
 - Gradient descent and backpropagation: https://www.youtube.com/watch?v=VMj-3S1tku0
 - Data visualization / figure making with Python: https://github.com/frankligy/python_visualization_tutorial
-- Histology: http://medcell.org/histology/histology.php
+- Histology @ Yale: http://medcell.org/histology/histology.php
+- Systems Cell Biology @ Yale: http://medcell.med.yale.edu/systems_cell_biology/systems_cell_biology.php
 - Immunology: https://www.youtube.com/watch?v=iwB8kKdNgdQ
 
 ## Software packages
@@ -171,6 +172,7 @@ Computational Pathology:
 
 ### Productivity
 - sublimetext (https://www.sublimetext.com/)
+- sublimemerge (https://www.sublimemerge.com/)
 - vscode (https://code.visualstudio.com/)
 - obsidian (https://obsidian.md/, https://github.com/obsidianmd)
 - notable (https://notable.app/)
@@ -186,6 +188,7 @@ Computational Pathology:
 - jupyter-notebook (https://jupyter.org/)
 - conda (https://docs.conda.io/en/latest/)
 - docker (https://www.docker.com/)
+- pre-commit (https://pre-commit.com/)
 
 #### Repositories
 Useful to deposit data for publication
