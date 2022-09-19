@@ -1,5 +1,3 @@
 # Record keeping
 
-
-
-\newpage
+\\newpage

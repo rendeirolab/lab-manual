@@ -6,6 +6,7 @@ This is the lab manual, with all the information about the lab's culture and pro
 ## Building the manual
 
 To HTML:
+
 ```bash
 pandoc \
     --toc \
@@ -16,6 +17,7 @@ pandoc \
 ```
 
 To PDF (requires wkhtmltopdf dependency):
+
 ```bash
 pandoc \
     --toc \
@@ -25,8 +27,8 @@ pandoc \
     -s README.md manual/*.md \
     -o rendeiro-lab_manual.pdf
 ```
-\newpage
 
+\\newpage
 
 ## Editing content
 
@@ -34,7 +36,6 @@ Edit or create files either directly at Github or locally. Make sure you open a 
 
 To add a table of contents to each document, use [mdformat-toc](https://github.com/hukkin/mdformat-toc).
 Simply add `<!-- mdformat-toc start -->` to the desired location of the document, and run `mdformat <file.md>` to generate it.
-
 
 ## Sources of inspiration
 

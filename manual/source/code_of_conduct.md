@@ -1,4 +1,3 @@
 # Code of conduct
 
-
-\newpage
+\\newpage

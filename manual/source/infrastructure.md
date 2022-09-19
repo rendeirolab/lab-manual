@@ -2,7 +2,6 @@
 
 ### Hardware
 
-
 ### VMs
 
 Cytomine

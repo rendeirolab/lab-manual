@@ -1,10 +1,8 @@
-Getting started manual
-======================
+# Getting started manual
 
 Welcome to the Rendeiro lab at CeMM!
 
 You are at the start of a beautiful human adventure, don’t forget to enjoy the journey.
-
 
 # Get informed
 
@@ -12,22 +10,20 @@ This is the lab's manual
 
 Read about the lab philosophy, X, Y, Z
 
-
-
 # Get started
 
 ### Lab-specific
 
-Onboarding to-dos (responsability on the PI):
-1. Ask the new team member for their contact information (optional, but recommende for safety reasons);
-2. Add the new team member to lab mailing list;
-3. Share the lab's resources:
-	- the lab manual
-	- the lab code of conduct
-	- the Github account
-	- lab VMs (such as Cytomine, create an account)
-4. Make sure the new team member follow up with the remaining of CeMM onboarding (IT, safety)
+Onboarding to-dos (responsability of the PI):
 
+1. Ask the new team member for their contact information (optional, but recommended for safety reasons) - [add information here](https://cemmat.sharepoint.com/:x:/s/rendeirolab/ETVfBUPmJYpIgl-yDccPCGkBZRMFtOTE9ExejqyvMq6msA?e=lxEuzO);
+1. Add the new team member to lab mailing list;
+1. Share the lab's resources:
+   - the lab manual
+   - the lab code of conduct
+   - the Github account
+   - lab VMs (such as Cytomine, create an account)
+1. Make sure the new team member follow up with the remaining of CeMM onboarding (IT, safety)
 
 ### CeMM-specific
 
@@ -36,33 +32,36 @@ Onboarding to-dos (responsability on the PI):
 Please read https://cemmat.sharepoint.com/sites/IT-Resources for updated information.
 
 ##### Intranet
+
 Consult the intranet for updated information on everything CeMM: https://cemmat.sharepoint.com/sites/Intranet
 
 ##### Mail
+
 The default email addressess have the form <user>@cemm.oeaw.ac.at due to our relationship with the Austrian Academy of Sciences.
 The short form <user>@cemm.at can also receive emails and is mandatory to access/register Microsoft Office 365 cloud resources: OneDrive, Teams, Word, Excel, PowerPoint, etc.
 
 Web portal: portal.office.com
 Webmail: outlook.com/cemm.at
-Forwarding CeMM emails to external services is disabled.
+Forwarding CeMM emails to external services is not allowed.
 
 ##### Shared drives and directories
+
 Windows shares:
-	- Groupdata: smb://int.cemm.at/files/groupdata/
-	- Labs: smb://int.cemm.at/files/labs/
-	- Home Folder: smb://int.cemm.at/files/home/<username>
+\- Groupdata: smb://int.cemm.at/files/groupdata/
+\- Labs: smb://int.cemm.at/files/labs/
+\- Home Folder: smb://int.cemm.at/files/home/<username>
 Cluster shares:
-	- smb://hpctransfer
+\- smb://hpctransfer
 
 Login with your CeMM credentials and the domain name (if asked) is "cemmint".
 
 ##### VPN
 
 1. Get a MUW ID by submitting a form to the CeMM IT team (https://cemmat.sharepoint.com/sites/IT-Resources).
-2. Get authorization from MUW to access VPN, submit the form to the CeMM IT team.
-3. Connect:
-	- On Linux:
-		1. Get Cisco AnyConnect
-		2. Connect using https://vpn.meduniwien.ac.at/, user and password
+1. Get authorization from MUW to access VPN, submit the form to the CeMM IT team.
+1. Connect:
+   - On Linux:
+     1. Get Cisco AnyConnect
+     1. Connect using https://vpn.meduniwien.ac.at/, user and password
 
-\newpage
+\\newpage
