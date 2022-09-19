@@ -213,5 +213,3 @@ Useful to deposit data for publication
 - Zenodo (https://zenodo.org/)
 - GigaDB (http://gigadb.org/)
 - Synapse (https://www.synapse.org/)
-
-\\newpage

@@ -6,7 +6,10 @@
 - https://cancerimagingarchive.net/datascope/cptac/
 - https://camelyon17.grand-challenge.org/Data/
 - https://www.cancerimagingarchive.net/histopathology-imaging-on-tcia/
-- https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=33948919
+- https://wiki.cancerimagingarchive.net/pages/vi
+
+.action?pageId=33948919
+
 - http://workbench-czi-cpw.mvm.ed.ac.uk/
 
 Lung-specific:
@@ -39,7 +42,8 @@ Prostate-specific:
 - StarDist
 - DeepCell
 - CellPose
-- Tumor-Infiltrating Lymphocytes Maps from TCGA H&E Whole Slide Pathology Images: https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=33948919, https://stonybrookmedicine.app.box.com/v/cellreportspaper/folder/42003984813
-- NuCLS crowdsourcing approach, dataset, and explainable deep-learning method: https://github.com/PathologyDataScience/NuCLS
+- Tumor-Infiltrating Lymphocytes Maps from TCGA H&E Whole Slide Pathology Images: https://wiki.cancerimagingarchive.net/pages/vi
 
-\\newpage
+.action?pageId=33948919, https://stonybrookmedicine.app.box.com/v/cellreportspaper/folder/42003984813
+
+- NuCLS crowdsourcing approach, dataset, and explainable deep-learning method: https://github.com/PathologyDataScience/NuCLS

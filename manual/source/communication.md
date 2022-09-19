@@ -17,5 +17,3 @@ Text message
 see [code of conduct](code_of_conduct.md)
 
 ### Conflict resolution
-
-\\newpage

@@ -28,8 +28,6 @@ pandoc \
     -o rendeiro-lab_manual.pdf
 ```
 
-\\newpage
-
 ## Editing content
 
 Edit or create files either directly at Github or locally. Make sure you open a pull request with a brief (one line) description of what the changes are.

@@ -1,3 +1,1 @@
 # Record keeping
-
-\\newpage

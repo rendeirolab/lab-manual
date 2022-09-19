@@ -61,5 +61,3 @@ Below are the preferred types of technology to be used in the lab:
 - The Night Science Podcast (https://night-science.org/the-night-science-podcast/)
 - The importance of stupidity in scientific research (https://doi.org/10.1242/jcs.033340)
 - Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial (http://dx.doi.org/10.1136/bmj.k5094)
-
-\\newpage

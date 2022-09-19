@@ -1,16 +1,16 @@
-# Getting started manual
+# Getting started
 
 Welcome to the Rendeiro lab at CeMM!
 
 You are at the start of a beautiful human adventure, don’t forget to enjoy the journey.
 
-# Get informed
+## Get informed
 
 This is the lab's manual
 
 Read about the lab philosophy, X, Y, Z
 
-# Get started
+## Get started
 
 ### Lab-specific
 
@@ -47,11 +47,12 @@ Forwarding CeMM emails to external services is not allowed.
 ##### Shared drives and directories
 
 Windows shares:
-\- Groupdata: smb://int.cemm.at/files/groupdata/
-\- Labs: smb://int.cemm.at/files/labs/
-\- Home Folder: smb://int.cemm.at/files/home/<username>
-Cluster shares:
-\- smb://hpctransfer
+
+- Groupdata: smb://int.cemm.at/files/groupdata/
+- Labs: smb://int.cemm.at/files/labs/
+- Home Folder: smb://int.cemm.at/files/home/<username>
+  Cluster shares:
+- smb://hpctransfer
 
 Login with your CeMM credentials and the domain name (if asked) is "cemmint".
 
@@ -63,5 +64,3 @@ Login with your CeMM credentials and the domain name (if asked) is "cemmint".
    - On Linux:
      1. Get Cisco AnyConnect
      1. Connect using https://vpn.meduniwien.ac.at/, user and password
-
-\\newpage
