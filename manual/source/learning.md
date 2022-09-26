@@ -68,6 +68,7 @@
 - Practical deep learning for coders (Fast.ai), https://course.fast.ai/, https://www.youtube.com/watch?v=_QUEXsHfsA0&list=PLfYUBJiXbdtRL3FMB3GoWHRI8ieU6FhfM
 - Deep learning in life sciences (MIT), https://www.youtube.com/playlist?list=PLypiXJdtIca5sxV7aE3-PS9fYX3vUdIOX
 - Introduction to Deep Learning - 170 Video Lectures from Adaptive Linear Neurons to Zero-shot Classification with Transformers (Sebastian Raschka), https://sebastianraschka.com/blog/2021/dl-course.html
+- Introduction to Coding Neural Networks with PyTorch and Lightning: https://www.youtube.com/watch?app=desktop&v=khMzi6xPbuM&feature=youtu.be&s=09
 - Deep learning course (François Fleuret, University of Geneva) (https://fleuret.org/dlc/?s=09)
 
 ### Statistics
