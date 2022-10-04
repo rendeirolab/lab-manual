@@ -138,6 +138,7 @@ Be aware of the direction of their development and new versions by subscribing t
 - pytorch (https://pytorch.org/)
 - pytorch-lightning (https://www.pytorchlightning.ai/, https://github.com/PyTorchLightning/pytorch-lightning)
 - fastai (https://docs.fast.ai/)
+- imbalanced-learn (https://imbalanced-learn.org/)
 - fiftyone (https://voxel51.com/docs/fiftyone/)
 - weightsandbiases (https://wandb.ai/site)
 - transformers (https://github.com/huggingface/transformers)
