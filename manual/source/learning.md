@@ -162,6 +162,7 @@ Be aware of the direction of their development and new versions by subscribing t
 Imaging:
 
 - skimage (https://scikit-image.org/)
+- Deformetrica (https://gitlab.com/icm-institute/aramislab/deformetrica, http://www.deformetrica.org/)
 
 Flow cytometry:
 
