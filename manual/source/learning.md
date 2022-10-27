@@ -139,6 +139,7 @@ Be aware of the direction of their development and new versions by subscribing t
 - pytorch-lightning (https://www.pytorchlightning.ai/, https://github.com/PyTorchLightning/pytorch-lightning)
 - fastai (https://docs.fast.ai/)
 - timm, pytorch-image-models (https://github.com/rwightman/pytorch-image-models)
+- TabPFN (https://github.com/automl/TabPFN)
 - imbalanced-learn (https://imbalanced-learn.org/)
 - fiftyone (https://voxel51.com/docs/fiftyone/)
 - weightsandbiases (https://wandb.ai/site)
