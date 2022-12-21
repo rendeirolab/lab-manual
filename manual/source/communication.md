@@ -3,7 +3,7 @@
 ## In person meetings
 
 ### Individual meetings
- - Mondays, every week (13:00)
+ - Mondays, every week (12:30)
  - Prepare in advance (ideally as a markdown file that you share with Andre):
 	 - What are upcoming events (2-3 months; e.g. committee meeting, conference, meetings with collaborators)
 	 - Progress and results
@@ -18,7 +18,7 @@
  - The scheduled meetings should not prevent you from reaching out to Andre at any time if needed (in person, via email, chat, phone)!
 
 ### Lab meetings
-- Thursdays, early week (13:00)
+- Thursdays, early week (12:30)
 - Format:
   - Housekeeping (announcements, scheduling)
   - Quick round reviewing week progress:
