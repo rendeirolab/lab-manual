@@ -105,6 +105,7 @@
 ## Tutorials
 
 - Gradient descent and backpropagation: https://www.youtube.com/watch?v=VMj-3S1tku0
+- Transformers from scratch: https://e2eml.school/transformers.html
 - Data visualization / figure making with Python: https://github.com/frankligy/python_visualization_tutorial
 - Histology @ Yale: http://medcell.org/histology/histology.php
 - Systems Cell Biology @ Yale: http://medcell.med.yale.edu/systems_cell_biology/systems_cell_biology.php
