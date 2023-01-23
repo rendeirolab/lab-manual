@@ -3,6 +3,9 @@
 ## Topics
 
 - Data Science:
+  - Mean and variance relationship
+  - Homo/heteroskedastic variables
+  - Common data transformations: log, normalize by total, centering and scaling
   - Unsupervised analysis:
     - correlation analysis
     - dimensionality reduction: SVD, NMF, PCA, Isomap, Diffmap, UMAP
@@ -70,6 +73,7 @@
 - Introduction to Deep Learning - 170 Video Lectures from Adaptive Linear Neurons to Zero-shot Classification with Transformers (Sebastian Raschka), https://sebastianraschka.com/blog/2021/dl-course.html
 - Introduction to Coding Neural Networks with PyTorch and Lightning: https://www.youtube.com/watch?app=desktop&v=khMzi6xPbuM&feature=youtu.be&s=09
 - Deep learning course (François Fleuret, University of Geneva) (https://fleuret.org/dlc/?s=09)
+- The Ancient Secrets of Computer Vision (Univ. Washington) (https://pjreddie.com/courses/computer-vision/, https://www.youtube.com/playlist?list=PLjMXczUzEYcHvw5YYSU92WrY8IwhTuq7p)
 
 ### Statistics
 
