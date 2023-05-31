@@ -25,6 +25,7 @@
 
 - "Deep learning in histopathology: the path to the clinic", Jeroen van der Laak, Geert Litjens & Francesco Ciompi, Nature Medicine (2021), https://doi.org/10.1038/s41591-021-01343-4
 - "The emerging landscape of spatial profiling technologies", Jeffrey R. Moffitt, Emma Lundberg & Holger Heyn, Nature Reviews Genetics (2022), https://doi.org/10.1038/s41576-022-00515-3
+- "Graph representation learning in biomedicine and healthcare", Li, M.M., Huang, K. & Zitnik, M. Nature Biomedicine (2022), https://doi.org/10.1038/s41551-022-00942-x
 
 ### Data types
 
@@ -144,6 +145,7 @@ Be aware of the direction of their development and new versions by subscribing t
 - pytorch-lightning (https://www.pytorchlightning.ai/, https://github.com/PyTorchLightning/pytorch-lightning)
 - fastai (https://docs.fast.ai/)
 - timm, pytorch-image-models (https://github.com/rwightman/pytorch-image-models)
+- einops (https://github.com/arogozhnikov/einops)
 - TabPFN (https://github.com/automl/TabPFN)
 - imbalanced-learn (https://imbalanced-learn.org/)
 - fiftyone (https://voxel51.com/docs/fiftyone/)
@@ -165,21 +167,21 @@ Be aware of the direction of their development and new versions by subscribing t
 
 ### Data-specific
 
-Imaging:
+#### Imaging:
 
 - skimage (https://scikit-image.org/)
 - Deformetrica (https://gitlab.com/icm-institute/aramislab/deformetrica, http://www.deformetrica.org/)
 
-Flow cytometry:
+#### Flow cytometry:
 
 - FlowKit (https://github.com/whitews/FlowKit)
 
-Survival data:
+#### Survival data:
 
 - Lifelines (https://lifelines.readthedocs.io/en/latest/)
 - Auton-survival (https://github.com/autonlab/auton-survival)
 
-Computational Pathology:
+#### Computational Pathology:
 
 - QuPath (https://qupath.github.io/)
 - PathML (https://github.com/Dana-Farber-AIOS/pathml)
@@ -198,9 +200,8 @@ Computational Pathology:
 
 - sublimetext (https://www.sublimetext.com/)
 - sublimemerge (https://www.sublimemerge.com/)
-- vscode (https://code.visualstudio.com/)
 - obsidian (https://obsidian.md/, https://github.com/obsidianmd)
-- notable (https://notable.app/)
+- vscode (https://code.visualstudio.com/)
 - inkscape (https://inkscape.org/)
 - sphinx (https://www.sphinx-doc.org/en/master/)
 - pandoc (https://pandoc.org/)
