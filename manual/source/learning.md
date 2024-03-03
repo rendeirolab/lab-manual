@@ -1,6 +1,18 @@
 # Learning
 
-## Topics
+## Asking questions
+
+It is important to have independent learning skills, for example finding information on your own.
+However, it is also important to engage others and ask questions when you are stuck.
+While not knowing something is okay, being unwilling to learn or asking questions without minimally trying to find the answer yourself is not acceptable.
+  When asking questions, be sure to:
+- **Show you've tried**: Before asking, try to find the answer yourself. This can be by searching the internet, reading the documentation, or trying different things. If you've tried and failed, then ask for help.
+- **Be clear and specific**: The more specific you are, the more likely you are to get a specific answer. For example, if you are asking about a specific error message, include the error message in your question.
+- **Be polite and patient**: People are more likely to help you if you are polite and patient. Remember that people are volunteering their time to help you.
+- **Be ready to give details**: If someone asks you a question to understand your problem better, be ready to answer it with details and don't second guess the reason for the questions asked.
+- **Be ready to help**: Be ready to help someone else in the future. No matter how much you (think you) know, there is always someone who knows less than you and who could benefit from your help.
+
+## Topics to learn
 
 - Data Science:
   - Mean and variance relationship
@@ -19,7 +31,7 @@
 - Histology:
   - ...
 
-## Literature
+## Literature to know
 
 ### Reviews
 
