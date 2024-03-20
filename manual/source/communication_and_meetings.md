@@ -22,15 +22,17 @@
 - Format:
   - Housekeeping (announcements, scheduling)
     - Any update relevant to the lab by anyone
-  - Quick round reviewing week progress:
-    - What did you try to achieve?
+  - Quick round reviewing week progress (20 min, 3-5 min per person):
+    - What did you try to achieve? (broadly and specifically)
     - What were the challenges?
-  - One presentation including:
+  - One or more presentation (20-30 min) including:
     - Scientific question/hypothesis
     - Background (what has been done/can we build on)
     - Approach/methodology
     - Results
     - Outlook/next steps
+
+If you would like to have a longer presentation please let everyone know beforehand.
 
 ### Code review
 - Every 2 weeks (to begin, then maybe more sparse)
@@ -83,7 +85,7 @@
 	- Jointly write a Code of Conduct
 - Revisit yearly or when new members joint
 
-See also a "asking questions" section on [the learning note](learning.md).
+See also the "asking questions" section on [the learning note](learning.md).
 
 ## Messaging
 
