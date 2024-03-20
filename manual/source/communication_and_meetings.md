@@ -21,6 +21,7 @@
 - Thursdays, early week (12:30)
 - Format:
   - Housekeeping (announcements, scheduling)
+    - Any update relevant to the lab by anyone
   - Quick round reviewing week progress:
     - What did you try to achieve?
     - What were the challenges?
@@ -51,7 +52,7 @@
 - Everyone is encouraged to participate in more than one depending on interest/relevance
 - Aging & longevity SCP:
   - One meeting per month
-	- Two organizers (maybe from De Rooij and Rendeiro labs)
+	- Two organizers (generally from De Rooij and Rendeiro labs)
 	- Mailing list: aging@cemmat.onmicrosoft.com
 	- Send papers with the usual format/tag: `[paper]`
 
@@ -82,6 +83,8 @@
 	- Jointly write a Code of Conduct
 - Revisit yearly or when new members joint
 
+See also a "asking questions" section on [the learning note](learning.md).
+
 ## Messaging
 
 Use the lab's mailing list (rendeirogroup@int.cemm.at) for searchable, archivable content (announcements, scheduling, papers).
@@ -94,13 +97,11 @@ Use Signal's lab group for quick messages (coordinating movement, real-time info
 
 Feel free to send around any paper you find interesting or relevant.
 
-Send it via email (rendeirogroup@int.cemm.at) in the following format:
- - To: rendeirogroup@int.cemm.at
- - Subject: [paper] <title>
+Send it via email ([rendeirogroup@int.cemm.at](mailto:rendeirogroup@int.cemm.at)) in the following format:
+ - To: [rendeirogroup@int.cemm.at](mailto:rendeirogroup@int.cemm.at)
+ - Subject: `[paper] <title>`
  - Body:
-    <title>
-    <url>
-    <comment>
+    `<title> \n <url> \n <comment>`
 Fields with `<>` should be replaced with content.
       
 ## Lab retreats
