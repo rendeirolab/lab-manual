@@ -14,22 +14,38 @@ While not knowing something is okay, being unwilling to learn or asking question
 
 ## Topics to learn
 
-- Data Science:
-  - Mean and variance relationship
+As a member of the lab you are responsible to be aware, understand, and eventually master the following topics:
+
+- Data Science / statistics:
+  - Mean / variance relationship
   - Homo/heteroskedastic variables
   - Common data transformations: log, normalize by total, centering and scaling
   - Unsupervised analysis:
-    - correlation analysis
-    - dimensionality reduction: SVD, NMF, PCA, Isomap, Diffmap, UMAP
+    - Correlation analysis
+    - Dimensionality reduction: SVD, NMF, PCA, Isomap, Diffmap, UMAP
   - Supervised analysis:
     - Regression
     - Classification
-- Statistics:
-  - ...
-- Machine learning:
-  - ...
-- Histology:
-  - ...
+    - Cross-validation
+    - Performance metrics
+  - Regularization
+  - Causality
+- Machine learning / deep learning:
+  - (see above)
+  - Components and steps to train a model:
+    - Model architecture
+    - Model parameters / weights
+    - Optimizer and learning rates
+    - Loss function
+  - Vision models
+  - Feature extraction
+  - Graph neural networks
+  - Self-supervised learning
+- Anatomy, histology, and physiology:
+  - Position and basic function of all major organs in the human body
+  - Basic histology
+
+Note that learning is a iterative and continuous process. You will need to revise and revise your knowledge in each topic over the time, each time getting a deeper understanding or a new perspective on it.
 
 ## Literature to know
 
@@ -102,6 +118,7 @@ While not knowing something is okay, being unwilling to learn or asking question
 
 ### Medicine / Anatomy / Histology
 
+- Anatomy and histology, https://www.kenhub.com/
 - Medicine (Lecturio), https://www.youtube.com/c/Lecturio-Medical-Education-Videos
 - Anatomy (Lecturio), https://www.youtube.com/playlist?list=PLVnjTkEwv-uNRNX3D_FAt3ZGvWFvJgKmG
 - Pathology (University of Edinburgh MBChB), https://pathologia.ed.ac.uk/
