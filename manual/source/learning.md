@@ -118,7 +118,9 @@ Note that learning is a iterative and continuous process. You will need to revis
 
 ### Medicine / Anatomy / Histology
 
-- Anatomy and histology, https://www.kenhub.com/
+- Anatomy and histology:
+  - https://www.kenhub.com/
+  - https://medicine.nus.edu.sg/pathweb/normal-histology/
 - Medicine (Lecturio), https://www.youtube.com/c/Lecturio-Medical-Education-Videos
 - Anatomy (Lecturio), https://www.youtube.com/playlist?list=PLVnjTkEwv-uNRNX3D_FAt3ZGvWFvJgKmG
 - Pathology (University of Edinburgh MBChB), https://pathologia.ed.ac.uk/
