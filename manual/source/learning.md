@@ -17,33 +17,47 @@ While not knowing something is okay, being unwilling to learn or asking question
 As a member of the lab you are responsible to be aware, understand, and eventually master the following topics:
 
 - Data Science / statistics:
-  - Mean / variance relationship
-  - Homo/heteroskedastic variables
-  - Common data transformations: log, normalize by total, centering and scaling
-  - Unsupervised analysis:
-    - Correlation analysis
-    - Dimensionality reduction: SVD, NMF, PCA, Isomap, Diffmap, UMAP
-  - Supervised analysis:
-    - Regression
-    - Classification
-    - Cross-validation
-    - Performance metrics
-  - Regularization
-  - Causality
+	- Mean / variance relationship
+	- Homo/heteroskedastic variables
+	- Common data transformations: log, normalize by total, centering and scaling
+	- Unsupervised analysis:
+	    - Correlation analysis
+	    - Dimensionality reduction: SVD, NMF, PCA, Isomap, Diffmap, UMAP
+	- Supervised analysis:
+	    - Regression
+	    - Classification
+	    - Cross-validation
+	    - Performance metrics
+	- Regularization
+	- Causality
 - Machine learning / deep learning:
-  - (see above)
-  - Components and steps to train a model:
-    - Model architecture
-    - Model parameters / weights
-    - Optimizer and learning rates
-    - Loss function
-  - Vision models
-  - Feature extraction
-  - Graph neural networks
-  - Self-supervised learning
+	- (see above basics regarding supervised learning)
+	- Components and steps to train a model:
+		- Model architecture
+		- Model parameters / weights
+		- Optimizer and learning rates
+		- Loss function
+	- Vision models
+	- Feature extraction
+	- Graph neural networks
+	- Self-supervised learning
+- Image analysis:
+	- Common data formats
+	- Storing and manipulating images in a computer
+	- Transformations (registration, normalization, augmentation techniques)
+	- Segmentation (computer vision- and deep learning-based)
 - Anatomy, histology, and physiology:
-  - Position and basic function of all major organs in the human body
-  - Basic histology
+	- Position and basic function of all major organs in the human body
+	- Basic histology
+- Aging:
+	- Theories of aging
+		- Reproductive fitness / repair trade-off
+		- Inter-species comparative insights (body size - longevity - metabolism)
+		- Damage accumulation
+	- Hallmarks of aging
+	- Altered pathways with age
+	- Relationship of age and disease incidence
+	- Classical experimental models and interventions
 
 Note that learning is a iterative and continuous process. You will need to revise and revise your knowledge in each topic over the time, each time getting a deeper understanding or a new perspective on it.
 
@@ -58,33 +72,44 @@ Note that learning is a iterative and continuous process. You will need to revis
 ### Data types
 
 - H&E whole slide images (WSI):
-  - Coudray et al. Classification and mutation prediction from non–small cell lung cancer histopathology images using deep learning, Nat. Medicine (2018), https://doi.org/10.1038/s41591-018-0177-5
-  - Amgad et al. Structured crowdsourcing enables convolutional segmentation of histology images, Bioinformatics (2019), https://doi.org/10.1093/bioinformatics/btz083
-  - Pati et al. HACT-Net: A Hierarchical Cell-to-Tissue Graph Neural Network for Histopathological Image Classification (2020), https://arxiv.org/abs/2007.00584
-  - Lu et al. CLAM: Data-efficient and weakly supervised computational pathology on whole-slide images (2021), https://doi.org/10.1038/s41551-020-00682-w
-  - Chen et al. Pan-cancer integrative histology-genomic analysis via multimodal deep learning Cancer Cell (2022), https://10.1016/j.ccell.2022.07.004
-  - Chen et al. Scaling Vision Transformers to Gigapixel Images via Hierarchical Self-Supervised Learning (2022), https://arxiv.org/abs/2206.02647
-- IF:
-- IHC/ISH:
-- mIF:
-  - Gerdes, M. J. et al. Highly multiplexed single-cell analysis of formalin-fixed, paraffin-embedded cancer tissue. Proc. Natl. Acad. Sci. U. S. A. 110, 11982–11987 (2013). https://doi.org/10.1073/pnas.1300136110
-- 4i:
-  - Multiplexed protein maps link subcellular organization to cellular states Gut et al. Science (2018), https://doi.org/10.1126/science.aar7042
-- IMC:
-  - Giesen, C. et al. Highly multiplexed imaging of tumor tissues with subcellular resolution by mass cytometry. Nat. Methods 11, 417–422 (2014), https://doi.org/10.1038/nmeth.2869
-- MIBI:
-  - Angelo, M. et al. Multiplexed ion beam imaging of human breast tumors. Nat. Med. 20, 436–442 (2014), https://doi.org/10.1038/nm.3488
-- CyCIF:
-  - Lin, J.-R., Fallahi-Sichani, M. & Sorger, P. K. Highly multiplexed imaging of single cells using a high-throughput cyclic immunofluorescence method. Nat. Commun. 6, 8390 (2015), https://doi.org/10.1038/ncomms9390
-- CODEX:
-  - Goltsev, Y. et al. Deep profiling of mouse splenic architecture with CODEX multiplexed imaging. Cell (2018) https://doi.org/10.1016/j.cell.2018.07.010
-- smFISH:
-  - Chen, K. H., Boettiger, A. N., Moffitt, J. R., Wang, S. & Zhuang, X. RNA imaging. Spatially resolved, highly multiplexed RNA profiling in single cells. Science 348, aaa6090 (2015), https://doi.org/10.1126/science.aaa6090
-  - Eng, C.-H. L. et al. Transcriptome-scale super-resolved imaging in tissues by RNA seqFISH. Nature 568, 235–239 (2019), https://doi.org/10.1038/s41586-019-1049-y
-- Spatial transcriptomics:
-  - Stickels, R. R. et al. Highly sensitive spatial transcriptomics at near-cellular resolution with SlideseqV2. Nat. Biotechnol. (2020), https://10.1038/s41587-020-0739-1
-  - Merritt, C. R. et al. Multiplex digital spatial profiling of proteins and RNA in fixed tissue. Nat. Biotechnol. 38, 586–599 (5/2020), https://doi.org/10.1038/s41587-020-0472-9
-  - Salmén, F. et al. Barcoded solid-phase RNA capture for Spatial Transcriptomics profiling in mammalian tissue sections. Nat. Protoc. 13, 2501–2534 (2018), https://doi.org/10.1038/s41596-018-0045-2
+	- Coudray et al. Classification and mutation prediction from non–small cell lung cancer histopathology images using deep learning, Nat. Medicine (2018), https://doi.org/10.1038/s41591-018-0177-5
+	- Amgad et al. Structured crowdsourcing enables convolutional segmentation of histology images, Bioinformatics (2019), https://doi.org/10.1093/bioinformatics/btz083
+- IF (immunofluorescence)
+- IHC/ISH (immunohistochemistry)
+- Multiplex imaging methods:
+	- **mIF:** Gerdes, M. J. et al. Highly multiplexed single-cell analysis of formalin-fixed, paraffin-embedded cancer tissue. Proc. Natl. Acad. Sci. U. S. A. 110, 11982–11987 (2013). https://doi.org/10.1073/pnas.1300136110
+	- **4i:** Multiplexed protein maps link subcellular organization to cellular states Gut et al. Science (2018), https://doi.org/10.1126/science.aar7042
+	- **IMC:** Giesen, C. et al. Highly multiplexed imaging of tumor tissues with subcellular resolution by mass cytometry. Nat. Methods 11, 417–422 (2014), https://doi.org/10.1038/nmeth.2869
+	- **MIBI:** Angelo, M. et al. Multiplexed ion beam imaging of human breast tumors. Nat. Med. 20, 436–442 (2014), https://doi.org/10.1038/nm.3488
+	- **CyCIF:** Lin, J.-R., Fallahi-Sichani, M. & Sorger, P. K. Highly multiplexed imaging of single cells using a high-throughput cyclic immunofluorescence method. Nat. Commun. 6, 8390 (2015), https://doi.org/10.1038/ncomms9390
+	- **CODEX:** Goltsev, Y. et al. Deep profiling of mouse splenic architecture with CODEX multiplexed imaging. Cell (2018) https://doi.org/10.1016/j.cell.2018.07.010
+- Single-molecule fluorescent in-situ hibridization (**smFISH**):
+	- Chen, K. H., Boettiger, A. N., Moffitt, J. R., Wang, S. & Zhuang, X. RNA imaging. Spatially resolved, highly multiplexed RNA profiling in single cells. Science 348, aaa6090 (2015), https://doi.org/10.1126/science.aaa6090
+	- Eng, C.-H. L. et al. Transcriptome-scale super-resolved imaging in tissues by RNA seqFISH. Nature 568, 235–239 (2019), https://doi.org/10.1038/s41586-019-1049-y
+- Spatial transcriptomics (umbrella term):
+	- Stickels, R. R. et al. Highly sensitive spatial transcriptomics at near-cellular resolution with SlideseqV2. Nat. Biotechnol. (2020), https://10.1038/s41587-020-0739-1
+	- Merritt, C. R. et al. Multiplex digital spatial profiling of proteins and RNA in fixed tissue. Nat. Biotechnol. 38, 586–599 (5/2020), https://doi.org/10.1038/s41587-020-0472-9
+	- Salmén, F. et al. Barcoded solid-phase RNA capture for Spatial Transcriptomics profiling in mammalian tissue sections. Nat. Protoc. 13, 2501–2534 (2018), https://doi.org/10.1038/s41596-018-0045-2
+
+### Digital pathology
+
+- Towards a general-purpose foundation model for computational pathology (2024), https://www.nature.com/articles/s41591-024-02857-3
+- A whole-slide foundation model for digital pathology from real-world data (2024), https://www.nature.com/articles/s41586-024-07441-w
+- A Multimodal Generative AI Copilot for Human Pathology (2024), https://www.nature.com/articles/s41586-024-07618-3
+- A visual-language foundation model for computational pathology (2024), https://www.nature.com/articles/s41591-024-02856-4
+- A visual–language foundation model for pathology image analysis using medical Twitter (2024), https://www.nature.com/articles/s41591-023-02504-3
+- Chen et al. Pan-cancer integrative histology-genomic analysis via multimodal deep learning Cancer Cell (2022), https://10.1016/j.ccell.2022.07.004
+- Chen et al. Scaling Vision Transformers to Gigapixel Images via Hierarchical Self-Supervised Learning (2022), https://arxiv.org/abs/2206.02647
+- Lu et al. CLAM: Data-efficient and weakly supervised computational pathology on whole-slide images (2021), https://doi.org/10.1038/s41551-020-00682-w
+- Pati et al. HACT-Net: A Hierarchical Cell-to-Tissue Graph Neural Network for Histopathological Image Classification (2020), https://arxiv.org/abs/2007.00584
+
+### Specific literature
+
+#### Genetics of tissue and organ shape
+
+- Genetic and functional insights into the fractal structure of the heart (2020), https:doi.org/10.1038/s41586-020-2635-8
+- Self-supervised learning for characterising histomorphological diversity and spatial RNA expression prediction across 23 human tissue types (2023), https://doi.org/10.1101/2023.08.22.554251
+- The sex of organ geometry (2024), https://www.nature.com/articles/s41586-024-07463-4
 
 ## Courses
 
@@ -146,12 +171,9 @@ Note that learning is a iterative and continuous process. You will need to revis
 - Histology @ Yale: http://medcell.org/histology/histology.php
 - Systems Cell Biology @ Yale: http://medcell.med.yale.edu/systems_cell_biology/systems_cell_biology.php
 - Immunology: https://www.youtube.com/watch?v=iwB8kKdNgdQ
-
 ## Software packages
 
-Make sure you're familiar with the following software.
-
-Be aware of the direction of their development and new versions by subscribing to their releases on Github.
+These are some of the software packages we use often in the lab. You can more easily be aware of the direction of their development and new versions by subscribing to their releases on Github (bell sign -> custom -> releases).
 
 ### Data science
 
@@ -162,25 +184,31 @@ Be aware of the direction of their development and new versions by subscribing t
 - Squidpy (https://squidpy.readthedocs.io/en/stable/)
 - Networkx (https://networkx.org/)
 
-### Stats
+### Statistics / machine learning
 
 - pingouin (https://pingouin-stats.org/)
 - statsmodels (https://www.statsmodels.org/stable/index.html)
 - sklearn (https://scikit-learn.org/stable/)
+- imbalanced-learn (https://imbalanced-learn.org/)
 - pymer4 (https://eshinjolly.com/pymer4/)
 - PyMC (https://www.pymc.io/welcome.html, https://www.pymc.io/projects/docs/en/stable/learn.html)
 
+### Tensor-specific
+
+- einops (https://github.com/arogozhnikov/einops)
+- tensorly (https://tensorly.org/)
+
 ### Deep learning
 
+- weightsandbiases (https://wandb.ai/site) <- join the lab's team at https://wandb.ai/rendeiro-group
 - pytorch (https://pytorch.org/)
-- pytorch-lightning (https://www.pytorchlightning.ai/, https://github.com/PyTorchLightning/pytorch-lightning)
+- pytorch-lightning (https://www.pytorchlightning.ai/)
+- pytorch-geometric (https://pytorch-geometric.readthedocs.io/en/latest/)
+- captum (https://captum.ai/)
 - fastai (https://docs.fast.ai/)
 - timm, pytorch-image-models (https://github.com/rwightman/pytorch-image-models)
-- einops (https://github.com/arogozhnikov/einops)
 - TabPFN (https://github.com/automl/TabPFN)
-- imbalanced-learn (https://imbalanced-learn.org/)
 - fiftyone (https://voxel51.com/docs/fiftyone/)
-- weightsandbiases (https://wandb.ai/site)
 - transformers (https://github.com/huggingface/transformers)
 
 ### Visualization
@@ -189,8 +217,8 @@ Be aware of the direction of their development and new versions by subscribing t
 - seaborn (https://seaborn.pydata.org/)
 - scikit-yb (https://www.scikit-yb.org/en/latest)
 - inkscape (https://inkscape.org/):
-  - https://www.inkscapeforstem.com/Inkscape-For-STEM-ee6dacb7a2e543218f87a29f69177fee
-  - https://bioicons.com/
+	- https://www.inkscapeforstem.com/Inkscape-For-STEM-ee6dacb7a2e543218f87a29f69177fee
+	- https://bioicons.com/
 - napari (https://napari.org/)
 - bokeh (https://docs.bokeh.org/en/latest/)
 - plotly (https://plotly.com/)
@@ -203,10 +231,6 @@ Be aware of the direction of their development and new versions by subscribing t
 - skimage (https://scikit-image.org/)
 - Deformetrica (https://gitlab.com/icm-institute/aramislab/deformetrica, http://www.deformetrica.org/)
 
-#### Flow cytometry:
-
-- FlowKit (https://github.com/whitews/FlowKit)
-
 #### Survival data:
 
 - Lifelines (https://lifelines.readthedocs.io/en/latest/)
@@ -215,10 +239,10 @@ Be aware of the direction of their development and new versions by subscribing t
 #### Computational Pathology:
 
 - QuPath (https://qupath.github.io/)
+- Cytomine (https://doc.cytomine.org/, https://cytomine.com/)
 - PathML (https://github.com/Dana-Farber-AIOS/pathml)
 - HistomicsTK (https://digitalslidearchive.github.io/HistomicsTK)
 - CLAM (https://github.com/mahmoodlab/CLAM)
-- Cytomine (https://doc.cytomine.org/, https://cytomine.com/)
 - ASAP (https://github.com/GeertLitjens/ASAP)
 
 ### Web
@@ -227,31 +251,43 @@ Be aware of the direction of their development and new versions by subscribing t
 - fastapi (https://fastapi.tiangolo.com/)
 - nativefier (https://github.com/nativefier/nativefier)
 
-### Productivity
+### Productivity and logistics
 
-- sublimetext (https://www.sublimetext.com/)
-- sublimemerge (https://www.sublimemerge.com/)
-- obsidian (https://obsidian.md/, https://github.com/obsidianmd)
-- vscode (https://code.visualstudio.com/)
-- inkscape (https://inkscape.org/)
-- sphinx (https://www.sphinx-doc.org/en/master/)
-- pandoc (https://pandoc.org/)
+- Note taking:
+	- obsidian (https://obsidian.md/, https://github.com/obsidianmd)
+- Integrated development environment (IDE):
+	- sublimetext (https://www.sublimetext.com/)
+	- vscode (https://code.visualstudio.com/)
+- Figure editing:
+	- inkscape (https://inkscape.org/)
+- Software management:
+	- pip (https://pip.pypa.io/en/stable/)
+	- poetry (https://python-poetry.org/)
+	- uv (https://github.com/astral-sh/uv)
+	- conda (https://docs.conda.io/en/latest/)
+	- docker (https://www.docker.com/)
+- Code improvement:
+	- ruff (https://github.com/astral-sh/ruff)
+	- mypy (https://mypy-lang.org/)
+	- pre-commit (https://pre-commit.com/)
+	- sublimemerge (https://www.sublimemerge.com/)
+- Documentation:
+	- sphinx (https://www.sphinx-doc.org/en/master/)
+	- pandoc (https://pandoc.org/)
+- Interactive and environment management:
+	- IPython (https://ipython.org/)
+	- virtualenv (https://virtualenv.pypa.io/en/latest/)
+	- jupyter-notebook (https://jupyter.org/)
 
-### Logistics
+### Data repositories
 
-- pip (https://pip.pypa.io/en/stable/)
-- poetry (https://python-poetry.org/)
-- IPython (https://ipython.org/)
-- virtualenv (https://virtualenv.pypa.io/en/latest/)
-- jupyter-notebook (https://jupyter.org/)
-- conda (https://docs.conda.io/en/latest/)
-- docker (https://www.docker.com/)
-- pre-commit (https://pre-commit.com/)
-
-#### Repositories
-
-Useful to deposit data for publication
-
-- Zenodo (https://zenodo.org/)
-- GigaDB (http://gigadb.org/)
-- Synapse (https://www.synapse.org/)
+- Generic:
+	- Zenodo (https://zenodo.org/)
+	- GigaDB (http://gigadb.org/)
+	- Synapse (https://www.synapse.org/)
+- Transcriptomics:
+	- GEO
+	- ArrayExpress
+- Sensitive data:
+	- EGA
+	- dbGAP
