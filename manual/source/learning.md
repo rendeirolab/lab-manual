@@ -41,6 +41,7 @@ As a member of the lab you are responsible to be aware, understand, and eventual
 	- Feature extraction
 	- Graph neural networks
 	- Self-supervised learning
+   	- Federated learning (https://federated.withgoogle.com/)
 - Image analysis:
 	- Common data formats
 	- Storing and manipulating images in a computer
@@ -189,6 +190,7 @@ These are some of the software packages we use often in the lab. You can more ea
 - Scanpy (https://scanpy.readthedocs.io/en/stable/)
 - Squidpy (https://squidpy.readthedocs.io/en/stable/)
 - Networkx (https://networkx.org/)
+- Scikit-networks (https://scikit-network.readthedocs.io/)
 
 ### Statistics / machine learning
 
