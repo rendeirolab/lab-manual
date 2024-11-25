@@ -5,7 +5,7 @@
 Here are Andre's tips for figure making based on practice.
 This has changed a little over the time, but mostly coalesced on a fairly simple system.
 
-Making plots (Python, matplotlib, seaborn):
+### Making plots (Python, matplotlib, seaborn):
 
 - Try to compartmentalize data processing from visualization (not just the early 'pipeline'-like processing, but also the analytical analysis) - but that does not mean that 
 - Each script produces a set of plots into a `results` directory, with subdirectories matching the script or analysis name (more hierarchical if needed, e.g. different datasets).
@@ -17,10 +17,51 @@ Making plots (Python, matplotlib, seaborn):
 - For plot elements with many objects (e.g. scatter), rasterize that specific single element in order to reduce the size of the figure: `g = sns.clustermap(...); g.ax_heatmap.set(rasterized=True)`. Do not rasterized the whole axes as that will make e.g. text element uneditable.
 - Choose consistent colors across a project. Consider thinking of all factors being highlighted in the paper before starting the project. See colormaps here: [https://matplotlib.org/stable/gallery/color/colormap_reference.html](https://matplotlib.org/stable/gallery/color/colormap_reference.html)
 - Choose continuous colormaps for continuous variables (magma, viridis). Use divergent colormaps (coolwarm, RdBu_r, PuOr_r) only when a central value has meaning (e.g. a Z-score).
-- Export figures as SVG format, but explicitly set `dpi=300` to make sure any rasterized elements have good quality. Set `bbox_inches='tight` to make sure the whole content is visible.
 
+### Recommend settings for matplotlib
 
-Assemble plots manually into a figure (inkscape):
+#### Inkscape: Export to SVG
+
+```python
+import matplotlib.pyplot as plt
+
+plt.rcParams['savefig.bbox'] = 'tight'  # To ensure that legends and elements outside the axes are included
+plt.rcParams['savefig.dpi'] = 300  # To make sure any rasterized elements have good quality
+plt.rcParams['savefig.transparent'] = True  # To remove the white background
+plt.rcParams['svg.fonttype'] = 'none'  # To allow font to be editable in Inkscape
+plt.rcParams['font.family'] = 'Arial'  # Use Arial as the font
+```
+
+A clean version for copy-paste
+
+```python
+import matplotlib.pyplot as plt
+
+plt.rcParams['savefig.bbox'] = 'tight'
+plt.rcParams['savefig.dpi'] = 300
+plt.rcParams['savefig.transparent'] = True
+plt.rcParams['svg.fonttype'] = 'none'
+plt.rcParams['font.family'] = 'Arial'
+```
+
+#### Adobe Illustrator: Export to PDF
+
+This is similar as above, except that we change the font settings,
+
+```python
+import matplotlib.pyplot as plt
+
+plt.rcParams['savefig.bbox'] = 'tight'
+plt.rcParams['savefig.dpi'] = 300
+plt.rcParams['savefig.transparent'] = True
+plt.rcParams['pdf.fonttype'] = 42
+plt.rcParams['ps.fonttype'] = 42
+plt.rcParams['font.family'] = 'Arial'
+```
+
+### Assemble plots manually into a figure:
+
+#### Inkscape
 
 - Check the journal requirements and limitations for figures and their dimensions. Use A4 by default, not letter.
 - Here is a template figure: [https://gist.github.com/afrendeiro/2d9975793629774ad73ea9d18bd7abf3](https://gist.github.com/afrendeiro/2d9975793629774ad73ea9d18bd7abf3)
@@ -31,7 +72,6 @@ Assemble plots manually into a figure (inkscape):
 - Add a label to the top of the Figure (i.e. Figure 1)
 - Name the figure files consistently Figure1.svg, SupplementaryFigure1.svg
 
-
 Post assembly, automatic assembly and conversion of file types (bash, inkscape, minify, pdfunite):
 
 - Use script here: [https://gist.github.com/afrendeiro/a656eca139381eec55da6357e33173ce](https://gist.github.com/afrendeiro/a656eca139381eec55da6357e33173ce)
@@ -40,6 +80,23 @@ Post assembly, automatic assembly and conversion of file types (bash, inkscape, 
 - Use the joint PDFs to print, share or submit to journal.
 
 Only in very rare cases it is worth it to have a full final figure generated as a whole.
+
+#### Adobe Illustrator:
+
+Open PDF in Adobe Illustrator
+
+- Select everything:
+    - Mac: <kbd>&#8984; Command</kbd> + <kbd>A</kbd>
+    - Windows: <kbd>Ctrl</kbd> + <kbd>A</kbd>
+- Go to `Object` -> `Clipping Mask` -> `Release`, press until it can't be pressed anymore:
+    - Mac: <kbd>⌥ Option</kbd> + <kbd>&#8984; Command</kbd> + <kbd>7</kbd>
+    - Windows: <kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>7</kbd>
+
+Congratulations! Now you have a clean plot ready for editing.
+
+> [!CAUTION]
+> Removing clipping masks may affect elements, such as bars that extend offscreen.
+
 
 ## Text
 
