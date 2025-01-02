@@ -112,6 +112,21 @@ Note that learning is a iterative and continuous process. You will need to revis
 - Self-supervised learning for characterising histomorphological diversity and spatial RNA expression prediction across 23 human tissue types (2023), https://doi.org/10.1101/2023.08.22.554251
 - The sex of organ geometry (2024), https://www.nature.com/articles/s41586-024-07463-4
 
+### Target discovery, prioritization and drugs
+- "A guide to drug discovery", collection at Nature Reviews Drug Discovery: https://www.nature.com/collections/hkgvrspwtn
+  - "Target selection in drug discovery", https://www.nature.com/articles/nrd986
+  - "Multi-parameter phenotypic profiling: using cellular effects to characterize small-molecule compounds", https://www.nature.com/articles/nrd2876
+- "Applications of single-cell RNA sequencing in drug discovery and development", https://www.nature.com/articles/s41573-023-00688-4
+- "Computational approaches in target identification and drug discovery", https://www.sciencedirect.com/science/article/pii/S2001037016300058
+- "Moving targets in drug discovery", https://www.nature.com/articles/s41598-020-77033-x
+- "Drug target prediction through deep learning functional representation of gene signatures", https://www.nature.com/articles/s41467-024-46089-y
+- Integrative multi-omics and drug response profiling of childhood acute lymphoblastic leukemia cell lines, https://www.nature.com/articles/s41467-022-29224-5 <- prototypical study of "let's throw all the omics at cell lines and pray"
+- Two-step multi-omics modelling of drug sensitivity in cancer cell lines to identify driving mechanisms, https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0238961 <- prototypical study of "let's take a bunch of data, train classifiers and find anecdotal evidence"
+- "Network medicine for disease module identification and drug repurposing with the NeDRex platform", https://www.nature.com/articles/s41467-021-27138-2 <- prototypical study of "network of disease module will eventually find something"
+- "Genome-wide investigation of gene-cancer associations for the prediction of novel therapeutic targets in oncology", https://www.nature.com/articles/s41598-020-67846-1 <- prototypical study of "let's put all the data together and pray"
+- "Multi-omics reveals clinically relevant proliferative drive associated with mTOR-MYC-OXPHOS activity in chronic lymphocytic leukemia", https://www.nature.com/articles/s43018-021-00216-6 <- example of great study on primary human samples (leukemia) combining omics with functional readouts (drug sensitivity). Even if it is a great study, it may miss the mark by focusing on a disease for which there are already very good treatment options
+- "Systems immunology-based drug repurposing framework to target inflammation in atherosclerosis", https://www.nature.com/articles/s44161-023-00278-y <- nice example of a study wtih great readouts focused on atherosclerosis that goes straight to drug discovery
+
 ## Courses
 
 ### Programming, Computer Science
