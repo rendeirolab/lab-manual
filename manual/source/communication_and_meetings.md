@@ -50,16 +50,16 @@
    - End by highlighting one new Github repository that you find cool/useful for the group - everyone quickly installs and explore
    - Occasionally/alternatively we can talk about the meta part: cluster issues, installation, text editors, .bashrc setup, etc...
 
-### Strategic collaboratite projects (SCPs)
+### Strategic collaborative projects (SCPs)
 - Everyone is encouraged to participate in more than one depending on interest/relevance
-- Aging & longevity SCP:
+- SCP2: Aging & longevity:
   - One meeting per month
   - Two organizers (generally from De Rooij and Rendeiro labs)
-  - Mailing list: aging@cemmat.onmicrosoft.com
-  - Send papers with the usual format/tag: `[paper]`
+  - Mailing list: scp2@cemmat.onmicrosoft.com
+  - Send papers with the usual format/tag in subject: `[paper] <title>`, and body: `<title> \n <url> \n <comment>`
 
 ### Hackatons
-- one afternoon every 2-3 months (start last week January?)
+- one afternoon every 2-3 months
 - ideas:
   - CeMMome (involve more people?):
     1. Literature mining: papers, research reports, press releases
