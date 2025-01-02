@@ -1,11 +1,19 @@
-# Rendeiro lab manual
+<div style="page-break-after: always;"></div>
+# Lab manual
 
-Welcome to the Rendeiro lab!
 This is the lab manual, with all the information about the lab's culture and procedures.
+
+The manual is available in the [`labdocs repository`](https://github.com/rendeirolab/labdocs/tree/main/manual) on Github.
+
+It is written in [Markdown](https://daringfireball.net/projects/markdown/), but can be converted to HTML and PDF using [Pandoc](https://pandoc.org/).
+
+It can be maintained and edited by anyone on Github.
 
 ## Building the manual
 
-To HTML:
+A [Makefile](https://github.com/rendeirolab/labdocs/blob/main/manual/Makefile) is available in the [`labdocs repository`](https://github.com/rendeirolab/labdocs/tree/main/manual).
+
+Converting the manual to a single HTML file:
 
 ```bash
 pandoc \
@@ -16,7 +24,7 @@ pandoc \
     -o rendeiro-lab_manual.html
 ```
 
-To PDF (requires wkhtmltopdf dependency):
+Converting the manual to a single PDF file (requires wkhtmltopdf dependency):
 
 ```bash
 pandoc \

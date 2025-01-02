@@ -1,6 +1,13 @@
 /*
- * I add this to html files generated with pandoc.
+ * CSS for html files generated with pandoc.
  */
+@media print{
+  @page{
+    size:a4;
+  }
+}
+
+body { min-width: 100% !important; }
 
 html {
   font-size: 100%;
@@ -11,10 +18,10 @@ html {
 
 body {
   color: #444;
-  font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+  font-family: Arial, serif;
   font-size: 12px;
   line-height: 1.7;
-  padding: 1em;
+  padding: 0.1em;
   margin: auto;
   max-width: 42em;
   background: #fefefe;
@@ -72,7 +79,8 @@ img {
 h1, h2, h3, h4, h5, h6 {
   color: #111;
   line-height: 125%;
-  margin-top: 2em;
+  margin-top: 0.05em;
+  margin-bottom: 0.2em;
   font-weight: normal;
 }
 
@@ -125,7 +133,7 @@ pre, code, kbd, samp {
   color: #000;
   font-family: monospace, monospace;
   _font-family: 'courier new', monospace;
-  font-size: 0.98em;
+  font-size: 0.9em;
 }
 
 pre {
@@ -250,6 +258,11 @@ table td {
   text-align: center;
 }
 
+.abstract-title {
+  font-weight: bold;
+}
+
+
 @media only screen and (min-width: 480px) {
   body {
     font-size: 14px;
@@ -269,7 +282,7 @@ table td {
   }
 
   body {
-    font-size: 12pt;
+    font-size: 11pt;
     max-width: 100%;
   }
 
@@ -307,19 +320,6 @@ table td {
 
   img {
     max-width: 100% !important;
-  }
-
-  @page :left {
-    margin: 15mm 20mm 15mm 10mm;
-}
-
-  @page :right {
-    margin: 15mm 10mm 15mm 20mm;
-}
-
-  p, h2, h3 {
-    orphans: 3;
-    widows: 3;
   }
 
   h2, h3 {

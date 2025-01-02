@@ -5,7 +5,9 @@
 It is important to have independent learning skills, for example finding information on your own.
 However, it is also important to engage others and ask questions when you are stuck.
 While not knowing something is okay, being unwilling to learn or asking questions without minimally trying to find the answer yourself is not acceptable.
-  When asking questions, be sure to:
+
+When asking questions, be sure to:
+
 - **Show you've tried**: Before asking, try to find the answer yourself. This can be by searching the internet, reading the documentation, or trying different things. If you've tried and failed, then ask for help.
 - **Be clear and specific**: The more specific you are, the more likely you are to get a specific answer. For example, if you are asking about a specific error message, include the error message in your question.
 - **Be polite and patient**: People are more likely to help you if you are polite and patient. Remember that people are volunteering their time to help you.
@@ -17,48 +19,48 @@ While not knowing something is okay, being unwilling to learn or asking question
 As a member of the lab you are responsible to be aware, understand, and eventually master the following topics:
 
 - Data Science / statistics:
-	- Mean / variance relationship
-	- Homo/heteroskedastic variables
-	- Common data transformations: log, normalize by total, centering and scaling
-	- Unsupervised analysis:
-	    - Correlation analysis
-	    - Dimensionality reduction: SVD, NMF, PCA, Isomap, Diffmap, UMAP
-	- Supervised analysis:
-	    - Regression
-	    - Classification
-	    - Cross-validation
-	    - Performance metrics
-	- Regularization
-	- Causality
+  - Mean / variance relationship
+  - Homo/heteroskedastic variables
+  - Common data transformations: log, normalize by total, centering and scaling
+  - Unsupervised analysis:
+    - Correlation analysis
+    - Dimensionality reduction: SVD, NMF, PCA, Isomap, Diffmap, UMAP
+  - Supervised analysis:
+    - Regression
+    - Classification
+    - Cross-validation
+    - Performance metrics
+  - Regularization
+  - Causality
 - Machine learning / deep learning:
-	- (see above basics regarding supervised learning)
-	- Components and steps to train a model:
-		- Model architecture
-		- Model parameters / weights
-		- Optimizer and learning rates
-		- Loss function
-	- Vision models
-	- Feature extraction
-	- Graph neural networks
-	- Self-supervised learning
-   	- Federated learning (https://federated.withgoogle.com/)
+  - (see above basics regarding supervised learning)
+  - Components and steps to train a model:
+    - Model architecture
+    - Model parameters / weights
+    - Optimizer and learning rates
+    - Loss function
+  - Vision models
+  - Feature extraction
+  - Graph neural networks
+  - Self-supervised learning
+  - Federated learning (https://federated.withgoogle.com/)
 - Image analysis:
-	- Common data formats
-	- Storing and manipulating images in a computer
-	- Transformations (registration, normalization, augmentation techniques)
-	- Segmentation (computer vision- and deep learning-based)
+  - Common data formats
+  - Storing and manipulating images in a computer
+  - Transformations (registration, normalization, augmentation techniques)
+  - Segmentation (computer vision- and deep learning-based)
 - Anatomy, histology, and physiology:
-	- Position and basic function of all major organs in the human body
-	- Basic histology
+  - Position and basic function of all major organs in the human body
+  - Basic histology
 - Aging:
-	- Theories of aging
-		- Reproductive fitness / repair trade-off
-		- Inter-species comparative insights (body size - longevity - metabolism)
-		- Damage accumulation
-	- Hallmarks of aging
-	- Altered pathways with age
-	- Relationship of age and disease incidence
-	- Classical experimental models and interventions
+  - Theories of aging
+    - Reproductive fitness / repair trade-off
+    - Inter-species comparative insights (body size - longevity - metabolism)
+    - Damage accumulation
+  - Hallmarks of aging
+  - Altered pathways with age
+  - Relationship of age and disease incidence
+  - Classical experimental models and interventions
 
 Note that learning is a iterative and continuous process. You will need to revise and revise your knowledge in each topic over the time, each time getting a deeper understanding or a new perspective on it.
 
@@ -73,24 +75,24 @@ Note that learning is a iterative and continuous process. You will need to revis
 ### Data types
 
 - H&E whole slide images (WSI):
-	- Coudray et al. Classification and mutation prediction from non–small cell lung cancer histopathology images using deep learning, Nat. Medicine (2018), https://doi.org/10.1038/s41591-018-0177-5
-	- Amgad et al. Structured crowdsourcing enables convolutional segmentation of histology images, Bioinformatics (2019), https://doi.org/10.1093/bioinformatics/btz083
+  - Coudray et al. Classification and mutation prediction from non–small cell lung cancer histopathology images using deep learning, Nat. Medicine (2018), https://doi.org/10.1038/s41591-018-0177-5
+  - Amgad et al. Structured crowdsourcing enables convolutional segmentation of histology images, Bioinformatics (2019), https://doi.org/10.1093/bioinformatics/btz083
 - IF (immunofluorescence)
 - IHC/ISH (immunohistochemistry)
 - Multiplex imaging methods:
-	- **mIF:** Gerdes, M. J. et al. Highly multiplexed single-cell analysis of formalin-fixed, paraffin-embedded cancer tissue. Proc. Natl. Acad. Sci. U. S. A. 110, 11982–11987 (2013). https://doi.org/10.1073/pnas.1300136110
-	- **4i:** Multiplexed protein maps link subcellular organization to cellular states Gut et al. Science (2018), https://doi.org/10.1126/science.aar7042
-	- **IMC:** Giesen, C. et al. Highly multiplexed imaging of tumor tissues with subcellular resolution by mass cytometry. Nat. Methods 11, 417–422 (2014), https://doi.org/10.1038/nmeth.2869
-	- **MIBI:** Angelo, M. et al. Multiplexed ion beam imaging of human breast tumors. Nat. Med. 20, 436–442 (2014), https://doi.org/10.1038/nm.3488
-	- **CyCIF:** Lin, J.-R., Fallahi-Sichani, M. & Sorger, P. K. Highly multiplexed imaging of single cells using a high-throughput cyclic immunofluorescence method. Nat. Commun. 6, 8390 (2015), https://doi.org/10.1038/ncomms9390
-	- **CODEX:** Goltsev, Y. et al. Deep profiling of mouse splenic architecture with CODEX multiplexed imaging. Cell (2018) https://doi.org/10.1016/j.cell.2018.07.010
+  - **mIF:** Gerdes, M. J. et al. Highly multiplexed single-cell analysis of formalin-fixed, paraffin-embedded cancer tissue. Proc. Natl. Acad. Sci. U. S. A. 110, 11982–11987 (2013). https://doi.org/10.1073/pnas.1300136110
+  - **4i:** Multiplexed protein maps link subcellular organization to cellular states Gut et al. Science (2018), https://doi.org/10.1126/science.aar7042
+  - **IMC:** Giesen, C. et al. Highly multiplexed imaging of tumor tissues with subcellular resolution by mass cytometry. Nat. Methods 11, 417–422 (2014), https://doi.org/10.1038/nmeth.2869
+  - **MIBI:** Angelo, M. et al. Multiplexed ion beam imaging of human breast tumors. Nat. Med. 20, 436–442 (2014), https://doi.org/10.1038/nm.3488
+  - **CyCIF:** Lin, J.-R., Fallahi-Sichani, M. & Sorger, P. K. Highly multiplexed imaging of single cells using a high-throughput cyclic immunofluorescence method. Nat. Commun. 6, 8390 (2015), https://doi.org/10.1038/ncomms9390
+  - **CODEX:** Goltsev, Y. et al. Deep profiling of mouse splenic architecture with CODEX multiplexed imaging. Cell (2018) https://doi.org/10.1016/j.cell.2018.07.010
 - Single-molecule fluorescent in-situ hibridization (**smFISH**):
-	- Chen, K. H., Boettiger, A. N., Moffitt, J. R., Wang, S. & Zhuang, X. RNA imaging. Spatially resolved, highly multiplexed RNA profiling in single cells. Science 348, aaa6090 (2015), https://doi.org/10.1126/science.aaa6090
-	- Eng, C.-H. L. et al. Transcriptome-scale super-resolved imaging in tissues by RNA seqFISH. Nature 568, 235–239 (2019), https://doi.org/10.1038/s41586-019-1049-y
+  - Chen, K. H., Boettiger, A. N., Moffitt, J. R., Wang, S. & Zhuang, X. RNA imaging. Spatially resolved, highly multiplexed RNA profiling in single cells. Science 348, aaa6090 (2015), https://doi.org/10.1126/science.aaa6090
+  - Eng, C.-H. L. et al. Transcriptome-scale super-resolved imaging in tissues by RNA seqFISH. Nature 568, 235–239 (2019), https://doi.org/10.1038/s41586-019-1049-y
 - Spatial transcriptomics (umbrella term):
-	- Stickels, R. R. et al. Highly sensitive spatial transcriptomics at near-cellular resolution with SlideseqV2. Nat. Biotechnol. (2020), https://10.1038/s41587-020-0739-1
-	- Merritt, C. R. et al. Multiplex digital spatial profiling of proteins and RNA in fixed tissue. Nat. Biotechnol. 38, 586–599 (5/2020), https://doi.org/10.1038/s41587-020-0472-9
-	- Salmén, F. et al. Barcoded solid-phase RNA capture for Spatial Transcriptomics profiling in mammalian tissue sections. Nat. Protoc. 13, 2501–2534 (2018), https://doi.org/10.1038/s41596-018-0045-2
+  - Stickels, R. R. et al. Highly sensitive spatial transcriptomics at near-cellular resolution with SlideseqV2. Nat. Biotechnol. (2020), https://10.1038/s41587-020-0739-1
+  - Merritt, C. R. et al. Multiplex digital spatial profiling of proteins and RNA in fixed tissue. Nat. Biotechnol. 38, 586–599 (5/2020), https://doi.org/10.1038/s41587-020-0472-9
+  - Salmén, F. et al. Barcoded solid-phase RNA capture for Spatial Transcriptomics profiling in mammalian tissue sections. Nat. Protoc. 13, 2501–2534 (2018), https://doi.org/10.1038/s41596-018-0045-2
 
 ### Digital pathology
 
@@ -113,6 +115,7 @@ Note that learning is a iterative and continuous process. You will need to revis
 - The sex of organ geometry (2024), https://www.nature.com/articles/s41586-024-07463-4
 
 ### Target discovery, prioritization and drugs
+
 - "A guide to drug discovery", collection at Nature Reviews Drug Discovery: https://www.nature.com/collections/hkgvrspwtn
   - "Target selection in drug discovery", https://www.nature.com/articles/nrd986
   - "Multi-parameter phenotypic profiling: using cellular effects to characterize small-molecule compounds", https://www.nature.com/articles/nrd2876
@@ -120,12 +123,12 @@ Note that learning is a iterative and continuous process. You will need to revis
 - "Computational approaches in target identification and drug discovery", https://www.sciencedirect.com/science/article/pii/S2001037016300058
 - "Moving targets in drug discovery", https://www.nature.com/articles/s41598-020-77033-x
 - "Drug target prediction through deep learning functional representation of gene signatures", https://www.nature.com/articles/s41467-024-46089-y
-- Integrative multi-omics and drug response profiling of childhood acute lymphoblastic leukemia cell lines, https://www.nature.com/articles/s41467-022-29224-5 <- prototypical study of "let's throw all the omics at cell lines and pray"
-- Two-step multi-omics modelling of drug sensitivity in cancer cell lines to identify driving mechanisms, https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0238961 <- prototypical study of "let's take a bunch of data, train classifiers and find anecdotal evidence"
-- "Network medicine for disease module identification and drug repurposing with the NeDRex platform", https://www.nature.com/articles/s41467-021-27138-2 <- prototypical study of "network of disease module will eventually find something"
-- "Genome-wide investigation of gene-cancer associations for the prediction of novel therapeutic targets in oncology", https://www.nature.com/articles/s41598-020-67846-1 <- prototypical study of "let's put all the data together and pray"
-- "Multi-omics reveals clinically relevant proliferative drive associated with mTOR-MYC-OXPHOS activity in chronic lymphocytic leukemia", https://www.nature.com/articles/s43018-021-00216-6 <- example of great study on primary human samples (leukemia) combining omics with functional readouts (drug sensitivity). Even if it is a great study, it may miss the mark by focusing on a disease for which there are already very good treatment options
-- "Systems immunology-based drug repurposing framework to target inflammation in atherosclerosis", https://www.nature.com/articles/s44161-023-00278-y <- nice example of a study wtih great readouts focused on atherosclerosis that goes straight to drug discovery
+- Integrative multi-omics and drug response profiling of childhood acute lymphoblastic leukemia cell lines, https://www.nature.com/articles/s41467-022-29224-5 \<- prototypical study of "let's throw all the omics at cell lines and pray"
+- Two-step multi-omics modelling of drug sensitivity in cancer cell lines to identify driving mechanisms, https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0238961 \<- prototypical study of "let's take a bunch of data, train classifiers and find anecdotal evidence"
+- "Network medicine for disease module identification and drug repurposing with the NeDRex platform", https://www.nature.com/articles/s41467-021-27138-2 \<- prototypical study of "network of disease module will eventually find something"
+- "Genome-wide investigation of gene-cancer associations for the prediction of novel therapeutic targets in oncology", https://www.nature.com/articles/s41598-020-67846-1 \<- prototypical study of "let's put all the data together and pray"
+- "Multi-omics reveals clinically relevant proliferative drive associated with mTOR-MYC-OXPHOS activity in chronic lymphocytic leukemia", https://www.nature.com/articles/s43018-021-00216-6 \<- example of great study on primary human samples (leukemia) combining omics with functional readouts (drug sensitivity). Even if it is a great study, it may miss the mark by focusing on a disease for which there are already very good treatment options
+- "Systems immunology-based drug repurposing framework to target inflammation in atherosclerosis", https://www.nature.com/articles/s44161-023-00278-y \<- nice example of a study wtih great readouts focused on atherosclerosis that goes straight to drug discovery
 
 ## Courses
 
@@ -138,7 +141,7 @@ Note that learning is a iterative and continuous process. You will need to revis
 ### Machine Learning / Deep Learning
 
 - Deep learning for image analysis, https://www.embl.org/about/info/course-and-conference-office/events/mac23-01/
-- Practical deep learning for coders (Fast.ai), https://course.fast.ai/, https://www.youtube.com/watch?v=_QUEXsHfsA0&list=PLfYUBJiXbdtRL3FMB3GoWHRI8ieU6FhfM
+- Practical deep learning for coders (Fast.ai), https://course.fast.ai/, https://www.youtube.com/watch?v=\_QUEXsHfsA0&list=PLfYUBJiXbdtRL3FMB3GoWHRI8ieU6FhfM
 - Deep learning in life sciences (MIT), https://www.youtube.com/playlist?list=PLypiXJdtIca5sxV7aE3-PS9fYX3vUdIOX
 - Introduction to Deep Learning - 170 Video Lectures from Adaptive Linear Neurons to Zero-shot Classification with Transformers (Sebastian Raschka), https://sebastianraschka.com/blog/2021/dl-course.html
 - Introduction to Coding Neural Networks with PyTorch and Lightning: https://www.youtube.com/watch?app=desktop&v=khMzi6xPbuM&feature=youtu.be&s=09
@@ -225,7 +228,7 @@ These are some of the software packages we use often in the lab. You can more ea
 
 ### Deep learning
 
-- weightsandbiases (https://wandb.ai/site) <- join the lab's team at https://wandb.ai/rendeiro-group
+- weightsandbiases (https://wandb.ai/site) \<- join the lab's team at https://wandb.ai/rendeiro-group
 - pytorch (https://pytorch.org/)
 - pytorch-lightning (https://www.pytorchlightning.ai/)
 - pytorch-geometric (https://pytorch-geometric.readthedocs.io/en/latest/)
@@ -242,8 +245,8 @@ These are some of the software packages we use often in the lab. You can more ea
 - seaborn (https://seaborn.pydata.org/)
 - scikit-yb (https://www.scikit-yb.org/en/latest)
 - inkscape (https://inkscape.org/):
-	- https://www.inkscapeforstem.com/Inkscape-For-STEM-ee6dacb7a2e543218f87a29f69177fee
-	- https://bioicons.com/
+  - https://www.inkscapeforstem.com/Inkscape-For-STEM-ee6dacb7a2e543218f87a29f69177fee
+  - https://bioicons.com/
 - napari (https://napari.org/)
 - bokeh (https://docs.bokeh.org/en/latest/)
 - plotly (https://plotly.com/)
@@ -279,40 +282,40 @@ These are some of the software packages we use often in the lab. You can more ea
 ### Productivity and logistics
 
 - Note taking:
-	- obsidian (https://obsidian.md/, https://github.com/obsidianmd)
+  - obsidian (https://obsidian.md/, https://github.com/obsidianmd)
 - Integrated development environment (IDE):
-	- sublimetext (https://www.sublimetext.com/)
-	- vscode (https://code.visualstudio.com/)
+  - sublimetext (https://www.sublimetext.com/)
+  - vscode (https://code.visualstudio.com/)
 - Figure editing:
-	- inkscape (https://inkscape.org/)
+  - inkscape (https://inkscape.org/)
 - Software management:
-	- pip (https://pip.pypa.io/en/stable/)
-	- poetry (https://python-poetry.org/)
-	- uv (https://github.com/astral-sh/uv)
-	- conda (https://docs.conda.io/en/latest/)
-	- docker (https://www.docker.com/)
+  - pip (https://pip.pypa.io/en/stable/)
+  - poetry (https://python-poetry.org/)
+  - uv (https://github.com/astral-sh/uv)
+  - conda (https://docs.conda.io/en/latest/)
+  - docker (https://www.docker.com/)
 - Code improvement:
-	- ruff (https://github.com/astral-sh/ruff)
-	- mypy (https://mypy-lang.org/)
-	- pre-commit (https://pre-commit.com/)
-	- sublimemerge (https://www.sublimemerge.com/)
+  - ruff (https://github.com/astral-sh/ruff)
+  - mypy (https://mypy-lang.org/)
+  - pre-commit (https://pre-commit.com/)
+  - sublimemerge (https://www.sublimemerge.com/)
 - Documentation:
-	- sphinx (https://www.sphinx-doc.org/en/master/)
-	- pandoc (https://pandoc.org/)
+  - sphinx (https://www.sphinx-doc.org/en/master/)
+  - pandoc (https://pandoc.org/)
 - Interactive and environment management:
-	- IPython (https://ipython.org/)
-	- virtualenv (https://virtualenv.pypa.io/en/latest/)
-	- jupyter-notebook (https://jupyter.org/)
+  - IPython (https://ipython.org/)
+  - virtualenv (https://virtualenv.pypa.io/en/latest/)
+  - jupyter-notebook (https://jupyter.org/)
 
 ### Data repositories
 
 - Generic:
-	- Zenodo (https://zenodo.org/)
-	- GigaDB (http://gigadb.org/)
-	- Synapse (https://www.synapse.org/)
+  - Zenodo (https://zenodo.org/)
+  - GigaDB (http://gigadb.org/)
+  - Synapse (https://www.synapse.org/)
 - Transcriptomics:
-	- GEO
-	- ArrayExpress
+  - GEO
+  - ArrayExpress
 - Sensitive data:
-	- EGA
-	- dbGAP
+  - EGA
+  - dbGAP

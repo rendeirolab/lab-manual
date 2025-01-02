@@ -2,13 +2,15 @@
 
 Welcome to the Rendeiro lab at CeMM!
 
-You are at the start of a beautiful human adventure, don’t forget to enjoy the journey.
+You are at the start of an adventure, don’t forget to enjoy the journey.
 
 ## Get informed
 
-This is the lab's manual
+The first step is to get informed about the lab's [mission and philosophy](mission_statement.md), the [code of conduct](code_of_conduct.md) and how we operate (rest of the manual).
 
-Read about the lab [philosophy and mission](mission_statement.md)
+Feel free to go ahead and read the [mission statement](mission_statement.md) and [code of conduct](code_of_conduct.md) to get started.
+
+The rest of the content here are pointers for newcomers on practical aspects on how to get started in the lab.
 
 ## Get started
 
@@ -37,22 +39,22 @@ Consult the intranet for updated information on everything CeMM: https://cemmat.
 
 ##### Mail
 
-The default email addressess have the form <user>@cemm.oeaw.ac.at due to our relationship with the Austrian Academy of Sciences.
-The short form <user>@cemm.at can also receive emails and is mandatory to access/register Microsoft Office 365 cloud resources: OneDrive, Teams, Word, Excel, PowerPoint, etc.
+The default email addressess have the form `<user>@cemm.oeaw.ac.at` due to our relationship with the Austrian Academy of Sciences.
+The short form `<user>@cemm.at` can also receive emails and is mandatory to access/register Microsoft Office 365 cloud resources: OneDrive, Teams, Word, Excel, PowerPoint, etc.
 
-Web portal: portal.office.com
-Webmail: outlook.com/cemm.at
+- Web portal: `portal.office.com`
+- Webmail: `outlook.com/cemm.at`
+
 Forwarding CeMM emails to external services is not allowed.
 
 ##### Shared drives and directories
 
 Windows shares:
 
-- Groupdata: smb://int.cemm.at/files/groupdata/
-- Labs: smb://int.cemm.at/files/labs/
-- Home Folder: smb://int.cemm.at/files/home/<username>
-  Cluster shares:
-- smb://hpctransfer
+- Groupdata: `smb://int.cemm.at/files/groupdata/`
+- Labs: `smb://int.cemm.at/files/labs/`
+- Home Folder: `smb://int.cemm.at/files/home/<username>`
+  Cluster shares: `smb://hpctransfer`
 
 Login with your CeMM credentials and the domain name (if asked) is "cemmint".
 

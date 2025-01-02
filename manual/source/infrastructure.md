@@ -17,7 +17,6 @@ So far it details only computational infrastructure.
 
 [Read the documentation on using Azure web services here: azure.md](/azure.md)
 
-
 ## CeMM infrastructure
 
 Refer to the [CeMM Intranet documentation](https://cemmat.sharepoint.com/sites/Intranet) for updated information.
@@ -32,7 +31,9 @@ Install CUPS:
 ```bash
 sudo apt-get install cups
 ```
+
 Add printers:
+
 ```bash
 sudo lpadmin -p CeMM_level_2 -E -v ipp://193.171.185.37/ipp -m everywhere
 sudo lpadmin -p CeMM_level_3 -E -v ipp://193.171.185.212/ipp -m everywhere

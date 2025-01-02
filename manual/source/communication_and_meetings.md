@@ -1,23 +1,25 @@
-# Communication
+# Lab communication
 
 ## In person meetings
 
 ### Individual meetings
- - Mondays, every week, scheduled via Outlook calendar
- - Prepare in advance
-   - What are upcoming events (2-3 months; e.g. committee meeting, conference, meetings with collaborators)
-   - Progress and results
-   - Other activities (including non-scientific like courses attended, tutorials, infrastructure)
-   - Next goals (list next steps in research and what tasks are needed to accomplish them)
-   - Roadblocks/needs (list critical needs that are/you anticipate are blocking progress - especially things you need Andre to do. e.g. setup a VM, learn about a framework, download lots of data, more space in cluster)
-   - Literature (indicate a paper you found interesting/relevant that Andre should read or that should be discussed in a journal club)
-   - The above can be shared with Andre in advance (e.g. in a markdown file)
- - The meta layer / check-in:
-   - Talk about how you are doing, progress, frustration, goals beyond research
-   - Once per month, more often if needed
- - The scheduled meetings should not prevent you from reaching out to Andre at any time if needed (in person, via email, chat, phone)!
+
+- Mondays, every week, scheduled via Outlook calendar
+- Prepare in advance
+  - What are upcoming events (2-3 months; e.g. committee meeting, conference, meetings with collaborators)
+  - Progress and results
+  - Other activities (including non-scientific like courses attended, tutorials, infrastructure)
+  - Next goals (list next steps in research and what tasks are needed to accomplish them)
+  - Roadblocks/needs (list critical needs that are/you anticipate are blocking progress - especially things you need Andre to do. e.g. setup a VM, learn about a framework, download lots of data, more space in cluster)
+  - Literature (indicate a paper you found interesting/relevant that Andre should read or that should be discussed in a journal club)
+  - The above can be shared with Andre in advance (e.g. in a markdown file)
+- The meta layer / check-in:
+  - Talk about how you are doing, progress, frustration, goals beyond research
+  - Once per month, more often if needed
+- The scheduled meetings should not prevent you from reaching out to Andre at any time if needed (in person, via email, chat, phone)!
 
 ### Lab meetings
+
 - Tuesdays, early week (12:30)
 - Schedule:
   - The schedule for the presentations is set by Andre and available [here](https://cemmat.sharepoint.com/:x:/r/sites/rendeirolab/_layouts/15/Doc.aspx?sourcedoc=%7BCA81B64C-2577-459B-BCAB-89C6678B342B%7D)
@@ -35,6 +37,7 @@
     - Outlook/next steps
 
 ### Code review
+
 - Every 2 weeks (to begin, then maybe more sparse)
 - 1h30 to 2h00 duration
 - The goal is to improve everyone's programming skills/process - not shaming!
@@ -44,13 +47,14 @@
   - Everyone studies the goals of the code and the implementation
   - Together try to assess:
     1. Readability and documentation
-    2. Architecture
-    3. Re-usability
-    4. Additional: packaging, speed, security, etc...
-   - End by highlighting one new Github repository that you find cool/useful for the group - everyone quickly installs and explore
-   - Occasionally/alternatively we can talk about the meta part: cluster issues, installation, text editors, .bashrc setup, etc...
+    1. Architecture
+    1. Re-usability
+    1. Additional: packaging, speed, security, etc...
+  - End by highlighting one new Github repository that you find cool/useful for the group - everyone quickly installs and explore
+  - Occasionally/alternatively we can talk about the meta part: cluster issues, installation, text editors, .bashrc setup, etc...
 
 ### Strategic collaborative projects (SCPs)
+
 - Everyone is encouraged to participate in more than one depending on interest/relevance
 - SCP2: Aging & longevity:
   - One meeting per month
@@ -59,22 +63,24 @@
   - Send papers with the usual format/tag in subject: `[paper] <title>`, and body: `<title> \n <url> \n <comment>`
 
 ### Hackatons
+
 - one afternoon every 2-3 months
 - ideas:
   - CeMMome (involve more people?):
     1. Literature mining: papers, research reports, press releases
-    2. Friday seminar audio transcription
-    3. Data Science:
-      1. What topics are there at CeMM?
-      2. How did they evolve over time?
-      3. Individuals:
-   - Configuring "hilde"
-   - Lab website
-   - Deep learning basics
-   - AI art
-   - 
+    1. Friday seminar audio transcription
+    1. Data Science:
+    1. What topics are there at CeMM?
+    1. How did they evolve over time?
+    1. Individuals:
+  - Configuring "hilde"
+  - Lab website
+  - Deep learning basics
+  - AI art
+  - ...
 
 ### Yearly kick start/team building meeting
+
 - Topics:
   - Values
   - Personality
@@ -100,12 +106,18 @@ Use Signal's lab group for quick messages (coordinating movement, real-time info
 Feel free to send around any paper you find interesting or relevant.
 
 Send it via email ([rendeirogroup@int.cemm.at](mailto:rendeirogroup@int.cemm.at)) in the following format:
- - To: [rendeirogroup@int.cemm.at](mailto:rendeirogroup@int.cemm.at)
- - Subject: `[paper] <title>`
- - Body:
-    `<title> \n <url> \n <comment>`
+
+- To: [rendeirogroup@int.cemm.at](mailto:rendeirogroup@int.cemm.at)
+- Subject: `[paper] <title>`
+- Body: `<title> \n <url> \n <comment>`
+
 Fields with `<>` should be replaced with content.
-      
+
 ## Lab retreats
 
+TODO
+
 ## Social meetings and celebrations
+
+Social gatherins for example in celebrations of personal and professional achievements are welcome and encouraged.
+They should however follow the guidelines and rules from CeMM.

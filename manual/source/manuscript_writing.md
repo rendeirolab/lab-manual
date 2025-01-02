@@ -5,7 +5,6 @@ For insights on planning a project please see the [project planning guide](proje
 
 Manuscript writing should really be called "manuscript crafting" as it involves a lot more than text writing and formatting or figure making as it takes a lot of time, effort and skill to craft a good manuscript.
 
-
 ## Figures
 
 A crucial part of crafting a great manuscript is good communication of ideas through visual elements (figures), and their alignment with the text.
@@ -15,7 +14,7 @@ This has changed a little over the time, but mostly coalesced on a fairly simple
 
 ### Making plots (Python, matplotlib, seaborn):
 
-- Try to compartmentalize data processing from visualization (not just the early 'pipeline'-like processing, but also the analytical analysis) - but that does not mean that 
+- Try to compartmentalize data processing from visualization (not just the early 'pipeline'-like processing, but also the analytical analysis) - but that does not mean that
 - Each script produces a set of plots into a `results` directory, with subdirectories matching the script or analysis name (more hierarchical if needed, e.g. different datasets).
 - Each plot file name should be self explanatory and contain enough information to track down its origin.
 - Except for obvious groupings or interrelations, avoid making figures with many subplots.
@@ -82,17 +81,16 @@ Only in very rare cases it is worth it to have a full final figure generated as 
 Open PDF in Adobe Illustrator
 
 - Select everything:
-    - Mac: <kbd>&#8984; Command</kbd> + <kbd>A</kbd>
-    - Windows: <kbd>Ctrl</kbd> + <kbd>A</kbd>
+  - Mac: <kbd>⌘ Command</kbd> + <kbd>A</kbd>
+  - Windows: <kbd>Ctrl</kbd> + <kbd>A</kbd>
 - Go to `Object` -> `Clipping Mask` -> `Release`, press until it can't be pressed anymore:
-    - Mac: <kbd>⌥ Option</kbd> + <kbd>&#8984; Command</kbd> + <kbd>7</kbd>
-    - Windows: <kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>7</kbd>
+  - Mac: <kbd>⌥ Option</kbd> + <kbd>⌘ Command</kbd> + <kbd>7</kbd>
+  - Windows: <kbd>Alt</kbd> + <kbd>Ctrl</kbd> + <kbd>7</kbd>
 
 Congratulations! Now you have a clean plot ready for editing.
 
 > [!CAUTION]
 > Removing clipping masks may affect elements, such as bars that extend offscreen.
-
 
 ## Text
 
@@ -104,26 +102,25 @@ Latex is also supported, talk with Andre about starting with a LaTeX template.
 Use styles to format your text. Do not use whitespace (e.g. newlines and spaces) in the text to format the document.
 
 - Page:
-    - Page size: A4
-    - Page margins: 2 cm on all sides
+  - Page size: A4
+  - Page margins: 2 cm on all sides
 - Styles:
-    - Default text style:
-        - Font: Arial
-        - Font size: 11
-        - Line spacing: 1.15 lines
-        - Paragraph spacing: 0.2cm below paragraph, 0.0cm above paragraph
-        - Alignment: Justified
-        - Color: Black
-    - Headings (all inherit the above default style):
-        - Title: Font size: 14, bold
-        - Heading 1: Font size: 12, bold, paragraph spacing: 0.4cm above
-        - Heading 2: Font size: 11, italic, paragraph spacing: 0.3cm above
-        - Heading 3: possible but not recommended
-    - Figure legends (inherit from default style except for settings below):
-        - Legend below figure.
-        - Font size: 10
-        - Figure number and title: bold.
-
+  - Default text style:
+    - Font: Arial
+    - Font size: 11
+    - Line spacing: 1.15 lines
+    - Paragraph spacing: 0.2cm below paragraph, 0.0cm above paragraph
+    - Alignment: Justified
+    - Color: Black
+  - Headings (all inherit the above default style):
+    - Title: Font size: 14, bold
+    - Heading 1: Font size: 12, bold, paragraph spacing: 0.4cm above
+    - Heading 2: Font size: 11, italic, paragraph spacing: 0.3cm above
+    - Heading 3: possible but not recommended
+  - Figure legends (inherit from default style except for settings below):
+    - Legend below figure.
+    - Font size: 10
+    - Figure number and title: bold.
 
 ### Structure
 
