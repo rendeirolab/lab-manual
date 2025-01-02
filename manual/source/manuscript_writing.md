@@ -1,6 +1,14 @@
 # Manuscript writing
 
+This document provides practical guidelines for writing a manuscript.
+For insights on planning a project please see the [project planning guide](project_planning.md) instead.
+
+Manuscript writing should really be called "manuscript crafting" as it involves a lot more than text writing and formatting or figure making as it takes a lot of time, effort and skill to craft a good manuscript.
+
+
 ## Figures
+
+A crucial part of crafting a great manuscript is good communication of ideas through visual elements (figures), and their alignment with the text.
 
 Here are Andre's tips for figure making based on practice.
 This has changed a little over the time, but mostly coalesced on a fairly simple system.
@@ -30,18 +38,6 @@ plt.rcParams['savefig.dpi'] = 300  # To make sure any rasterized elements have g
 plt.rcParams['savefig.transparent'] = True  # To remove the white background
 plt.rcParams['svg.fonttype'] = 'none'  # To allow font to be editable in Inkscape
 plt.rcParams['font.family'] = 'Arial'  # Use Arial as the font
-```
-
-A clean version for copy-paste
-
-```python
-import matplotlib.pyplot as plt
-
-plt.rcParams['savefig.bbox'] = 'tight'
-plt.rcParams['savefig.dpi'] = 300
-plt.rcParams['savefig.transparent'] = True
-plt.rcParams['svg.fonttype'] = 'none'
-plt.rcParams['font.family'] = 'Arial'
 ```
 
 #### Adobe Illustrator: Export to PDF
@@ -100,10 +96,51 @@ Congratulations! Now you have a clean plot ready for editing.
 
 ## Text
 
+Manuscript text is usually written in Microsoft Word (docx) or LibreOffice Writer (odt).
+Latex is also supported, talk with Andre about starting with a LaTeX template.
+
+### Formatting
+
+Use styles to format your text. Do not use whitespace (e.g. newlines and spaces) in the text to format the document.
+
+- Page:
+    - Page size: A4
+    - Page margins: 2 cm on all sides
+- Styles:
+    - Default text style:
+        - Font: Arial
+        - Font size: 11
+        - Line spacing: 1.15 lines
+        - Paragraph spacing: 0.2cm below paragraph, 0.0cm above paragraph
+        - Alignment: Justified
+        - Color: Black
+    - Headings (all inherit the above default style):
+        - Title: Font size: 14, bold
+        - Heading 1: Font size: 12, bold, paragraph spacing: 0.4cm above
+        - Heading 2: Font size: 11, italic, paragraph spacing: 0.3cm above
+        - Heading 3: possible but not recommended
+    - Figure legends (inherit from default style except for settings below):
+        - Legend below figure.
+        - Font size: 10
+        - Figure number and title: bold.
+
+
 ### Structure
 
-Template
+- Title
+- Authors
+- Author affiliations
+- Abstract
+- Introduction
+- Results
+- Discussion
+- Methods
+- Data availability
+- Code availability
+- Acknowledgements
+- Conflicts of interest
+- References
 
 ## File formats
 
-refer to [research page](research.md#asdasd)
+Refer to [research page](research.md) for more details.

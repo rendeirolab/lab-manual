@@ -8,7 +8,7 @@ You are at the start of a beautiful human adventure, don’t forget to enjoy the
 
 This is the lab's manual
 
-Read about the lab philosophy, X, Y, Z
+Read about the lab [philosophy and mission](mission_statement.md)
 
 ## Get started
 
