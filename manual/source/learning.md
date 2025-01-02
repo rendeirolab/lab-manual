@@ -178,6 +178,8 @@ Note that learning is a iterative and continuous process. You will need to revis
 - Histology @ Yale: http://medcell.org/histology/histology.php
 - Systems Cell Biology @ Yale: http://medcell.med.yale.edu/systems_cell_biology/systems_cell_biology.php
 - Immunology: https://www.youtube.com/watch?v=iwB8kKdNgdQ
+- Software development: many paths to learning: https://www.youtube.com/watch?v=66tfvFeALBQ
+
 ## Software packages
 
 These are some of the software packages we use often in the lab. You can more easily be aware of the direction of their development and new versions by subscribing to their releases on Github (bell sign -> custom -> releases).
