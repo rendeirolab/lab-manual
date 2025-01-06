@@ -1,4 +1,5 @@
 <div style="page-break-after: always;"></div>
+
 # Lab manual
 
 This is the lab manual, with all the information about the lab's culture and procedures.
