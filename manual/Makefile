@@ -18,10 +18,8 @@ format:
 set_order:
 	echo "\
 README.md \
-source/code_of_conduct.md \
-source/mission_statement.md \
-source/culture.md \
 source/getting_started.md \
+source/code_of_conduct.md \
 source/communication_and_meetings.md \
 source/project_planning.md \
 source/research.md \
@@ -31,6 +29,10 @@ source/infrastructure.md \
 source/public_data.md \
 source/manuscript_writing.md \
 " > ORDER
+
+# source/mission_statement.md \
+# source/culture.md \
+
 
 html: set_order
 	mkdir -p build/html

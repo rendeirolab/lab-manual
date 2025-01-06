@@ -1,6 +1,11 @@
 <div style="page-break-after: always;"></div>
 
 # Lab manual
+<!-- 
+<div style="width:50%; display: block; margin: auto;">
+    <img src="https://github.com/rendeirolab/labdocs/blob/main/assets/img/logo.png?raw=true" style="width: 100%;"/>
+    <p style="text-align: center;">Rendeiro Lab</p>
+</div> -->
 
 This is the lab manual, with all the information about the lab's culture and procedures.
 
