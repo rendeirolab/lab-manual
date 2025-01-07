@@ -1,12 +1,17 @@
-# Add newline at end of each file
-find . -type f -name "*.md" -exec sed -i -e '$a\\n' {} \;
-# Add a page break after each file
-find . -type f -name "*.md" -exec sed -i -e '$a<div style="page-break-after: always;"></div>' {} \;
 
-sed -i -e '$a\\n' metadata.yaml
-sed -i -e '$a<div style="page-break-after: always;"></div>' metadata.yaml
+# Add modifications
+## Version
+VERSION=$(git describe --tags)
+sed -i -e "s/<VERSION>/$VERSION/g" metadata.yaml
 
-# Now convert to PDF
+readarray -d ' ' ORDER < ORDER
+
+## Add newline at end of each file
+echo ${ORDER[@]:0:11} | xargs sed -i -e '$a\\n'
+## Add a page break after each file
+echo ${ORDER[@]:0:11} | xargs sed -i -e '$a<div style="page-break-after: always;"></div>'
+
+# Convert to PDF
 cat ORDER | pandoc \
     -V toc-title='Table of contents' \
     --css https://raw.githubusercontent.com/simov/markdown-viewer/master/themes/github.css \
@@ -21,11 +26,11 @@ cat ORDER | pandoc \
     -s `xargs` \
     -o build/pdf/rendeiro-lab_manual.pdf
 
-# Delete last 3 lines of each file
-find . -type f -name "*.md" -exec sed -i -e '$ d' {} \;
-find . -type f -name "*.md" -exec sed -i -e '$ d' {} \;
-find . -type f -name "*.md" -exec sed -i -e '$ d' {} \;
 
-sed -i -e '$d' metadata.yaml
-sed -i -e '$d' metadata.yaml
-sed -i -e '$d' metadata.yaml
+# Undo modifications
+## Remove version
+sed -i -e "s/$VERSION/<VERSION>/g" metadata.yaml
+## Delete last 3 lines of each file
+echo ${ORDER[@]:0:11} | xargs sed -i -e '$ d'
+echo ${ORDER[@]:0:11} | xargs sed -i -e '$ d'
+echo ${ORDER[@]:0:11} | xargs sed -i -e '$ d'

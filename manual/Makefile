@@ -27,13 +27,12 @@ source/project_planning.md \
 source/research.md \
 source/record_keeping.md \
 source/learning.md \
-source/infrastructure.md \
-source/public_data.md \
 source/manuscript_writing.md \
+CHANGELOG.md \
 " > ORDER
 
-# source/mission_statement.md \
-# source/culture.md \
+# source/public_data.md \
+
 
 
 html: set_order

@@ -1,7 +1,12 @@
-# Add newline at end of each file
-find . -type f -name "*.md" -exec sed -i -e '$a\\n' {} \;
-# Add horizontal ruler at end of each file
-find . -type f -name "*.md" -exec sed -i -e '$a<hr>' {} \;
+VERSION=$(git describe --tags)
+sed -i -e "s/<VERSION>/$VERSION/g" metadata.yaml
+
+readarray -d ' ' ORDER < ORDER
+
+## Add newline at end of each file
+echo ${ORDER[@]:0:11} | xargs sed -i -e '$a\\n'
+## Add horizontal ruler at end of each file
+echo ${ORDER[@]:0:11} | xargs sed -i -e '$a<hr>'
 
 # Now convert all .md files to .html
 cp style.css build/html
@@ -16,7 +21,10 @@ cat ORDER | pandoc \
     -s `xargs` \
     -o build/html/rendeiro-lab_manual.html
 
-# Delete last 3 lines of each file
-find . -type f -name "*.md" -exec sed -i -e '$ d' {} \;
-find . -type f -name "*.md" -exec sed -i -e '$ d' {} \;
-find . -type f -name "*.md" -exec sed -i -e '$ d' {} \;
+# Undo modifications
+## Remove version
+sed -i -e "s/$VERSION/<VERSION>/g" metadata.yaml
+## Delete last 3 lines of each file
+echo ${ORDER[@]:0:11} | xargs sed -i -e '$ d'
+echo ${ORDER[@]:0:11} | xargs sed -i -e '$ d'
+echo ${ORDER[@]:0:11} | xargs sed -i -e '$ d'

@@ -22,7 +22,7 @@
 
 - Tuesdays, early week (12:30)
 - Schedule:
-  - The schedule for the presentations is set by Andre and available [here](https://cemmat.sharepoint.com/:x:/r/sites/rendeirolab/_layouts/15/Doc.aspx?sourcedoc=%7BCA81B64C-2577-459B-BCAB-89C6678B342B%7D)
+  - The schedule for the presentations is set by Andre and available [here](https://cemmat.sharepoint.com/:x:/r/sites/rendeirolab/_layouts/15/Doc.aspx?sourcedoc=%7BCA81B64C-2577-459B-BCAB-89C6678B342B%7D).
 - Format:
   - Housekeeping (announcements, scheduling)
     - Any update relevant to the lab by anyone
@@ -115,7 +115,8 @@ Fields with `<>` should be replaced with content.
 
 ## Lab retreats
 
-TODO
+> [!CAUTION]
+> TODO
 
 ## Social meetings and celebrations
 
