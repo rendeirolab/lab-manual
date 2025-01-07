@@ -9,7 +9,7 @@
 
 This is the lab manual, with all the information about the lab's culture and procedures.
 
-The manual is available in the [`labdocs repository`](https://github.com/rendeirolab/labdocs/tree/main/manual) on Github.
+The manual is available in the [`labdocs`](https://github.com/rendeirolab/labdocs/tree/main/manual) repository on Github.
 
 It is written in [Markdown](https://daringfireball.net/projects/markdown/), but can be converted to HTML and PDF using [Pandoc](https://pandoc.org/).
 

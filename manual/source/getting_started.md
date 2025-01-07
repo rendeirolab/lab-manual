@@ -18,24 +18,24 @@ The rest of the content here are pointers for newcomers on practical aspects on 
 
 Onboarding to-dos (responsability of the PI):
 
-1. Ask the new team member for their contact information (optional, but recommended for safety reasons) - [add information here](https://cemmat.sharepoint.com/:x:/s/rendeirolab/ETVfBUPmJYpIgl-yDccPCGkBZRMFtOTE9ExejqyvMq6msA?e=lxEuzO);
-1. Add the new team member to lab mailing list;
-1. Share the lab's resources:
-   - the lab manual
-   - the lab code of conduct
-   - the Github account
-   - lab VMs (such as Cytomine, create an account)
-1. Make sure the new team member follow up with the remaining of CeMM onboarding (IT, safety)
+1. Ask the new team member for their contact information (optional, but recommended for safety reasons) - [add your own information here](https://cemmat.sharepoint.com/:x:/s/rendeirolab/ETVfBUPmJYpIgl-yDccPCGkBZRMFtOTE9ExejqyvMq6msA?e=lxEuzO);
+1. Add the new team member to lab Microsoft team and mailing list;
+1. Share the lab's resources with the new team member:
+   - the lab manual (this)
+   - the lab code of conduct (see [code of conduct](code_of_conduct.md))
+   - the Github account ([here](https://github.com/rendeirolab))
+   - lab infrastructure (such as Cytomine, VMs, etc: [infrastructure](infrastructure.md))
+1. Make sure the new team member follow up with the remaining of CeMM onboarding (IT, safety, etc)
 
 ### CeMM-specific
 
 #### IT services
 
-Please read https://cemmat.sharepoint.com/sites/IT-Resources for updated information.
+Please read [https://cemmat.sharepoint.com/sites/IT-Resources](https://cemmat.sharepoint.com/sites/IT-Resources) for updated information.
 
 ##### Intranet
 
-Consult the intranet for updated information on everything CeMM: https://cemmat.sharepoint.com/sites/Intranet
+Consult the intranet for updated information on everything CeMM: [https://cemmat.sharepoint.com/sites/Intranet](https://cemmat.sharepoint.com/sites/Intranet)
 
 ##### Mail
 
@@ -60,9 +60,9 @@ Login with your CeMM credentials and the domain name (if asked) is "cemmint".
 
 ##### VPN
 
-1. Get a MUW ID by submitting a form to the CeMM IT team (https://cemmat.sharepoint.com/sites/IT-Resources).
+1. Get a MUW ID by submitting a form to the CeMM IT team ([https://cemmat.sharepoint.com/sites/IT-Resources](https://cemmat.sharepoint.com/sites/IT-Resources)).
 1. Get authorization from MUW to access VPN, submit the form to the CeMM IT team.
 1. Connect:
    - On Linux:
      1. Get Cisco AnyConnect
-     1. Connect using https://vpn.meduniwien.ac.at/, user and password
+     1. Connect using [https://vpn.meduniwien.ac.at/](https://vpn.meduniwien.ac.at/), username and password

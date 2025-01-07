@@ -1,4 +1,4 @@
-# Infrastructure
+# Lab infrastructure
 
 This document describes the infrastructure used in the lab, including CeMM-provided or our own infrastructure.
 So far it details only computational infrastructure.
