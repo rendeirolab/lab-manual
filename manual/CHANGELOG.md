@@ -2,7 +2,7 @@
 
 ## Unreleased
 
-- No changes.
+- Add todo section to the README.md
 
 ## 2025-01-07
 
