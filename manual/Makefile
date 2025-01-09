@@ -28,6 +28,7 @@ source/research.md \
 source/record_keeping.md \
 source/learning.md \
 source/manuscript_writing.md \
+source/offboarding.md \
 CHANGELOG.md \
 " > ORDER
 

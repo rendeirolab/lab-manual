@@ -4,9 +4,9 @@ sed -i -e "s/<VERSION>/$VERSION/g" metadata.yaml
 readarray -d ' ' ORDER < ORDER
 
 ## Add newline at end of each file
-echo ${ORDER[@]:0:11} | xargs sed -i -e '$a\\n'
+echo ${ORDER[@]:0:12} | xargs sed -i -e '$a\\n'
 ## Add horizontal ruler at end of each file
-echo ${ORDER[@]:0:11} | xargs sed -i -e '$a<hr>'
+echo ${ORDER[@]:0:12} | xargs sed -i -e '$a<hr>'
 
 # Now convert all .md files to .html
 cp style.css build/html
@@ -25,6 +25,6 @@ cat ORDER | pandoc \
 ## Remove version
 sed -i -e "s/$VERSION/<VERSION>/g" metadata.yaml
 ## Delete last 3 lines of each file
-echo ${ORDER[@]:0:11} | xargs sed -i -e '$ d'
-echo ${ORDER[@]:0:11} | xargs sed -i -e '$ d'
-echo ${ORDER[@]:0:11} | xargs sed -i -e '$ d'
+echo ${ORDER[@]:0:12} | xargs sed -i -e '$ d'
+echo ${ORDER[@]:0:12} | xargs sed -i -e '$ d'
+echo ${ORDER[@]:0:12} | xargs sed -i -e '$ d'
