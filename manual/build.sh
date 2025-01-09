@@ -1,3 +1,4 @@
+set -e
 
 # Add modifications
 ## Version
@@ -11,7 +12,7 @@ echo ${ORDER[@]:0:12} | xargs sed -i -e '$a\\n'
 ## Add a page break after each file
 echo ${ORDER[@]:0:12} | xargs sed -i -e '$a<div style="page-break-after: always;"></div>'
 
-# Convert to PDF
+# Convert to HTML
 cat ORDER | pandoc \
     -V toc-title='Table of contents' \
     --css https://raw.githubusercontent.com/simov/markdown-viewer/master/themes/github.css \
@@ -20,11 +21,19 @@ cat ORDER | pandoc \
     --toc-depth 1 \
     -t html5 \
     --metadata-file=metadata.yaml \
-    --pdf-engine=wkhtmltopdf \
-    --pdf-engine-opt='--enable-internal-links' \
-    --pdf-engine-opt='--enable-local-file-access' \
     -s `xargs` \
-    -o build/pdf/rendeiro-lab_manual.pdf
+    -o build/html/rendeiro-lab_manual.html
+
+# Convert to PDF
+wkhtmltopdf \
+    --enable-internal-links \
+    --enable-local-file-access \
+    --header-center "Rendeiro lab manual" \
+    --header-font-size 8 \
+    --footer-center "[page]/[topage]" \
+    --footer-font-size 8 \
+    build/html/rendeiro-lab_manual.html \
+    build/pdf/rendeiro-lab_manual.pdf
 
 
 # Undo modifications

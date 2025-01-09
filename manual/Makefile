@@ -34,14 +34,7 @@ CHANGELOG.md \
 
 # source/public_data.md \
 
-
-
-html: set_order
+build: format set_order
 	mkdir -p build/html
-	bash html.sh
-
-pdf: set_order
 	mkdir -p build/pdf
-	bash pdf.sh
-
-build: format html pdf
+	bash build.sh

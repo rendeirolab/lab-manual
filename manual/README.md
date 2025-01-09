@@ -1,7 +1,7 @@
 <div style="page-break-after: always;"></div>
 
 # Lab manual
-<!-- 
+<!--
 <div style="width:50%; display: block; margin: auto;">
     <img src="https://github.com/rendeirolab/labdocs/blob/main/assets/img/logo.png?raw=true" style="width: 100%;"/>
     <p style="text-align: center;">Rendeiro Lab</p>
@@ -57,7 +57,7 @@ Simply add `<!-- mdformat-toc start -->` to the desired location of the document
 
 ## TODO
 
-- [ ] Decouple from `how to` documents or incorporate them in manual
+- [ ] Decouple manual from how to-style documents, or incorporate them in manual
 - [ ] Github actions build + deploy
 - [ ] Add instructions on how to version manual
 - [ ] Add to lab website
