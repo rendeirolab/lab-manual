@@ -57,7 +57,6 @@ Simply add `<!-- mdformat-toc start -->` to the desired location of the document
 
 ## TODO
 
-- [ ] Decouple manual from how to-style documents, or incorporate them in manual
 - [ ] Github actions build + deploy
 - [ ] Add instructions on how to version manual
 - [ ] Add to lab website
