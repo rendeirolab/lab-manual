@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Build with github actions
+
+## 2025-01-27
+
 - Add todo section to the README.md
 - Add page on offboarding
 - Decouple manual from how to-style documents, or incorporate them in manual

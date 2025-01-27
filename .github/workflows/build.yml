@@ -1,0 +1,99 @@
+name: Build Lab Manual
+
+on:
+  push:
+    tags:
+      - "20*"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc wkhtmltopdf xfonts-75dpi
+        python3 -m pip install --user pipx
+        python3 -m pipx ensurepath
+        pipx install mdformat
+        pipx inject mdformat mdformat-gfm
+
+    - name: Set version in metadata.yaml
+      run: |
+        VERSION=$(git describe --tags)
+        sed -i -e "s/<VERSION>/$VERSION/g" metadata.yaml
+
+    - name: Create ORDER file
+      run: |
+        echo "README.md source/getting_started.md source/mission_statement.md source/code_of_conduct.md source/communication_and_meetings.md source/infrastructure.md source/project_planning.md source/research.md source/record_keeping.md source/learning.md source/manuscript_writing.md source/offboarding.md CHANGELOG.md" > ORDER
+
+    - name: Format markdown files
+      run: |
+        find source -type f -name "*.md" | xargs mdformat
+
+    - name: Add modifications to files
+      run: |
+        readarray -t ORDER < ORDER
+        echo ${ORDER[@]:0:12} | xargs sed -i -e '$a\\n'
+        echo ${ORDER[@]:0:12} | xargs sed -i -e '$a<div style="page-break-after: always;"></div>'
+
+    - name: Convert to HTML
+      run: |
+        cat ORDER | xargs pandoc \
+            -V toc-title='Table of contents' \
+            --embed-resources \
+            --standalone \
+            --css=assets/style.css \
+            --toc \
+            --toc-depth 1 \
+            -t html5 \
+            --metadata-file=metadata.yaml \
+            -o build/html/rendeiro-lab_manual.html
+
+    - name: Convert to PDF
+      run: |
+        mkdir -p build/pdf
+        wkhtmltopdf \
+            --enable-internal-links \
+            --enable-local-file-access \
+            --header-center "Rendeiro lab manual" \
+            --header-font-size 8 \
+            --footer-center "[page]/[topage]" \
+            --footer-font-size 8 \
+            build/html/rendeiro-lab_manual.html \
+            build/pdf/rendeiro-lab_manual.pdf
+
+    - name: Undo modifications
+      run: |
+        VERSION=$(git describe --tags)
+        sed -i -e "s/$VERSION/<VERSION>/g" metadata.yaml
+        readarray -t ORDER < ORDER
+        echo ${ORDER[@]:0:12} | xargs sed -i -e '$ d'
+        echo ${ORDER[@]:0:12} | xargs sed -i -e '$ d'
+        echo ${ORDER[@]:0:12} | xargs sed -i -e '$ d'
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: rendeiro-lab_manual
+        path: |
+          build/html/rendeiro-lab_manual.html
+          build/pdf/rendeiro-lab_manual.pdf
+
+    - name: Deploy to GitHub Pages
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        mkdir -p gh-pages
+        cp -r build/html/* gh-pages/
+        cd gh-pages
+        git init
+        git checkout -b gh-pages
+        git add .
+        git commit -m "Deploy GitHub Pages"
+        git remote add origin "https://github.com/${{ github.repository }}.git"
+        git push --force origin gh-pages

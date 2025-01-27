@@ -57,7 +57,6 @@ Simply add `<!-- mdformat-toc start -->` to the desired location of the document
 
 ## TODO
 
-- [ ] Github actions build + deploy
 - [ ] Add instructions on how to version manual
 - [ ] Add to lab website
 - [ ] Improve and include [public data page](source/public_data.md)
