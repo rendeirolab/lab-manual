@@ -7,15 +7,15 @@ So far it details only computational infrastructure.
 
 ### Hardware
 
-- Hilde workstation: [setting up and maintaining the hilde workstation: hilde_workstation.md](/hilde_workstation.md)
+- Hilde workstation: [setting up and maintaining the hilde workstation: hilde_workstation.md](https://github.com/rendeirolab/labdocs/blob/main/hilde_workstation.md)
 
 ### VMs
 
-- Cytomine: [setting up and maintaining the cytomine VM: cytomine.md](/cytomine.md)
+- Cytomine: [setting up and maintaining the cytomine VM: cytomine.md](https://github.com/rendeirolab/labdocs/blob/main/cytomine.md)
 
 ### Cloud resources
 
-[Read the documentation on using Azure web services here: azure.md](/azure.md)
+[Read the documentation on using Azure web services here: azure.md](https://github.com/rendeirolab/labdocs/blob/main/azure.md)
 
 ## CeMM infrastructure
 
