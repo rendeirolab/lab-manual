@@ -39,7 +39,9 @@ We thank the following labs for sharing their open-source lab manuals, which ins
 
 ## TODO
 
-- [ ] Add instructions on how to version manual
-- [ ] Add to lab website
 - [ ] Improve and include [public data page](source/public_data.md)
 - [ ] Add additional resources on project planning
+- [ ] Add section on 'Developing a project'
+- [ ] Add section on 'Publications'
+- [ ] Add section on 'Authorship'
+- [ ] Add section on 'Engaging in new projects'

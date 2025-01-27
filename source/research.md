@@ -29,6 +29,9 @@ jsonvalidate -i cemm_metadata.json cemm_metadata_schema.json
 
 ### Developing a project
 
+> [!CAUTION]
+> TODO
+
 ### Maintaining files for a project
 
 Make sure to maintain your metadata JSON files, in line with the existing data on disk.
@@ -39,7 +42,13 @@ No powerpoint!
 
 #### Publications
 
+> [!CAUTION]
+> TODO
+
 #### Authorship
+
+> [!CAUTION]
+> TODO
 
 ## Tools and technologies of standard use within the lab
 
@@ -54,6 +63,9 @@ Below are the preferred types of technology to be used in the lab:
 - plots: SVG, PDF
 
 ## Engaging in new projects
+
+> [!CAUTION]
+> TODO
 
 ## Meta-science
 
