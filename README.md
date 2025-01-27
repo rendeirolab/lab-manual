@@ -13,6 +13,7 @@ This manual is open source and maintained collaboratively. Anyone on GitHub can 
 The project includes a [Makefile](https://github.com/rendeirolab/lab-manual/blob/main/Makefile) to streamline the development process.
 
 Key targets include:
+
 - **`format`**: Formats Markdown files consistently using `mdformat`.
 - **`build`**: Converts the manual into a single HTML file using `pandoc` and generates a PDF file using `wkhtmltopdf`.
 - **`clean`**: Removes generated files to ensure a fresh build.

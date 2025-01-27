@@ -24,7 +24,11 @@ cat ORDER | pandoc \
     --metadata-file=metadata.yaml \
     -s `xargs` \
     -o build/html/rendeiro-lab_manual.html
- 
+
+# Add content inside 'container'
+sed 's/<body>/<body><div class="container">/g' -i build/html/rendeiro-lab_manual.html
+sed 's/<\/body>/<\/div><\/body>/g' -i build/html/rendeiro-lab_manual.html
+
 # Convert to PDF
 wkhtmltopdf \
     --enable-internal-links \

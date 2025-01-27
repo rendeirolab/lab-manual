@@ -55,6 +55,11 @@ jobs:
             --metadata-file=metadata.yaml \
             -o build/index.html
 
+    - name: Add container div
+      run: |
+        sed 's/<body>/<body><div class="container">/g' -i build/index.html
+        sed 's/<\/body>/<\/div><\/body>/g' -i build/index.html
+
     - name: Convert to PDF
       run: |
         wkhtmltopdf \
