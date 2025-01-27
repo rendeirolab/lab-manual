@@ -3,13 +3,13 @@
 # Lab manual
 <!--
 <div style="width:50%; display: block; margin: auto;">
-    <img src="https://github.com/rendeirolab/labdocs/blob/main/assets/img/logo.png?raw=true" style="width: 100%;"/>
+    <img src="https://github.com/rendeirolab/lab-manual/blob/main/assets/img/logo.png?raw=true" style="width: 100%;"/>
     <p style="text-align: center;">Rendeiro Lab</p>
 </div> -->
 
-This is the lab manual, with all the information about the lab's culture and procedures.
+This is the Rendeiro lab manual, with all the information about the lab's culture and procedures.
 
-The manual is available in the [`labdocs`](https://github.com/rendeirolab/labdocs/tree/main/manual) repository on Github.
+The manual is available in the [`lab-manual`](https://github.com/rendeirolab/lab-manual/tree/main/manual) repository on Github.
 
 It is written in [Markdown](https://daringfireball.net/projects/markdown/), but can be converted to HTML and PDF using [Pandoc](https://pandoc.org/).
 
@@ -17,7 +17,7 @@ It can be maintained and edited by anyone on Github.
 
 ## Building the manual
 
-A [Makefile](https://github.com/rendeirolab/labdocs/blob/main/manual/Makefile) is available in the [`labdocs repository`](https://github.com/rendeirolab/labdocs/tree/main/manual).
+A [Makefile](https://github.com/rendeirolab/lab-manual/blob/main/manual/Makefile) is available in the [`lab-manual repository`](https://github.com/rendeirolab/lab-manual/tree/main/manual).
 
 Converting the manual to a single HTML file:
 

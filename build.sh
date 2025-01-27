@@ -15,15 +15,16 @@ echo ${ORDER[@]:0:12} | xargs sed -i -e '$a<div style="page-break-after: always;
 # Convert to HTML
 cat ORDER | pandoc \
     -V toc-title='Table of contents' \
-    --css https://raw.githubusercontent.com/simov/markdown-viewer/master/themes/github.css \
-    --css style.css \
+    --embed-resources \
+    --standalone \
+    --css=assets/style.css \
     --toc \
     --toc-depth 1 \
     -t html5 \
     --metadata-file=metadata.yaml \
     -s `xargs` \
     -o build/html/rendeiro-lab_manual.html
-
+ 
 # Convert to PDF
 wkhtmltopdf \
     --enable-internal-links \

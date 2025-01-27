@@ -32,9 +32,8 @@ source/offboarding.md \
 CHANGELOG.md \
 " > ORDER
 
-# source/public_data.md \
-
 build: format set_order
 	mkdir -p build/html
 	mkdir -p build/pdf
 	bash build.sh
+	-rm ORDER
