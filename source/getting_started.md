@@ -20,12 +20,14 @@ Onboarding to-dos (responsability of the PI):
 
 1. Ask the new team member for their contact information (optional, but recommended for safety reasons) - [add your own information here](https://cemmat.sharepoint.com/:x:/s/rendeirolab/ETVfBUPmJYpIgl-yDccPCGkBZRMFtOTE9ExejqyvMq6msA?e=lxEuzO);
 1. Add the new team member to lab Microsoft team and mailing list;
-1. Share the lab's resources with the new team member:
+1. Share and introduce the lab's resources to the new team member:
    - the lab manual (this)
    - the lab code of conduct (see [code of conduct](code_of_conduct.md))
-   - the Github account ([here](https://github.com/rendeirolab))
    - lab infrastructure (such as Cytomine, VMs, etc: [infrastructure](infrastructure.md))
-1. Make sure the new team member follow up with the remaining of CeMM onboarding (IT, safety, etc)
+   - Github team ([https://github.com/rendeirolab](https://github.com/rendeirolab))
+   - Weights and Biases team ([https://wandb.ai/rendeiro-group](https://wandb.ai/rendeiro-group))
+   - HuggingFace team ([https://huggingface.co/RendeiroLab](https://huggingface.co/RendeiroLab))
+1. Make sure the new team member follows up with the remaining of CeMM onboarding (IT, safety, etc)
 
 ### CeMM-specific
 

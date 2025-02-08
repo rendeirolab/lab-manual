@@ -2,9 +2,11 @@
 
 # Lab manual
 
-Welcome to the Rendeiro Lab Manual. This manual provides comprehensive information about the lab's culture, procedures, and workflows to ensure a collaborative and efficient research environment.
+Welcome to the Rendeiro Lab Manual.
 
-The manual is hosted in the [`lab-manual`](https://github.com/rendeirolab/lab-manual/tree/main/manual) repository on GitHub. It is written in [Markdown](https://daringfireball.net/projects/markdown/) and can be converted to HTML and PDF using [Pandoc](https://pandoc.org/).
+This manual provides comprehensive information about the lab's culture, procedures, and workflows to ensure a collaborative and efficient research environment.
+
+The manual is hosted in the [`lab-manual`](https://github.com/rendeirolab/lab-manual/) repository on GitHub. It is written in [Markdown](https://daringfireball.net/projects/markdown/) and can be converted to HTML and PDF using [Pandoc](https://pandoc.org/).
 
 This manual is open source and maintained collaboratively. Anyone on GitHub can propose changes.
 
@@ -27,7 +29,7 @@ To contribute:
 2. Submit a pull request with a clear, one-line description of the changes made.
 3. Follow best practices by adding reviewers and referencing related issues, if applicable.
 
-For adding a table of contents to any document, use [mdformat-toc](https://github.com/hukkin/mdformat-toc). Insert `<!-- mdformat-toc start -->` where the table of contents should appear, and run `mdformat <file.md>` on the edited file, or `make format` to format all.
+For adding a table of contents to any document, use [mdformat-toc](https://github.com/hukkin/mdformat-toc). Insert ```<!-- mdformat-toc start -->``` where the table of contents should appear, and run `mdformat <file.md>` on the edited file, or `make format` to format all.
 
 ## Acknowledgements
 

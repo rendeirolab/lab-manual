@@ -13,7 +13,7 @@
 1. Create a directory for the project in the CeMM cluster at: `/research/groups/lab_rendeiro/projects/`
    1. Create a directory inside called `data` to store raw data.
 1. Create a directory for the project in the CeMM cluster at: `/nobackup/groups/lab_rendeiro/projects/`
-   2\. Create a soft link between `/research/.../data` and `/nobackup/.../data`
+   1. Create a soft link between `/research/.../data` and `/nobackup/.../data`
 1. Create a `cemm_metadata.json` file in `/research/groups/lab_rendeiro/projects/$PROJECT/`
 1. Create a `cemm_metadata.json` file in `/nobackup/groups/lab_rendeiro/projects/$PROJECT/`
 

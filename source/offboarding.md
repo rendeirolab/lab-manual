@@ -24,11 +24,9 @@ It is the responsability of the PI to communicate, initiate, and verify the foll
 1. Ask the new team member for their CeMM-independent contact information
 1. Ask the new team member whether they consent to be listed in the lab website as alumni
 1. Remove team member from external organizations:
-   - Github
-   - Weights and Biases
-   - HuggingFace
-   - the lab code of conduct (see [code of conduct](code_of_conduct.md))
-   - the Github account ([here](https://github.com/rendeirolab))
+   - Github ([https://github.com/rendeirolab](https://github.com/rendeirolab))
+   - Weights and Biases ([https://wandb.ai/rendeiro-group](https://wandb.ai/rendeiro-group))
+   - HuggingFace ([https://huggingface.co/RendeiroLab](https://huggingface.co/RendeiroLab))
    - lab infrastructure (such as Cytomine, VMs, etc: [infrastructure](infrastructure.md))
 1. Remove team member accounts from lab-specific infrastructure:
    - Cytomine

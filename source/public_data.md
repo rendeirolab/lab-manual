@@ -44,8 +44,6 @@ Prostate-specific:
 - StarDist
 - DeepCell
 - CellPose
-- Tumor-Infiltrating Lymphocytes Maps from TCGA H&E Whole Slide Pathology Images: https://wiki.cancerimagingarchive.net/pages/vi
-
-.action?pageId=33948919, https://stonybrookmedicine.app.box.com/v/cellreportspaper/folder/42003984813
+- Tumor-Infiltrating Lymphocytes Maps from TCGA H&E Whole Slide Pathology Images: https://wiki.cancerimagingarchive.net/pages/vi.action?pageId=33948919, https://stonybrookmedicine.app.box.com/v/cellreportspaper/folder/42003984813
 
 - NuCLS crowdsourcing approach, dataset, and explainable deep-learning method: https://github.com/PathologyDataScience/NuCLS
