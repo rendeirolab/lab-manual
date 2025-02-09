@@ -5,11 +5,11 @@
 ### Initializing a project
 
 1. Register your project in the lab's project register:
-   1. Go to https://cemmat.sharepoint.com/sites/rendeirolab and find the 'Lab project register.xlsx' or directly at https://cemmat.sharepoint.com/:x:/r/sites/rendeirolab/\_layouts/15/Doc.aspx?sourcedoc=%7B4c72f84b-f33b-4162-a5e8-f05556fdf66b%7D&action=editnew
+   1. Go to [https://cemmat.sharepoint.com/sites/rendeirolab](https://cemmat.sharepoint.com/sites/rendeirolab) and find the 'Lab project register.xlsx' or directly [here](https://cemmat.sharepoint.com/:x:/r/sites/rendeirolab/\_layouts/15/Doc.aspx?sourcedoc=%7B4c72f84b-f33b-4162-a5e8-f05556fdf66b%7D&action=editnew).
    1. Start a new row for your project and increment the `Project ID` by one.
    1. Choose an intuitive name for the project, avoiding adding personal information e.g. collaborator names.
 1. Create a project directory structure from the lab's template: `cookiecutter gh:rendeirolab/_project_template`
-1. Create a git repository on GitHub (https://github.com/rendeirolab) with the same name as the project, make a first commit and push to Github.
+1. Create a git repository on GitHub ([https://github.com/rendeirolab](https://github.com/rendeirolab)) with the same name as the project, make a first commit and push to Github.
 1. Create a directory for the project in the CeMM cluster at: `/research/groups/lab_rendeiro/projects/`
    1. Create a directory inside called `data` to store raw data.
 1. Create a directory for the project in the CeMM cluster at: `/nobackup/groups/lab_rendeiro/projects/`
@@ -69,7 +69,7 @@ Below are the preferred types of technology to be used in the lab:
 
 ## Meta-science
 
-- The Night Science Series (https://night-science.org/genome-biology-miniseries/)
-- The Night Science Podcast (https://night-science.org/the-night-science-podcast/)
-- The importance of stupidity in scientific research (https://doi.org/10.1242/jcs.033340)
-- Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial (http://dx.doi.org/10.1136/bmj.k5094)
+- The Night Science Series ([https://night-science.org/genome-biology-miniseries/](https://night-science.org/genome-biology-miniseries/))
+- The Night Science Podcast ([https://night-science.org/the-night-science-podcast/](https://night-science.org/the-night-science-podcast/))
+- The importance of stupidity in scientific research ([https://doi.org/10.1242/jcs.033340](https://doi.org/10.1242/jcs.033340))
+- Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial ([http://dx.doi.org/10.1136/bmj.k5094](http://dx.doi.org/10.1136/bmj.k5094))

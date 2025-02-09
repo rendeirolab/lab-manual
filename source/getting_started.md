@@ -2,6 +2,8 @@
 
 Welcome to the Rendeiro lab at CeMM!
 
+This page is meant to help new members get started with the lab and for the PI and team to make sure onboarding is smooth.
+
 You are at the start of an adventure, don’t forget to enjoy the journey.
 
 ## Get informed

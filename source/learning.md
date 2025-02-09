@@ -43,7 +43,7 @@ As a member of the lab you are responsible to be aware, understand, and eventual
   - Feature extraction
   - Graph neural networks
   - Self-supervised learning
-  - Federated learning (https://federated.withgoogle.com/)
+  - Federated learning ([https://federated.withgoogle.com/](https://federated.withgoogle.com/))
 - Image analysis:
   - Common data formats
   - Storing and manipulating images in a computer
@@ -190,13 +190,13 @@ Note that learning is a iterative and continuous process. You will need to revis
 
 ## Tutorials
 
-- Gradient descent and backpropagation: https://www.youtube.com/watch?v=VMj-3S1tku0
-- Transformers from scratch: https://e2eml.school/transformers.html
-- Data visualization / figure making with Python: https://github.com/frankligy/python_visualization_tutorial
-- Histology @ Yale: http://medcell.org/histology/histology.php
-- Systems Cell Biology @ Yale: http://medcell.med.yale.edu/systems_cell_biology/systems_cell_biology.php
-- Immunology: https://www.youtube.com/watch?v=iwB8kKdNgdQ
-- Software development: many paths to learning: https://www.youtube.com/watch?v=66tfvFeALBQ
+- Gradient descent and backpropagation: [https://www.youtube.com/watch?v=VMj-3S1tku0](https://www.youtube.com/watch?v=VMj-3S1tku0)
+- Transformers from scratch: [https://e2eml.school/transformers.html](https://e2eml.school/transformers.html)
+- Data visualization / figure making with Python: [https://github.com/frankligy/python_visualization_tutorial](https://github.com/frankligy/python_visualization_tutorial)
+- Histology @ Yale: [http://medcell.org/histology/histology.php](http://medcell.org/histology/histology.php)
+- Systems Cell Biology @ Yale: [http://medcell.med.yale.edu/systems_cell_biology/systems_cell_biology.php](http://medcell.med.yale.edu/systems_cell_biology/systems_cell_biology.php)
+- Immunology: [https://www.youtube.com/watch?v=iwB8kKdNgdQ](https://www.youtube.com/watch?v=iwB8kKdNgdQ)
+- Software development: many paths to learning: [https://www.youtube.com/watch?v=66tfvFeALBQ](https://www.youtube.com/watch?v=66tfvFeALBQ)
 
 ## Software packages
 
@@ -204,115 +204,115 @@ These are some of the software packages we use often in the lab. You can more ea
 
 ### Data science
 
-- Numpy (https://numpy.org/)
-- Pandas (https://pandas.pydata.org/)
-- Scipy (https://scipy.org/)
-- Scanpy (https://scanpy.readthedocs.io/en/stable/)
-- Squidpy (https://squidpy.readthedocs.io/en/stable/)
-- Networkx (https://networkx.org/)
-- Scikit-networks (https://scikit-network.readthedocs.io/)
+- Numpy ([https://numpy.org/](https://numpy.org/))
+- Pandas ([https://pandas.pydata.org/](https://pandas.pydata.org/))
+- Scipy ([https://scipy.org/](https://scipy.org/))
+- Scanpy ([https://scanpy.readthedocs.io/en/stable/](https://scanpy.readthedocs.io/en/stable/))
+- Squidpy ([https://squidpy.readthedocs.io/en/stable/](https://squidpy.readthedocs.io/en/stable/))
+- Networkx ([https://networkx.org/](https://networkx.org/))
+- Scikit-networks ([https://scikit-network.readthedocs.io/](https://scikit-network.readthedocs.io/))
 
 ### Statistics / machine learning
 
-- pingouin (https://pingouin-stats.org/)
-- statsmodels (https://www.statsmodels.org/stable/index.html)
-- sklearn (https://scikit-learn.org/stable/)
-- imbalanced-learn (https://imbalanced-learn.org/)
-- pymer4 (https://eshinjolly.com/pymer4/)
-- PyMC (https://www.pymc.io/welcome.html, https://www.pymc.io/projects/docs/en/stable/learn.html)
+- pingouin ([https://pingouin-stats.org/](https://pingouin-stats.org/))
+- statsmodels ([https://www.statsmodels.org/stable/index.html](https://www.statsmodels.org/stable/index.html))
+- sklearn ([https://scikit-learn.org/stable/](https://scikit-learn.org/stable/))
+- imbalanced-learn ([https://imbalanced-learn.org/](https://imbalanced-learn.org/))
+- pymer4 ([https://eshinjolly.com/pymer4/](https://eshinjolly.com/pymer4/))
+- PyMC ([https://www.pymc.io/welcome.html, https://www.pymc.io/projects/docs/en/stable/learn.html](https://www.pymc.io/welcome.html, https://www.pymc.io/)projects/docs/en/stable/learn.html)
 
 ### Tensor-specific
 
-- einops (https://github.com/arogozhnikov/einops)
-- tensorly (https://tensorly.org/)
+- einops ([https://github.com/arogozhnikov/einops](https://github.com/arogozhnikov/einops))
+- tensorly ([https://tensorly.org/](https://tensorly.org/))
 
 ### Deep learning
 
-- weightsandbiases (https://wandb.ai/site) \<- join the lab's team at https://wandb.ai/rendeiro-group
-- pytorch (https://pytorch.org/)
-- pytorch-lightning (https://www.pytorchlightning.ai/)
-- pytorch-geometric (https://pytorch-geometric.readthedocs.io/en/latest/)
-- captum (https://captum.ai/)
-- fastai (https://docs.fast.ai/)
-- timm, pytorch-image-models (https://github.com/rwightman/pytorch-image-models)
-- TabPFN (https://github.com/automl/TabPFN)
-- fiftyone (https://voxel51.com/docs/fiftyone/)
-- transformers (https://github.com/huggingface/transformers)
+- weightsandbiases ([https://wandb.ai/site](https://wandb.ai/site)) \<- join the lab's team at [https://wandb.ai/rendeiro-group](https://wandb.ai/rendeiro-group)
+- pytorch ([https://pytorch.org/](https://pytorch.org/))
+- pytorch-lightning ([https://www.pytorchlightning.ai/](https://www.pytorchlightning.ai/))
+- pytorch-geometric ([https://pytorch-geometric.readthedocs.io/en/latest/](https://pytorch-geometric.readthedocs.io/en/latest/))
+- captum ([https://captum.ai/](https://captum.ai/))
+- fastai ([https://docs.fast.ai/](https://docs.fast.ai/))
+- timm, pytorch-image-models ([https://github.com/rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models))
+- TabPFN ([https://github.com/automl/TabPFN](https://github.com/automl/TabPFN))
+- fiftyone ([https://voxel51.com/docs/fiftyone/](https://voxel51.com/docs/fiftyone/))
+- transformers ([https://github.com/huggingface/transformers](https://github.com/huggingface/transformers))
 
 ### Visualization
 
-- matplotlib (https://matplotlib.org/)
-- seaborn (https://seaborn.pydata.org/)
-- scikit-yb (https://www.scikit-yb.org/en/latest)
-- inkscape (https://inkscape.org/):
+- matplotlib ([https://matplotlib.org/](https://matplotlib.org/))
+- seaborn ([https://seaborn.pydata.org/](https://seaborn.pydata.org/))
+- scikit-yb ([https://www.scikit-yb.org/en/latest](https://www.scikit-yb.org/en/latest))
+- inkscape ([https://inkscape.org/)](https://inkscape.org/):)
   - https://www.inkscapeforstem.com/Inkscape-For-STEM-ee6dacb7a2e543218f87a29f69177fee
   - https://bioicons.com/
-- napari (https://napari.org/)
-- bokeh (https://docs.bokeh.org/en/latest/)
-- plotly (https://plotly.com/)
-- D3.js (https://d3js.org/)
+- napari ([https://napari.org/](https://napari.org/))
+- bokeh ([https://docs.bokeh.org/en/latest/](https://docs.bokeh.org/en/latest/))
+- plotly ([https://plotly.com/](https://plotly.com/))
+- D3.js ([https://d3js.org/](https://d3js.org/))
 
 ### Data-specific
 
 #### Imaging:
 
-- skimage (https://scikit-image.org/)
-- Deformetrica (https://gitlab.com/icm-institute/aramislab/deformetrica, http://www.deformetrica.org/)
+- skimage ([https://scikit-image.org/](https://scikit-image.org/))
+- Deformetrica ([https://gitlab.com/icm-institute/aramislab/deformetrica, http://www.deformetrica.org/](https://gitlab.com/icm-institute/aramislab/)deformetrica, http://www.deformetrica.org/)
 
 #### Survival data:
 
-- Lifelines (https://lifelines.readthedocs.io/en/latest/)
-- Auton-survival (https://github.com/autonlab/auton-survival)
+- Lifelines ([https://lifelines.readthedocs.io/en/latest/](https://lifelines.readthedocs.io/en/latest/))
+- Auton-survival ([https://github.com/autonlab/auton-survival](https://github.com/autonlab/auton-survival))
 
 #### Computational Pathology:
 
-- QuPath (https://qupath.github.io/)
-- Cytomine (https://doc.cytomine.org/, https://cytomine.com/)
-- PathML (https://github.com/Dana-Farber-AIOS/pathml)
-- HistomicsTK (https://digitalslidearchive.github.io/HistomicsTK)
-- CLAM (https://github.com/mahmoodlab/CLAM)
-- ASAP (https://github.com/GeertLitjens/ASAP)
+- QuPath ([https://qupath.github.io/](https://qupath.github.io/))
+- Cytomine ([https://doc.cytomine.org/, https://cytomine.com/](https://doc.cytomine.org/, https://cytomine.com/))
+- PathML ([https://github.com/Dana-Farber-AIOS/pathml](https://github.com/Dana-Farber-AIOS/pathml))
+- HistomicsTK ([https://digitalslidearchive.github.io/HistomicsTK](https://digitalslidearchive.github.io/HistomicsTK))
+- CLAM ([https://github.com/mahmoodlab/CLAM](https://github.com/mahmoodlab/CLAM))
+- ASAP ([https://github.com/GeertLitjens/ASAP](https://github.com/GeertLitjens/ASAP))
 
 ### Web
 
-- Flask (https://flask.palletsprojects.com/en/2.1.x/)
-- fastapi (https://fastapi.tiangolo.com/)
-- nativefier (https://github.com/nativefier/nativefier)
+- Flask ([https://flask.palletsprojects.com/en/2.1.x/](https://flask.palletsprojects.com/en/2.1.x/))
+- fastapi ([https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/))
+- nativefier ([https://github.com/nativefier/nativefier](https://github.com/nativefier/nativefier))
 
 ### Productivity and logistics
 
 - Note taking:
-  - obsidian (https://obsidian.md/, https://github.com/obsidianmd)
+  - obsidian ([https://obsidian.md/, https://github.com/obsidianmd](https://obsidian.md/, https://github.com/obsidianmd))
 - Integrated development environment (IDE):
-  - sublimetext (https://www.sublimetext.com/)
-  - vscode (https://code.visualstudio.com/)
+  - sublimetext ([https://www.sublimetext.com/](https://www.sublimetext.com/))
+  - vscode ([https://code.visualstudio.com/](https://code.visualstudio.com/))
 - Figure editing:
-  - inkscape (https://inkscape.org/)
+  - inkscape ([https://inkscape.org/](https://inkscape.org/))
 - Software management:
-  - pip (https://pip.pypa.io/en/stable/)
-  - poetry (https://python-poetry.org/)
-  - uv (https://github.com/astral-sh/uv)
-  - conda (https://docs.conda.io/en/latest/)
-  - docker (https://www.docker.com/)
+  - pip ([https://pip.pypa.io/en/stable/](https://pip.pypa.io/en/stable/))
+  - poetry ([https://python-poetry.org/](https://python-poetry.org/))
+  - uv ([https://github.com/astral-sh/uv](https://github.com/astral-sh/uv))
+  - conda ([https://docs.conda.io/en/latest/](https://docs.conda.io/en/latest/))
+  - docker ([https://www.docker.com/](https://www.docker.com/))
 - Code improvement:
-  - ruff (https://github.com/astral-sh/ruff)
-  - mypy (https://mypy-lang.org/)
-  - pre-commit (https://pre-commit.com/)
-  - sublimemerge (https://www.sublimemerge.com/)
+  - ruff ([https://github.com/astral-sh/ruff](https://github.com/astral-sh/ruff))
+  - mypy ([https://mypy-lang.org/](https://mypy-lang.org/))
+  - pre-commit ([https://pre-commit.com/](https://pre-commit.com/))
+  - sublimemerge ([https://www.sublimemerge.com/](https://www.sublimemerge.com/))
 - Documentation:
-  - sphinx (https://www.sphinx-doc.org/en/master/)
-  - pandoc (https://pandoc.org/)
+  - sphinx ([https://www.sphinx-doc.org/en/master/](https://www.sphinx-doc.org/en/master/))
+  - pandoc ([https://pandoc.org/](https://pandoc.org/))
 - Interactive and environment management:
-  - IPython (https://ipython.org/)
-  - virtualenv (https://virtualenv.pypa.io/en/latest/)
-  - jupyter-notebook (https://jupyter.org/)
+  - IPython ([https://ipython.org/](https://ipython.org/))
+  - virtualenv ([https://virtualenv.pypa.io/en/latest/](https://virtualenv.pypa.io/en/latest/))
+  - jupyter-notebook ([https://jupyter.org/](https://jupyter.org/))
 
 ### Data repositories
 
 - Generic:
-  - Zenodo (https://zenodo.org/)
-  - GigaDB (http://gigadb.org/)
-  - Synapse (https://www.synapse.org/)
+  - Zenodo ([https://zenodo.org/](https://zenodo.org/))
+  - GigaDB ([http://gigadb.org/](http://gigadb.org/))
+  - Synapse ([https://www.synapse.org/](https://www.synapse.org/))
 - Transcriptomics:
   - GEO
   - ArrayExpress

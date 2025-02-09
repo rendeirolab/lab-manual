@@ -56,10 +56,10 @@
 ### Strategic collaborative projects (SCPs)
 
 - Everyone is encouraged to participate in more than one depending on interest/relevance
-- SCP2: Aging & longevity:
+- SCP2: "Tissue biology in health, aging, and disease":
   - One meeting per month
   - Two organizers (generally from De Rooij and Rendeiro labs)
-  - Mailing list: scp2@cemmat.onmicrosoft.com
+  - Mailing list: [scp2@cemmat.onmicrosoft.com](mailto:scp2@cemmat.onmicrosoft.com)
   - Send papers with the usual format/tag in subject: `[paper] <title>`, and body: `<title> \n <url> \n <comment>`
 
 ### Hackatons
@@ -95,7 +95,7 @@ See also the "asking questions" section on [the learning note](learning.md).
 
 ## Messaging
 
-Use the lab's mailing list (rendeirogroup@int.cemm.at) for searchable, archivable content (announcements, scheduling, papers).
+Use the lab's mailing list ([rendeirogroup@int.cemm.at](rendeirogroup@int.cemm.at)) for searchable, archivable content (announcements, scheduling, papers).
 
 Use Microsoft Teams for non-archival content (curiosities, non-urgent questions, fun stuff).
 
@@ -121,4 +121,5 @@ Fields with `<>` should be replaced with content.
 ## Social meetings and celebrations
 
 Social gatherins for example in celebrations of personal and professional achievements are welcome and encouraged.
+
 They should however follow the guidelines and rules from CeMM.
