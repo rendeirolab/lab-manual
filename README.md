@@ -57,5 +57,5 @@ Some outstanding tasks to improve the manual's content, style and accessibility:
     - [x] Set up
     - [x] Fix `ul`, `ol` and `table` styling
     - [x] Fix intra-manual links (ending .md)
-    - [ ] Fix Python code blocks highlighting
+    - [x] Fix Python code blocks highlighting
     - [ ] Build only on tagged versions, not on `main`
