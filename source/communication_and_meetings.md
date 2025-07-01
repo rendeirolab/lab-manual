@@ -64,20 +64,15 @@
 
 ### Hackatons
 
-- one afternoon every 2-3 months
-- ideas:
-  - CeMMome (involve more people?):
-    1. Literature mining: papers, research reports, press releases
-    1. Friday seminar audio transcription
-    1. Data Science:
-    1. What topics are there at CeMM?
-    1. How did they evolve over time?
-    1. Individuals:
-  - Configuring "hilde"
-  - Lab website
-  - Deep learning basics
-  - AI art
-  - ...
+- One afternoon every 2-3 months
+- Goals:
+  - Learn something new
+  - Have fun
+  - Do something useful for the community (CeMM, Vienna, world)
+- Non-goals:
+  - Win
+  - Do everything
+  - Do something perfect
 
 ### Yearly kick start/team building meeting
 

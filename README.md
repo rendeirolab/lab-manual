@@ -43,16 +43,16 @@ We thank the following labs for sharing their open-source lab manuals, which ins
 
 Some outstanding tasks to improve the manual's content, style and accessibility:
 
-- [ ] Improve and include [public data page](source/public_data.md)
-- [ ] Add additional resources on project planning
-- [ ] Add section on 'Developing a project'
-- [ ] Add section on 'Publications'
-- [ ] Add section on 'Authorship'
-- [ ] Add section on 'Engaging in new projects'
+- [x] Improve and include [public data page](source/public_data.md)
+- [x] Add additional resources on project planning
+- [x] Add section on 'Developing a project'
+- [x] Add section on 'Publications'
+- [x] Add section on 'Authorship'
+- [x] Add section on 'Engaging in new projects'
+- [x] Remove hackaton ideas section from 'Communication'
 - [ ] Add proper `href` for all links
 - [ ] Align all file names with `h1` heading (for easy linking and easier website deploy)
-- [ ] Remove hackaton ideas section from 'Communication'
-- [ ] Updat build and dependencies docs
+- [ ] Update build and dependencies docs
 - [ ] Website deployment
     - [x] Set up
     - [x] Fix `ul`, `ol` and `table` styling
