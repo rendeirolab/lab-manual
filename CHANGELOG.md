@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+-
+
+## 2025-07-01
+
+- Finish `research.md`
+- Improve JSON validation instructions
 - Add TODO sections to README
 
 ## 2025-01-27
