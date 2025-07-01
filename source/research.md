@@ -43,12 +43,14 @@ From a practical standpoint, also refeer to the lab's [Project Template](https:/
 ### Reporting research
 
 Figures are the core of communicating reserach:
+
 - Figures are crucial for communicating research. We encourage lab members to:
 - Conceptualize figures early: Sketch potential figures during project development to visualize your story and refine experimental design. This "Figure Zero" mentality focuses work on key data that supports your narrative.
 - Assemble figures often: Don't wait until the end. Assemble plots into draft figures iteratively as data comes in. This helps identify gaps, maintain quality, and keeps publication as the ultimate goal.
 - Leverage vector graphics: Figures created as vector graphics (SVG, PDF) are highly versatile. They scale without resolution loss and can be reused efficiently across publications, presentations, grants, and posters, saving significant time.
 
 PowerPoint, often due to misuse, can be detrimental to effective communication by:
+
 - Enforcing rigid structure: Its linear format can oversimplify complex ideas, losing nuance.
 - Encouraging style over substance: Time is often spent on aesthetics rather than refining the core message.
 - "Death by PowerPoint": Poorly constructed slides can bore and disengage the audience.

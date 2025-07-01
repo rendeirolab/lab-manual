@@ -5,15 +5,15 @@ So far it details only computational infrastructure.
 
 ## Lab infrastructure
 
-### Hardware
+#### Hardware
 
 - Hilde workstation: [setting up and maintaining the hilde workstation: hilde_workstation.md](https://github.com/rendeirolab/labdocs/blob/main/hilde_workstation.md)
 
-### VMs
+#### VMs
 
 - Cytomine: [setting up and maintaining the cytomine VM: cytomine.md](https://github.com/rendeirolab/labdocs/blob/main/cytomine.md)
 
-### Cloud resources
+#### Cloud resources
 
 [Read the documentation on using Azure web services here: azure.md](https://github.com/rendeirolab/labdocs/blob/main/azure.md)
 
@@ -22,7 +22,7 @@ So far it details only computational infrastructure.
 Refer to the [CeMM Intranet documentation](https://cemmat.sharepoint.com/sites/Intranet) for updated information.
 Below are a few notes on things which are not covered there:
 
-### Printing from Linux
+#### Printing from Linux
 
 CeMM has Canon iR-ADV C5735/5740 printers. They support IPP printing through CUPS.
 

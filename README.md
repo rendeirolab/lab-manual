@@ -24,8 +24,9 @@ Styling for the manual is controlled by a custom [CSS file](assets/style.css), w
 
 ## Editing content
 
-To contribute:
-1. Edit or create files directly on GitHub or locally on your system.
+To contribute to the manual:
+
+1. Edit or create files directly on GitHub, or locally on your system.
 2. Submit a pull request with a clear, one-line description of the changes made.
 3. Follow best practices by adding reviewers and referencing related issues, if applicable.
 
