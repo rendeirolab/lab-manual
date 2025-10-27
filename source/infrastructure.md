@@ -8,6 +8,9 @@ So far it details only computational infrastructure.
 #### Hardware
 
 - Hilde workstation: [setting up and maintaining the hilde workstation: hilde_workstation.md](https://github.com/rendeirolab/labdocs/blob/main/hilde_workstation.md)
+    - Usage can be booked through its dedicated calendar:
+        - HTML: https://outlook.office365.com/owa/calendar/92e5463911e04b688330fbd26c75faab@cemm.oeaw.ac.at/7dce5f2f61f84753bca69c49a309581114314229400116418487/calendar.html
+        - ICS: https://outlook.office365.com/owa/calendar/92e5463911e04b688330fbd26c75faab@cemm.oeaw.ac.at/7dce5f2f61f84753bca69c49a309581114314229400116418487/calendar.ics
 
 #### VMs
 
