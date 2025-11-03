@@ -20,21 +20,21 @@
 
 ### Lab meetings
 
-- Tuesdays, early week (12:30)
+- Fridays at 12:30, meeting room at CeMM
 - Schedule:
   - The schedule for the presentations is set by Andre and available [here](https://cemmat.sharepoint.com/:x:/r/sites/rendeirolab/_layouts/15/Doc.aspx?sourcedoc=%7BCA81B64C-2577-459B-BCAB-89C6678B342B%7D).
 - Format:
   - Housekeeping (announcements, scheduling)
     - Any update relevant to the lab by anyone
-  - Quick round reviewing week progress (20 min max, 3-5 min per person):
-    - What did you try to achieve? (broadly and specifically)
-    - What were the challenges?
-  - One or more scheduled presentations (20-30 min) including:
+  - One scheduled presentations (30-45 min) including:
     - Scientific question/hypothesis
     - Background (what has been done/can we build on)
     - Approach/methodology
     - Results
     - Outlook/next steps
+  - Quick round reviewing week progress (20 min max, 3-5 min per person, optional):
+    - What did you try to achieve? (broadly and specifically)
+    - What were the challenges? How can we help?
 
 ### Code review
 
