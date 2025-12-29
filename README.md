@@ -1,5 +1,7 @@
 <div style="page-break-after: always;"></div>
 
+![Logo image](assets/img/splash.png)
+
 # Lab manual
 
 Welcome to the Rendeiro Lab Manual.
@@ -23,6 +25,7 @@ Tip: to add a table of contents to a new file document, use [mdformat-toc](https
 ### Building the manual locally
 
 To preview changes locally before committing to Github and deploying on the lab website, you can build the manual locally using the provided tools. Ensure you have the necessary dependencies installed:
+
 - [Pandoc](https://pandoc.org/installing.html)
 - [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html)
 
@@ -49,11 +52,11 @@ Some outstanding tasks to improve the manual's content, style and accessibility:
 - [ ] Align all file names with `h1` heading (for easy linking and easier website deploy)
 - [ ] Update build and dependencies docs
 - [ ] Website deployment
-    - [x] Set up
-    - [x] Fix `ul`, `ol` and `table` styling
-    - [x] Fix intra-manual links (ending .md)
-    - [x] Fix Python code blocks highlighting
-    - [ ] Build only on tagged versions, not on `main`
+  - [x] Set up
+  - [x] Fix `ul`, `ol` and `table` styling
+  - [x] Fix intra-manual links (ending .md)
+  - [x] Fix Python code blocks highlighting
+  - [ ] Build only on tagged versions, not on `main`
 
 ## Acknowledgements
 

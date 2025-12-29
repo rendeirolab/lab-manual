@@ -25,6 +25,9 @@ cat ORDER | pandoc \
     -s `xargs` \
     -o build/html/rendeiro-lab_manual.html
 
+# Copy images
+cp -r assets build/html/
+
 # Add content inside 'container'
 sed 's/<body>/<body><div class="container">/g' -i build/html/rendeiro-lab_manual.html
 sed 's/<\/body>/<\/div><\/body>/g' -i build/html/rendeiro-lab_manual.html

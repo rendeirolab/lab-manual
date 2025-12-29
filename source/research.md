@@ -5,7 +5,7 @@
 ### Initializing a project
 
 1. Register your project in the lab's project register:
-   1. Go to [https://cemmat.sharepoint.com/sites/rendeirolab](https://cemmat.sharepoint.com/sites/rendeirolab) and find the 'Lab project register.xlsx' or directly [here](https://cemmat.sharepoint.com/:x:/r/sites/rendeirolab/\_layouts/15/Doc.aspx?sourcedoc=%7B4c72f84b-f33b-4162-a5e8-f05556fdf66b%7D&action=editnew).
+   1. Go to [https://cemmat.sharepoint.com/sites/rendeirolab](https://cemmat.sharepoint.com/sites/rendeirolab) and find the 'Lab project register.xlsx' or directly [here](https://cemmat.sharepoint.com/:x:/r/sites/rendeirolab/_layouts/15/Doc.aspx?sourcedoc=%7B4c72f84b-f33b-4162-a5e8-f05556fdf66b%7D&action=editnew).
    1. Start a new row for your project and increment the `Project ID` by one.
    1. Choose an intuitive name for the project, avoiding adding personal information e.g. collaborator names.
 1. Create a project directory structure from the lab's template: `cookiecutter gh:rendeirolab/_project_template`
@@ -73,10 +73,9 @@ Below are the preferred types of technology to be used in the lab to ensure cons
 
 Be receptive to input and suggestions from others on collaborating and engaging in new projects.
 
-However, a careful balance between finishing existing projects and starting new ones is crucial. 
+However, a careful balance between finishing existing projects and starting new ones is crucial.
 
-Consult with Andre before committing to new projects, especially if they involve significant time investment or resources. 
-
+Consult with Andre before committing to new projects, especially if they involve significant time investment or resources.
 
 ## Meta-science
 

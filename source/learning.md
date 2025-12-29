@@ -219,7 +219,7 @@ These are some of the software packages we use often in the lab. You can more ea
 - sklearn ([https://scikit-learn.org/stable/](https://scikit-learn.org/stable/))
 - imbalanced-learn ([https://imbalanced-learn.org/](https://imbalanced-learn.org/))
 - pymer4 ([https://eshinjolly.com/pymer4/](https://eshinjolly.com/pymer4/))
-- PyMC ([https://www.pymc.io/welcome.html, https://www.pymc.io/projects/docs/en/stable/learn.html](https://www.pymc.io/welcome.html, https://www.pymc.io/)projects/docs/en/stable/learn.html)
+- PyMC (\[https://www.pymc.io/welcome.html, https://www.pymc.io/projects/docs/en/stable/learn.html\](https://www.pymc.io/welcome.html, https://www.pymc.io/)projects/docs/en/stable/learn.html)
 
 ### Tensor-specific
 
@@ -267,7 +267,7 @@ These are some of the software packages we use often in the lab. You can more ea
 #### Computational Pathology:
 
 - QuPath ([https://qupath.github.io/](https://qupath.github.io/))
-- Cytomine ([https://doc.cytomine.org/, https://cytomine.com/](https://doc.cytomine.org/, https://cytomine.com/))
+- Cytomine (\[https://doc.cytomine.org/, https://cytomine.com/\](https://doc.cytomine.org/, https://cytomine.com/))
 - PathML ([https://github.com/Dana-Farber-AIOS/pathml](https://github.com/Dana-Farber-AIOS/pathml))
 - HistomicsTK ([https://digitalslidearchive.github.io/HistomicsTK](https://digitalslidearchive.github.io/HistomicsTK))
 - CLAM ([https://github.com/mahmoodlab/CLAM](https://github.com/mahmoodlab/CLAM))
@@ -282,7 +282,7 @@ These are some of the software packages we use often in the lab. You can more ea
 ### Productivity and logistics
 
 - Note taking:
-  - obsidian ([https://obsidian.md/, https://github.com/obsidianmd](https://obsidian.md/, https://github.com/obsidianmd))
+  - obsidian (\[https://obsidian.md/, https://github.com/obsidianmd\](https://obsidian.md/, https://github.com/obsidianmd))
 - Integrated development environment (IDE):
   - sublimetext ([https://www.sublimetext.com/](https://www.sublimetext.com/))
   - vscode ([https://code.visualstudio.com/](https://code.visualstudio.com/))
@@ -314,8 +314,8 @@ These are some of the software packages we use often in the lab. You can more ea
   - GigaDB ([http://gigadb.org/](http://gigadb.org/))
   - Synapse ([https://www.synapse.org/](https://www.synapse.org/))
 - Transcriptomics:
-  - GEO
-  - ArrayExpress
+  - GEO ([https://www.ncbi.nlm.nih.gov/geo/](https://www.ncbi.nlm.nih.gov/geo/))
+  - ArrayExpress ([https://www.ebi.ac.uk/arrayexpress/](https://www.ebi.ac.uk/arrayexpress/))
 - Sensitive data:
-  - EGA
-  - dbGAP
+  - EGA ([https://ega-archive.org/](https://ega-archive.org/))
+  - dbGAP ([https://dbgap.ncbi.nlm.nih.gov/](https://dbgap.ncbi.nlm.nih.gov/))
