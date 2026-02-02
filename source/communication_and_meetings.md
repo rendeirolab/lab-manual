@@ -4,8 +4,8 @@
 
 ### Individual meetings
 
-- Mondays, every week, scheduled via Outlook calendar
-- Prepare in advance
+- Every week, typically Mondays, scheduled via Outlook calendar
+- Prepare in advance:
   - What are upcoming events (2-3 months; e.g. committee meeting, conference, meetings with collaborators)
   - Progress and results
   - Other activities (including non-scientific like courses attended, tutorials, infrastructure)
@@ -20,7 +20,7 @@
 
 ### Lab meetings
 
-- Fridays at 12:30, meeting room at CeMM
+- Wednesdays at 09:00, meeting room at CeMM or LBI-NetMed - scheduled via Outlook calendar
 - Schedule:
   - The schedule for the presentations is set by Andre and available [here](https://cemmat.sharepoint.com/:x:/r/sites/rendeirolab/_layouts/15/Doc.aspx?sourcedoc=%7BCA81B64C-2577-459B-BCAB-89C6678B342B%7D).
 - Format:
