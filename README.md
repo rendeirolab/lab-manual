@@ -1,7 +1,5 @@
 <div style="page-break-after: always;"></div>
 
-<img src="https://rendeirolab.github.io/assets/images/splash.png" alt="Rendeiro Lab Logo"/>
-
 # Lab manual
 
 Welcome to the Rendeiro Lab Manual.
