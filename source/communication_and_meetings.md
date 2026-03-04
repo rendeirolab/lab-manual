@@ -94,7 +94,7 @@ Use the lab's mailing list ([rendeirogroup@int.cemm.at](rendeirogroup@int.cemm.a
 
 Use Microsoft Teams for non-archival content (curiosities, non-urgent questions, fun stuff).
 
-Use Signal's lab group for quick messages (coordinating movement, real-time info, urgent questions, fun stuff).
+Use Signal's lab group for quick messages (coordinating movement, real-time info, urgent questions, fun stuff). To join, follow this link: https://signal.group/#CjQKIJaQhfIeNbkRHzitFJO8su4HvqPjq-j_DRrNlO4K2i8bEhANUaIfDf0rxhBHkSLd3Mvc
 
 ## Papers
 
