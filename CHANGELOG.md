@@ -2,7 +2,7 @@
 
 ## Unreleased
 
--
+- Add Podman cluster examples (bash + LazySlide) with directory isolation.
 
 ## 2025-07-01
 
