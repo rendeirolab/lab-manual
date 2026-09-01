@@ -14,6 +14,7 @@
    1. Create a directory inside called `data` to store raw data.
 1. Create a directory for the project in the CeMM cluster at: `/nobackup/groups/lab_rendeiro/projects/`
    1. Create a soft link between `/research/.../data` and `/nobackup/.../data`
+1. To run a job in a container with that isolation (data read-only, results on nobackup), see [Cluster containers (Podman)](infrastructure.md#cluster-containers-podman).
 1. Create a `cemm_metadata.json` file in `/research/groups/lab_rendeiro/projects/$PROJECT/`
 1. Create a `cemm_metadata.json` file in `/nobackup/groups/lab_rendeiro/projects/$PROJECT/`
 
