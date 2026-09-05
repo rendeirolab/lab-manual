@@ -25,6 +25,28 @@ So far it details only computational infrastructure.
 Refer to the [CeMM Intranet documentation](https://cemmat.sharepoint.com/sites/Intranet) for updated information.
 Below are a few notes on things which are not covered there:
 
+#### Cluster containers (Podman)
+
+On the CeMM cluster, use **Podman** for directory isolation (not speed): mount project `data` **read-only**, write only under `/nobackup/.../results`, and do **not** mount `$HOME`. The job script loads Podman (`module load podman`). For partitions, QoS, and GPUs, use the [CeMM cluster documentation](https://cemmat.sharepoint.com/sites/IT-Resources); `tinyq` in the examples is CPU-only.
+
+Scripts: [`examples/podman/01_bash.sbatch`](examples/podman/01_bash.sbatch) (`python:3.12-slim`), [`examples/podman/02_lazyslide.sbatch`](examples/podman/02_lazyslide.sbatch) (`ghcr.io/rendeirolab/lazyslide:v0.12.0`). Keep [`extract.py`](examples/podman/extract.py) next to `02_lazyslide.sbatch`. Submit **from that directory** so Slurm finds the files (`#SBATCH --output` and `extract.py` use the submit dir). `DATA` must already exist; `OUT` is created.
+
+```bash
+cd source/examples/podman   # or copy the three files somewhere on the cluster
+
+PROJECT=my_project
+DATA=/research/lab_rendeiro/projects/${PROJECT}/data
+OUT=/nobackup/lab_rendeiro/projects/${PROJECT}/results/container-demo
+
+sbatch --export=ALL,DATA="$DATA",OUT="$OUT" 01_bash.sbatch
+sbatch --export=ALL,DATA="$DATA",OUT="$OUT" 02_lazyslide.sbatch
+
+# Optional: a slide under DATA (path inside the container is /data/...)
+# sbatch --export=ALL,DATA="$DATA",OUT="$OUT",SLIDE=/data/slide.svs 02_lazyslide.sbatch
+```
+
+Without `SLIDE`, LazySlide runs `zs.datasets.sample()` and writes `sample.zarr` in `OUT`. Logs: `podman-bash-<jobid>.out` and `podman-lazyslide-<jobid>.out` in the submit directory.
+
 #### Printing from Linux
 
 CeMM has Canon iR-ADV C5735/5740 printers. They support IPP printing through CUPS.
