@@ -49,21 +49,37 @@ Without `SLIDE`, LazySlide runs `zs.datasets.sample()` and writes `sample.zarr` 
 
 #### Printing from Linux
 
-CeMM has Canon iR-ADV C5735/5740 printers. They support IPP printing through CUPS.
+CeMM has Canon imageFORCE C5140/5150 printers (upgraded from the iR-ADV C5735/5740
+series in 2026). They support printing from Linux via CUPS.
 
-Install CUPS:
+Since the upgrade the devices no longer expose IPP (port 631 is closed and they
+are not advertised over mDNS/Bonjour), so CUPS's driverless `-m everywhere` no
+longer works. Plain PostScript over the raw socket port (9100) still prints
+without authentication, so add the queues with a PostScript PPD instead.
+Install CUPS first:
 
 ```bash
 sudo apt-get install cups
 ```
 
-Add printers:
+Then add the queues:
 
 ```bash
-sudo lpadmin -p CeMM_level_2 -E -v ipp://193.171.185.37/ipp -m everywhere
-sudo lpadmin -p CeMM_level_3 -E -v ipp://193.171.185.212/ipp -m everywhere
-sudo lpadmin -p CeMM_level_4 -E -v ipp://193.171.185.39/ipp -m everywhere
-sudo lpadmin -p CeMM_level_5 -E -v ipp://193.171.185.40/ipp -m everywhere
-sudo lpadmin -p CeMM_level_6 -E -v ipp://193.171.185.38/ipp -m everywhere
-sudo lpadmin -p CeMM_level_7 -E -v ipp://193.171.185.41/ipp -m everywhere
+PPD=foomatic:Canon-iR-ADV_C5235_5240-Postscript.ppd
+sudo lpadmin -p CeMM_level_2 -E -v socket://193.171.185.37:9100  -m "$PPD" -o PageSize=A4 -o sides=two-sided-long-edge
+sudo lpadmin -p CeMM_level_4 -E -v socket://193.171.185.39:9100  -m "$PPD" -o PageSize=A4 -o sides=two-sided-long-edge
+sudo lpadmin -p CeMM_level_6 -E -v socket://193.171.185.38:9100  -m "$PPD" -o PageSize=A4 -o sides=two-sided-long-edge
+sudo lpadmin -p CeMM_level_7 -E -v socket://193.171.185.41:9100  -m "$PPD" -o PageSize=A4 -o sides=two-sided-long-edge
+```
+
+Any PostScript PPD works — the model in the `foomatic:` name is irrelevant (the
+imageFORCE series has PostScript 3 as standard); on distributions without
+`foomatic-db-ppds`, use any generic PostScript PPD.
+
+IPs are as observed in 2026-09. Levels 3 (193.171.185.212) and 5
+(193.171.185.40) did not respond — ask CeMM IT if you need them, or if the
+printers move again. Test with:
+
+```bash
+lp -d CeMM_level_2 -o sides=two-sided-long-edge document.pdf
 ```
