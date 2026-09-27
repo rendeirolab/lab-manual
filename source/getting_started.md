@@ -51,6 +51,10 @@ The short form `<user>@cemm.at` can also receive emails and is mandatory to acce
 
 Forwarding CeMM emails to external services is not allowed.
 
+##### Time zone
+
+Use the online version of Outlook to set the correct time zone. Go to Settings (top right corner) -> Calendar -> View -> Time zones and search for Vienna. To set the work hours, go to Settings -> Calendar -> Work hours and location and select the times for each workday.
+
 ##### Shared drives and directories
 
 Windows shares:
