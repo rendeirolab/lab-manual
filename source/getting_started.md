@@ -55,9 +55,9 @@ Forwarding CeMM emails to external services is not allowed.
 
 Windows shares:
 
-- Groupdata: `smb://int.cemm.at/files/groupdata/`
-- Labs: `smb://int.cemm.at/files/labs/`
-- Home Folder: `smb://int.cemm.at/files/home/<username>`
+- Groupdata: `smb://int.cemm.at/data/groupdata/`
+- Labs: `smb://int.cemm.at/data/labs/`
+- Home Folder: `smb://int.cemm.at/data/home/<username>`
   Cluster shares: `smb://hpctransfer`
 
 Login with your CeMM credentials and the domain name (if asked) is "cemmint".

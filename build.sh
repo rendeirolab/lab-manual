@@ -8,9 +8,9 @@ sed -i -e "s/<VERSION>/$VERSION/g" metadata.yaml
 readarray -d ' ' ORDER < ORDER
 
 ## Add newline at end of each file
-echo ${ORDER[@]:0:12} | xargs sed -i -e '$a\\n'
+echo ${ORDER[@]:0:13} | xargs sed -i -e '$a\\n'
 ## Add a page break after each file
-echo ${ORDER[@]:0:12} | xargs sed -i -e '$a<div style="page-break-after: always;"></div>'
+echo ${ORDER[@]:0:13} | xargs sed -i -e '$a<div style="page-break-after: always;"></div>'
 
 # Convert to HTML
 cat ORDER | pandoc \
@@ -48,6 +48,6 @@ wkhtmltopdf \
 ## Remove version
 sed -i -e "s/$VERSION/<VERSION>/g" metadata.yaml
 ## Delete last 3 lines of each file
-echo ${ORDER[@]:0:12} | xargs sed -i -e '$ d'
-echo ${ORDER[@]:0:12} | xargs sed -i -e '$ d'
-echo ${ORDER[@]:0:12} | xargs sed -i -e '$ d'
+echo ${ORDER[@]:0:13} | xargs sed -i -e '$ d'
+echo ${ORDER[@]:0:13} | xargs sed -i -e '$ d'
+echo ${ORDER[@]:0:13} | xargs sed -i -e '$ d'

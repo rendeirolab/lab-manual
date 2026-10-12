@@ -61,4 +61,6 @@ CeMM has specific guidelines for data management, in particular for projects tha
 
 In particular, each project should have a `cemm_metadata.json` file.
 
+Archiving a project (see [data archiving](data_archiving.md)) deletes its folders from the cluster, including these files. Tell your Data Management representative when you archive a project.
+
 The [research](research.md) page also provides information on this.

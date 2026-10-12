@@ -3,6 +3,9 @@
 ## Unreleased
 
 - Add Podman cluster examples (bash + LazySlide) with directory isolation.
+- Add data archiving page and `scripts/archive_project.sh` to archive projects to Azure.
+- Rewrite offboarding page as checklists for the leaving team member and for the PI.
+- Fix cluster paths in `research.md` (`/nobackup/lab_rendeiro`, `/research/lab_rendeiro`) and SMB share paths in `getting_started.md` (`smb://int.cemm.at/data`).
 
 ## 2025-07-01
 

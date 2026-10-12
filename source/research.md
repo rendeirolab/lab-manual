@@ -10,15 +10,15 @@
    1. Choose an intuitive name for the project, avoiding adding personal information e.g. collaborator names.
 1. Create a project directory structure from the lab's template: `cookiecutter gh:rendeirolab/_project_template`
 1. Create a git repository on GitHub ([https://github.com/rendeirolab](https://github.com/rendeirolab)) with the same name as the project, make a first commit and push to Github.
-1. Create a directory for the project in the CeMM cluster at: `/research/groups/lab_rendeiro/projects/`
+1. Create a directory for the project in the CeMM cluster at: `/research/lab_rendeiro/projects/`
    1. Create a directory inside called `data` to store raw data.
-1. Create a directory for the project in the CeMM cluster at: `/nobackup/groups/lab_rendeiro/projects/`
+1. Create a directory for the project in the CeMM cluster at: `/nobackup/lab_rendeiro/projects/`
    1. Create a soft link between `/research/.../data` and `/nobackup/.../data`
 1. To run a job in a container with that isolation (data read-only, results on nobackup), see [Cluster containers (Podman)](infrastructure.md#cluster-containers-podman).
-1. Create a `cemm_metadata.json` file in `/research/groups/lab_rendeiro/projects/$PROJECT/`
-1. Create a `cemm_metadata.json` file in `/nobackup/groups/lab_rendeiro/projects/$PROJECT/`
+1. Create a `cemm_metadata.json` file in `/research/lab_rendeiro/projects/$PROJECT/`
+1. Create a `cemm_metadata.json` file in `/nobackup/lab_rendeiro/projects/$PROJECT/`
 
-You can find various metadata JSON templates at `/research/groups/lab_rendeiro/projects/_templates/`.
+You can find various metadata JSON templates at `/research/lab_rendeiro/projects/_templates/`.
 
 Make sure to validate your JSON files, e.g.:
 
@@ -39,7 +39,7 @@ From a practical standpoint, also refeer to the lab's [Project Template](https:/
 - Version control: Use `git` for all code and analysis scripts. Commit frequently with descriptive messages.
 - Naming conventions: Adhere to consistent and descriptive naming conventions for files and directories to ensure clarity and ease of access.
 - File organization: Maintain a clear and logical directory structure for each project, separating raw data, processed data, scripts, results, and documentation.
-- Data backup: Backup only original data, or timestamped versions of processed data. Use the CeMM cluster's `/research/groups/lab_rendeiro/projects/$PROJECT` directory for this purpose.
+- Data backup: Backup only original data, or timestamped versions of processed data. Use the CeMM cluster's `/research/lab_rendeiro/projects/$PROJECT` directory for this purpose.
 
 ### Reporting research
 
@@ -57,6 +57,10 @@ PowerPoint, often due to misuse, can be detrimental to effective communication b
 - "Death by PowerPoint": Poorly constructed slides can bore and disengage the audience.
 
 By focusing on making figures proactively and using them to communicate (instead of PowerPoint), you'll develop your skills of visual story telling, enable you to tailor your analysis more directly to the a final figure plant and accelerate the path to publication.
+
+### Finishing a project
+
+When a project is finished or stale, push the code to GitHub and archive the data following [data archiving](data_archiving.md). Then mark the project as archived in the lab's project register.
 
 ## Tools and technologies of standard use within the lab
 

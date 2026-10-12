@@ -26,6 +26,7 @@ source/infrastructure.md \
 source/project_planning.md \
 source/research.md \
 source/record_keeping.md \
+source/data_archiving.md \
 source/learning.md \
 source/manuscript_writing.md \
 source/offboarding.md \
