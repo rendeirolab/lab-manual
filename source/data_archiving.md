@@ -51,10 +51,11 @@ Use it when a project ends (see [research](research.md)) or when someone leaves 
 
    ```bash
    az login --use-device-code
+   az account set --subscription "Rendeiro Dev"
    export AZCOPY_AUTO_LOGIN_TYPE=AZCLI   # lets azcopy reuse this login; add the line to ~/.bashrc to keep it
    ```
 
-   Run `./archive_project.sh --check` again; it should now say `Azure login as <you>`.
+   Run `./archive_project.sh --check` again; it should now say `Azure login as <you>, subscription 'Rendeiro Dev'`.
 
 ## Archive a project
 
@@ -151,7 +152,7 @@ The script works on projects in `/nobackup/lab_rendeiro/projects/` on the cluste
 
 ## Look inside an archive
 
-This is quick and very cheap. It needs the login from "Before you start".
+This is quick and very cheap. It needs the login and subscription from "Before you start".
 
 ```bash
 azcopy copy "https://strendeiroarchive.blob.core.windows.net/manifests/<project>/*" ./<project>-manifest/ --recursive
@@ -160,6 +161,8 @@ azcopy copy "https://strendeiroarchive.blob.core.windows.net/manifests/<project>
 Open `ARCHIVE.md`, the `*.filelist.txt` files (what is in each tarball) and `external_symlinks.txt` (data that was not archived). You can also browse the **manifests** container in the Azure portal from a CeMM office computer.
 
 ## Get a project back
+
+This needs the login and subscription from "Before you start".
 
 1. **Find the tarball name** you need in the file list (see [Look inside an archive](#look-inside-an-archive)). Names look like `<project>.nobackup.tar.gz`, `<project>.research.tar.gz` or, for `--split`, `<project>.nobackup.<DIR>-<subfolder>.tar.gz`. By lab convention the `data` folder lives under `/research` and is only linked from `/nobackup`, so you need the `research` tarball to get the data.
 1. **Request it.** This takes up to 15 hours:

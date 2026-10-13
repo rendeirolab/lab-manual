@@ -124,13 +124,16 @@ check_tools() {  # check_tools <tool>... ; returns 1 if any is missing
 }
 PACK_TOOLS=(tar pigz sha256sum openssl base64 find awk du)
 UPLOAD_TOOLS=(az azcopy)
+# The archive is in subscription "Rendeiro Dev", but `az login` selects "Rendeiro Prod" by default.
+AZ_LOGIN='az login --use-device-code && az account set --subscription "Rendeiro Dev"'
 
 if [[ "$MODE" == check ]]; then
   echo "Needed to build tarballs:"; ok=0; check_tools "${PACK_TOOLS[@]}" || ok=1
   echo "Needed to upload:";         check_tools "${UPLOAD_TOOLS[@]}" || ok=1
   if command -v az >/dev/null 2>&1; then
-    if az account show >/dev/null 2>&1; then echo "  OK       Azure login as $(az account show --query user.name -o tsv)"
-    else echo "  NOT LOGGED IN  run: az login --use-device-code"; ok=1; fi
+    if az account show >/dev/null 2>&1; then
+      echo "  OK       Azure login as $(az account show --query user.name -o tsv), subscription '$(az account show --query name -o tsv)'"
+    else echo "  NOT LOGGED IN  run: $AZ_LOGIN"; ok=1; fi
   fi
   exit $ok
 fi
@@ -248,7 +251,7 @@ fi
 # ---------------------------------------------------------------- upload
 [[ -n "$ACCOUNT" ]] || die "no storage account given (use --account NAME or set STORAGE_ACCOUNT)"
 check_tools "${UPLOAD_TOOLS[@]}" >/dev/null || { check_tools "${UPLOAD_TOOLS[@]}"; die "missing programs (see above)"; }
-az account show >/dev/null 2>&1 || die "not logged in to Azure; run: az login --use-device-code"
+az account show >/dev/null 2>&1 || die "not logged in to Azure; run: $AZ_LOGIN"
 # Stop now, not after the upload, if the inventory cannot be updated at the end.
 inv=$INVENTORY; [[ -e "$inv" ]] || inv=$(dirname "$INVENTORY")
 [[ -w "$inv" ]] || die "cannot write to $inv (ask HPC admins to make it group-writable)"

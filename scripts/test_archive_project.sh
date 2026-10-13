@@ -41,6 +41,10 @@ echo "$*" >> "$CALLS"
 EOF
 cat > "$bin/az" <<'EOF'
 #!/usr/bin/env bash
+case "$*" in
+  "account show --query user.name"*) echo tester; exit 0 ;;
+  "account show --query name"*) echo "Stub Subscription"; exit 0 ;;
+esac
 name=; args=("$@")
 for i in "${!args[@]}"; do [[ ${args[$i]} == -n ]] && name=${args[$((i+1))]}; done
 if [[ $name ]]; then   # az storage blob show -n NAME: md5 and tier of the uploaded blob
@@ -49,6 +53,11 @@ if [[ $name ]]; then   # az storage blob show -n NAME: md5 and tier of the uploa
 fi
 EOF
 chmod +x "$bin/az" "$bin/azcopy"
+
+# --check must show the active subscription: the default one after `az login` is not the archive's.
+out=$(PATH=$bin:$PATH bash "$here/archive_project.sh" --check 2>&1) || true
+grep -q "Stub Subscription" <<<"$out" || { echo "FAIL: --check does not show the Azure subscription"; fail=1; }
+
 upload() {
   : > "$calls"
   PATH=$bin:$PATH CALLS=$calls STAGING_DIR=$S USER=${USER:-tester} \
