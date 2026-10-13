@@ -20,6 +20,8 @@ So far it details only computational infrastructure.
 
 [Read the documentation on using Azure web services here: azure.md](https://github.com/rendeirolab/labdocs/blob/main/azure.md)
 
+Finished projects are archived in the lab's Azure storage account: see [data archiving](data_archiving.md).
+
 ## CeMM infrastructure
 
 Refer to the [CeMM Intranet documentation](https://cemmat.sharepoint.com/sites/Intranet) for updated information.
