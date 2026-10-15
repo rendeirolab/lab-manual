@@ -41,7 +41,7 @@ Styling for the manual is controlled by a custom [CSS file](assets/style.css), w
 ### Releases
 
 Versions are named by date (`YYYY-MM-DD`). To make a release, update [CHANGELOG.md](https://github.com/rendeirolab/lab-manual/blob/main/CHANGELOG.md) and the `version` and `date-released` fields in [CITATION.cff](https://github.com/rendeirolab/lab-manual/blob/main/CITATION.cff), then create a GitHub release with a tag of the same name.
-The build workflow attaches the HTML and PDF versions of the manual to the release, and [Zenodo](https://zenodo.org/) archives it with a DOI.
+The build workflow attaches the HTML and PDF versions of the manual to the release, and [Zenodo](https://zenodo.org/) archives it with a DOI, using the metadata in [`.zenodo.json`](https://github.com/rendeirolab/lab-manual/blob/main/.zenodo.json). When the list of authors changes, update both `.zenodo.json` and `CITATION.cff`.
 
 ## Citing the manual
 

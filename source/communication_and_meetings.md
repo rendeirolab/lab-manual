@@ -110,8 +110,23 @@ Fields with `<>` should be replaced with content.
 
 ## Lab retreats
 
-> [!CAUTION]
-> TODO
+Once a year, usually in early September, the whole lab goes on a 2-3 day retreat outside Vienna (e.g. Gumpoldskirchen in 2025, Dürnstein in the Wachau in 2026), travelling together by train.
+
+- Organization:
+  - Lab members volunteer to organize the retreat: they choose the dates and venue a few months in advance and share a program with the sessions and schedule.
+  - Fill in the CeMM travel application form before the retreat.
+  - The venue needs a meeting room with a projector, internet and a whiteboard or flipchart.
+- Typical sessions:
+  - **Funding update**: the PI presents the lab's grants, what is on track, and where more focus is needed, followed by discussion.
+  - **Presenting projects in new ways**: e.g. swapping short presentations and giving each other's talk, or re-framing your own project for a different audience or story.
+  - **Paper showdown**: everyone brings 1-3 cutting-edge papers bringing new perspectives to the lab (1 min each).
+  - **Creative ideation and project pitches**: small teams develop wild new project ideas and pitch them to the group for feedback.
+  - **New directions for the lab**: discussion of themes, projects and technologies for the next 3-5 years, and organizational changes needed.
+  - **Lab life**: career development round table, sharing failure stories, and how to improve communication and productivity.
+  - **Wrap-up**: action points with owners and deadlines.
+- Social activities: dinners out, a hike, and evening games or music jam.
+
+Prepare any presentations or papers requested in the program before the retreat.
 
 ## Social meetings and celebrations
 

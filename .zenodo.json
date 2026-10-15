@@ -1,0 +1,43 @@
+{
+  "title": "Rendeiro lab manual",
+  "upload_type": "publication",
+  "publication_type": "other",
+  "description": "<p>The Rendeiro Lab Manual is a guide to the operations, culture, and best practices of the Rendeiro lab at CeMM. It covers onboarding, the code of conduct, communication, computational infrastructure, project planning and execution, record keeping, data archiving, learning resources, manuscript writing, and offboarding.</p><p>The manual can be read at <a href=\"https://rendeiro.group/lab-manual/\">https://rendeiro.group/lab-manual/</a>.</p>",
+  "creators": [
+    {
+      "name": "Rendeiro, André F.",
+      "orcid": "0000-0001-9362-5373",
+      "affiliation": "CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences"
+    },
+    {
+      "name": "Zheng, Yimin",
+      "orcid": "0000-0002-0394-9735"
+    },
+    {
+      "name": "Moustafa, Samir",
+      "orcid": "0000-0002-0674-9667"
+    },
+    {
+      "name": "Abila, Ernesto",
+      "orcid": "0009-0005-5995-4815"
+    },
+    {
+      "name": "Buljan, Iva",
+      "orcid": "0009-0001-8329-8097"
+    },
+    {
+      "name": "Veres, Tamas",
+      "orcid": "0009-0007-5644-3045"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "keywords": [
+    "lab manual",
+    "research",
+    "academia",
+    "documentation",
+    "computational biology"
+  ]
+}
