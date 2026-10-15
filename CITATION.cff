@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use or adapt this manual, please cite it as below."
+title: "Rendeiro lab manual"
+abstract: >-
+  The Rendeiro Lab Manual is a guide to the operations, culture, and best
+  practices of the Rendeiro lab at CeMM. It covers onboarding, the code of
+  conduct, communication, computational infrastructure, project planning and
+  execution, record keeping, data archiving, learning resources, manuscript
+  writing, and offboarding.
+type: software
+authors:
+  - given-names: André F.
+    family-names: Rendeiro
+    orcid: "https://orcid.org/0000-0001-9362-5373"
+    affiliation: "CeMM Research Center for Molecular Medicine of the Austrian Academy of Sciences"
+  - given-names: Yimin
+    family-names: Zheng
+    orcid: "https://orcid.org/0000-0002-0394-9735"
+  - given-names: Samir
+    family-names: Moustafa
+    orcid: "https://orcid.org/0000-0002-0674-9667"
+  - given-names: Ernesto
+    family-names: Abila
+    orcid: "https://orcid.org/0009-0005-5995-4815"
+  - given-names: Iva
+    family-names: Buljan
+    orcid: "https://orcid.org/0009-0001-8329-8097"
+  - given-names: Tamas
+    family-names: Veres
+    orcid: "https://orcid.org/0009-0007-5644-3045"
+version: "2026-10-15"
+date-released: "2026-10-15"
+license: CC-BY-4.0
+repository-code: "https://github.com/rendeirolab/lab-manual"
+url: "https://rendeiro.group/lab-manual/"
+keywords:
+  - lab manual
+  - research
+  - academia
+  - documentation
+  - computational biology

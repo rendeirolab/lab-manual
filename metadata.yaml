@@ -1,7 +1,14 @@
 title: Rendeiro lab manual
 subtitle: A guide to the Rendeiro lab at CeMM
+author:
+  - André F. Rendeiro
+  - Yimin Zheng
+  - Samir Moustafa
+  - Ernesto Abila
+  - Iva Buljan
+  - Tamas Veres
 abstract: |
-  > You are reading version '<VERSION>'.
+  > You are reading version '<VERSION>'. This manual is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/); see the [repository](https://github.com/rendeirolab/lab-manual) for how to cite it.
 
   The Rendeiro Lab Manual serves as a comprehensive guide to the lab’s operations, culture, and best practices.
 

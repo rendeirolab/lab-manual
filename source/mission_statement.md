@@ -1,6 +1,6 @@
-# Mission and philosophy
+# Mission statement
 
-## Mission statement
+## Mission
 
 At the Rendeiro Lab, we are committed to unraveling the complexities of human aging and pathology through the integration of computational innovation and molecular precision. As part of CeMM and the Ludwig Boltzmann Institute for Network Medicine, our mission is to decode the architectural patterns of the human body—from cellular microenvironments to organ-wide structures—and to understand how these patterns influence health, aging, and the onset of disease. We aim to uncover the mechanisms through which cellular and tissue-level changes contribute to the progressive decline in physiological function, and to leverage this knowledge to predict disease risk, facilitate early diagnosis, and inspire transformative therapeutic strategies.
 

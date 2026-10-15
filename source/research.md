@@ -4,26 +4,26 @@
 
 ### Initializing a project
 
-1. Register your project in the lab's project register:
-   1. Go to [https://cemmat.sharepoint.com/sites/rendeirolab](https://cemmat.sharepoint.com/sites/rendeirolab) and find the 'Lab project register.xlsx' or directly [here](https://cemmat.sharepoint.com/:x:/r/sites/rendeirolab/_layouts/15/Doc.aspx?sourcedoc=%7B4c72f84b-f33b-4162-a5e8-f05556fdf66b%7D&action=editnew).
+1. Register your project in the lab's project registry:
+   1. Go to [https://cemmat.sharepoint.com/sites/rendeirolab](https://cemmat.sharepoint.com/sites/rendeirolab) and find the 'Lab project register.xlsx' file, or directly [here](https://cemmat.sharepoint.com/:x:/r/sites/rendeirolab/_layouts/15/Doc.aspx?sourcedoc=%7B4c72f84b-f33b-4162-a5e8-f05556fdf66b%7D&action=editnew).
    1. Start a new row for your project and increment the `Project ID` by one.
    1. Choose an intuitive name for the project, avoiding adding personal information e.g. collaborator names.
 1. Create a project directory structure from the lab's template: `cookiecutter gh:rendeirolab/_project_template`
-1. Create a git repository on GitHub ([https://github.com/rendeirolab](https://github.com/rendeirolab)) with the same name as the project, make a first commit and push to Github.
+1. Create a git repository on GitHub ([https://github.com/rendeirolab](https://github.com/rendeirolab)) with the same name as the project, make a first commit and push to GitHub.
 1. Create a directory for the project in the CeMM cluster at: `/research/lab_rendeiro/projects/`
    1. Create a directory inside called `data` to store raw data.
 1. Create a directory for the project in the CeMM cluster at: `/nobackup/lab_rendeiro/projects/`
    1. Create a soft link between `/research/.../data` and `/nobackup/.../data`
-1. To run a job in a container with that isolation (data read-only, results on nobackup), see [Cluster containers (Podman)](infrastructure.md#cluster-containers-podman).
-1. Create a `cemm_metadata.json` file in `/research/lab_rendeiro/projects/$PROJECT/`
-1. Create a `cemm_metadata.json` file in `/nobackup/lab_rendeiro/projects/$PROJECT/`
+1. Create a `cemm_metadata.json` file in both `/research/lab_rendeiro/projects/$PROJECT/` and `/nobackup/lab_rendeiro/projects/$PROJECT/`
+
+To run jobs in a container with that isolation (data read-only, results on `/nobackup`), see [Cluster containers (Podman)](infrastructure.md#cluster-containers-podman).
 
 You can find various metadata JSON templates at `/research/lab_rendeiro/projects/_templates/`.
 
 Make sure to validate your JSON files, e.g.:
 
 ```bash
-wget --no-check-certificate https://metadata.int.cemm.at/latest/cemm_metadata_schema.json
+wget https://metadata.int.cemm.at/latest/cemm_metadata_schema.json
 uvx check-jsonschema --schemafile cemm_metadata_schema.json cemm_metadata.json 
 ```
 
@@ -31,7 +31,7 @@ uvx check-jsonschema --schemafile cemm_metadata_schema.json cemm_metadata.json
 
 See the [Project Planning](project_planning.md) section for conceptual details on how to design and develop a project.
 
-From a practical standpoint, also refeer to the lab's [Project Template](https://github.com/rendeirolab/_project_template) for instructions on how to set up a project repository, and how to structure your project files.
+From a practical standpoint, also refer to the lab's [Project Template](https://github.com/rendeirolab/_project_template) for instructions on how to set up a project repository, and how to structure your project files.
 
 ### Project management
 
@@ -43,9 +43,8 @@ From a practical standpoint, also refeer to the lab's [Project Template](https:/
 
 ### Reporting research
 
-Figures are the core of communicating reserach:
+Figures are crucial for communicating research. We encourage lab members to:
 
-- Figures are crucial for communicating research. We encourage lab members to:
 - Conceptualize figures early: Sketch potential figures during project development to visualize your story and refine experimental design. This "Figure Zero" mentality focuses work on key data that supports your narrative.
 - Assemble figures often: Don't wait until the end. Assemble plots into draft figures iteratively as data comes in. This helps identify gaps, maintain quality, and keeps publication as the ultimate goal.
 - Leverage vector graphics: Figures created as vector graphics (SVG, PDF) are highly versatile. They scale without resolution loss and can be reused efficiently across publications, presentations, grants, and posters, saving significant time.
@@ -56,11 +55,11 @@ PowerPoint, often due to misuse, can be detrimental to effective communication b
 - Encouraging style over substance: Time is often spent on aesthetics rather than refining the core message.
 - "Death by PowerPoint": Poorly constructed slides can bore and disengage the audience.
 
-By focusing on making figures proactively and using them to communicate (instead of PowerPoint), you'll develop your skills of visual story telling, enable you to tailor your analysis more directly to the a final figure plant and accelerate the path to publication.
+By focusing on making figures proactively and using them to communicate (instead of PowerPoint), you'll develop your skills of visual storytelling, tailor your analysis more directly to the final figure plan, and accelerate the path to publication.
 
 ### Finishing a project
 
-When a project is finished or stale, push the code to GitHub and archive the data following [data archiving](data_archiving.md). Then mark the project as archived in the lab's project register.
+When a project is finished or stale, push the code to GitHub and archive the data following [data archiving](data_archiving.md). Then mark the project as archived in the lab's project registry.
 
 ## Tools and technologies of standard use within the lab
 
@@ -80,11 +79,11 @@ Be receptive to input and suggestions from others on collaborating and engaging 
 
 However, a careful balance between finishing existing projects and starting new ones is crucial.
 
-Consult with Andre before committing to new projects, especially if they involve significant time investment or resources.
+Consult with André before committing to new projects, especially if they involve significant time investment or resources.
 
 ## Meta-science
 
 - The Night Science Series ([https://night-science.org/genome-biology-miniseries/](https://night-science.org/genome-biology-miniseries/))
 - The Night Science Podcast ([https://night-science.org/the-night-science-podcast/](https://night-science.org/the-night-science-podcast/))
 - The importance of stupidity in scientific research ([https://doi.org/10.1242/jcs.033340](https://doi.org/10.1242/jcs.033340))
-- Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial ([http://dx.doi.org/10.1136/bmj.k5094](http://dx.doi.org/10.1136/bmj.k5094))
+- Parachute use to prevent death and major trauma when jumping from aircraft: randomized controlled trial ([https://doi.org/10.1136/bmj.k5094](https://doi.org/10.1136/bmj.k5094))

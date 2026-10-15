@@ -40,9 +40,9 @@ The two strategies can be linked. For instance: Aim 1 is slightly incremental wi
 
 ### Shallow-pass strategy for project execution
 
-The **Shallow-pass strategy** is a systematic approach to project execution that emphasizes early, rapid, and minimally viable progress through a project’s full timeline, followed by iterative deepening of depth (both conceptually and technically) as needed. It draws on established principles from **Agile development**, **Rapid prototyping**, **Incremental research**, and **Lean startup** approaches.
+The **Shallow-pass strategy** is a systematic approach to project execution that emphasizes early, rapid, and minimally viable progress through a project’s full timeline, followed by iterative deepening (both conceptually and technically) as needed. It draws on established principles from **Agile development**, **Rapid prototyping**, **Incremental research**, and **Lean startup** approaches.
 
-### Core concept
+#### Core concept
 
 The strategy envisions a 2D space where:
 
@@ -53,23 +53,23 @@ Instead of moving **deeply** through each individual task in sequence (e.g., per
 
 This approach creates a “minimum viable version” of the entire project, akin to a **minimum viable product (MVP)**, and allows for early identification of bottlenecks, feasibility issues, and unknowns.
 
-Once this shallow layer is complete, **depth is added step-by-step** to specific areas where gains are most needed or most valuable. This "depth-first" progression occurs only when justified by clear metrics or emerging insights.
+Once this shallow layer is complete, **depth is added step-by-step** to specific areas where gains are most needed or most valuable. This step-by-step deepening occurs only when justified by clear metrics or emerging insights.
 
-### Execution
+#### Execution
 
-1. **Initial pass (shallow path)**: The goal is to complete a simple, end-to-end version of the project with minimal depth. This quick, rough pass identifies critical barriers, risks, and time-sinks. For example, instead of training a deep learning model on a large dataset, you might start with a simple logistic regression on a small subset, or run a pilot experiment to validate feasibility.
+1. **Initial pass (shallow pass)**: The goal is to complete a simple, end-to-end version of the project with minimal depth. This quick, rough pass identifies critical barriers, risks, and time-sinks. For example, instead of training a deep learning model on a large dataset, you might start with a simple logistic regression on a small subset, or run a pilot experiment to validate feasibility.
 1. **Iterative deepening (vertical progression)**: Revisit earlier steps and selectively add depth to areas that yield the most benefit. If an aspect works well at shallow depth, further refinement may be unnecessary. For example, after a successful logistic regression, you might increase depth by training a neural network, scaling up the dataset, or adding multi-modal inputs.
 1. **When to stop (completion)**: Avoid the "infinite perfection" trap by setting **success metrics** (e.g., 90% model accuracy) at the outset. Once these criteria are met, stop. If your classifier achieves 95% accuracy when the goal was 90%, additional work may have little value. Completion is defined by sufficiency, not perfection.
 
-### Common pitfalls and how to avoid them
+#### Common pitfalls and how to avoid them
 
-| **Pitfall** | **How to avoid** |
+| **Pitfall**                  | **How to avoid**                                                             |
 | ---------------------------- | ---------------------------------------------------------------------------- |
 | **Going too deep, too soon** | Focus on the shallow pass first. Move on even if the result isn’t “perfect.” |
-| **Perfectionism** | Set "success metrics" early. If you meet them, stop! |
-| **Sunk cost fallacy** | Shallow-pass shows which paths are dead ends. Pivot early. |
-| **Failure to prioritize** | Invest time in paths that provide the most "return on depth". |
-| **Getting stuck at step 1** | Even if step 1 is imperfect, keep moving to step 2. |
+| **Perfectionism**            | Set "success metrics" early. If you meet them, stop!                         |
+| **Sunk cost fallacy**        | Shallow-pass shows which paths are dead ends. Pivot early.                   |
+| **Failure to prioritize**    | Invest time in paths that provide the most "return on depth".                |
+| **Getting stuck at step 1**  | Even if step 1 is imperfect, keep moving to step 2.                          |
 
 ## Writing process
 
@@ -89,7 +89,7 @@ Once this shallow layer is complete, **depth is added step-by-step** to specific
 - Identify the central question or goal.
 - **"Walk back" from the goal** to define specific aims, objectives, and the path to achieving them.
 
-#### **Clarity is everything**
+#### Clarity is everything
 
 - Be simple, clear, and precise. Over-complication weakens the proposal.
 - Make abstract concepts **tangible** by showing concrete outputs, metrics, and practical outcomes.
@@ -141,7 +141,7 @@ Once this shallow layer is complete, **depth is added step-by-step** to specific
 - **Repurpose existing visuals**: Use (but adapt) figures from previous grants/papers.
 - **Preliminary data**: Include early evidence or preliminary results where relevant.
 
-### 5. Use of AI/LLMs (Large Language Models)
+### 5. Use of AI/LLMs (large language models)
 
 #### Dos and Don'ts
 
@@ -165,14 +165,9 @@ Once this shallow layer is complete, **depth is added step-by-step** to specific
 ## Summary of key takeaways
 
 1. **Designing a project**: Balance feasibility and novelty. Balance profiling (description) and perturbation (causation).
-1. **Executing a project**: Use the "square triangle" approach — shallow, fast progress first; deeper, slower progress later.
+1. **Executing a project**: Use the shallow-pass strategy — shallow, fast progress first; deeper, slower progress later.
 1. **Writing a proposal**: Work step-by-step, define key objectives first, and address the big picture.
 1. **Clarity and structure** are essential for success.
 1. **Involve supervisors early** in project design, figure development, and editing.
 1. **Leverage LLMs for support**, but control the process.
 1. **Learn from feedback** — it's one of the most valuable aspects of the process.
-
-## Additional Resources
-
-> [!CAUTION]
-> TODO

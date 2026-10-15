@@ -62,7 +62,7 @@ As a member of the lab you are responsible to be aware, understand, and eventual
   - Relationship of age and disease incidence
   - Classical experimental models and interventions
 
-Note that learning is a iterative and continuous process. You will need to revise and revise your knowledge in each topic over the time, each time getting a deeper understanding or a new perspective on it.
+Note that learning is an iterative and continuous process. You will need to revisit your knowledge in each topic over time, each time getting a deeper understanding or a new perspective on it.
 
 ## Literature to know
 
@@ -70,7 +70,7 @@ Note that learning is a iterative and continuous process. You will need to revis
 
 - "Deep learning in histopathology: the path to the clinic", Jeroen van der Laak, Geert Litjens & Francesco Ciompi, Nature Medicine (2021), https://doi.org/10.1038/s41591-021-01343-4
 - "The emerging landscape of spatial profiling technologies", Jeffrey R. Moffitt, Emma Lundberg & Holger Heyn, Nature Reviews Genetics (2022), https://doi.org/10.1038/s41576-022-00515-3
-- "Graph representation learning in biomedicine and healthcare", Li, M.M., Huang, K. & Zitnik, M. Nature Biomedicine (2022), https://doi.org/10.1038/s41551-022-00942-x
+- "Graph representation learning in biomedicine and healthcare", Li, M.M., Huang, K. & Zitnik, M. Nature Biomedical Engineering (2022), https://doi.org/10.1038/s41551-022-00942-x
 
 ### Data types
 
@@ -78,7 +78,7 @@ Note that learning is a iterative and continuous process. You will need to revis
   - Coudray et al. Classification and mutation prediction from non–small cell lung cancer histopathology images using deep learning, Nat. Medicine (2018), https://doi.org/10.1038/s41591-018-0177-5
   - Amgad et al. Structured crowdsourcing enables convolutional segmentation of histology images, Bioinformatics (2019), https://doi.org/10.1093/bioinformatics/btz083
 - IF (immunofluorescence)
-- IHC/ISH (immunohistochemistry)
+- IHC/ISH (immunohistochemistry / in situ hybridization)
 - Multiplex imaging methods:
   - **mIF:** Gerdes, M. J. et al. Highly multiplexed single-cell analysis of formalin-fixed, paraffin-embedded cancer tissue. Proc. Natl. Acad. Sci. U. S. A. 110, 11982–11987 (2013). https://doi.org/10.1073/pnas.1300136110
   - **4i:** Multiplexed protein maps link subcellular organization to cellular states Gut et al. Science (2018), https://doi.org/10.1126/science.aar7042
@@ -86,11 +86,11 @@ Note that learning is a iterative and continuous process. You will need to revis
   - **MIBI:** Angelo, M. et al. Multiplexed ion beam imaging of human breast tumors. Nat. Med. 20, 436–442 (2014), https://doi.org/10.1038/nm.3488
   - **CyCIF:** Lin, J.-R., Fallahi-Sichani, M. & Sorger, P. K. Highly multiplexed imaging of single cells using a high-throughput cyclic immunofluorescence method. Nat. Commun. 6, 8390 (2015), https://doi.org/10.1038/ncomms9390
   - **CODEX:** Goltsev, Y. et al. Deep profiling of mouse splenic architecture with CODEX multiplexed imaging. Cell (2018) https://doi.org/10.1016/j.cell.2018.07.010
-- Single-molecule fluorescent in-situ hibridization (**smFISH**):
+- Single-molecule fluorescent in situ hybridization (**smFISH**):
   - Chen, K. H., Boettiger, A. N., Moffitt, J. R., Wang, S. & Zhuang, X. RNA imaging. Spatially resolved, highly multiplexed RNA profiling in single cells. Science 348, aaa6090 (2015), https://doi.org/10.1126/science.aaa6090
   - Eng, C.-H. L. et al. Transcriptome-scale super-resolved imaging in tissues by RNA seqFISH. Nature 568, 235–239 (2019), https://doi.org/10.1038/s41586-019-1049-y
 - Spatial transcriptomics (umbrella term):
-  - Stickels, R. R. et al. Highly sensitive spatial transcriptomics at near-cellular resolution with SlideseqV2. Nat. Biotechnol. (2020), https://10.1038/s41587-020-0739-1
+  - Stickels, R. R. et al. Highly sensitive spatial transcriptomics at near-cellular resolution with SlideseqV2. Nat. Biotechnol. (2020), https://doi.org/10.1038/s41587-020-0739-1
   - Merritt, C. R. et al. Multiplex digital spatial profiling of proteins and RNA in fixed tissue. Nat. Biotechnol. 38, 586–599 (5/2020), https://doi.org/10.1038/s41587-020-0472-9
   - Salmén, F. et al. Barcoded solid-phase RNA capture for Spatial Transcriptomics profiling in mammalian tissue sections. Nat. Protoc. 13, 2501–2534 (2018), https://doi.org/10.1038/s41596-018-0045-2
 
@@ -100,8 +100,8 @@ Note that learning is a iterative and continuous process. You will need to revis
 - A whole-slide foundation model for digital pathology from real-world data (2024), https://www.nature.com/articles/s41586-024-07441-w
 - A Multimodal Generative AI Copilot for Human Pathology (2024), https://www.nature.com/articles/s41586-024-07618-3
 - A visual-language foundation model for computational pathology (2024), https://www.nature.com/articles/s41591-024-02856-4
-- A visual–language foundation model for pathology image analysis using medical Twitter (2024), https://www.nature.com/articles/s41591-023-02504-3
-- Chen et al. Pan-cancer integrative histology-genomic analysis via multimodal deep learning Cancer Cell (2022), https://10.1016/j.ccell.2022.07.004
+- A visual–language foundation model for pathology image analysis using medical Twitter (2023), https://www.nature.com/articles/s41591-023-02504-3
+- Chen et al. Pan-cancer integrative histology-genomic analysis via multimodal deep learning Cancer Cell (2022), https://doi.org/10.1016/j.ccell.2022.07.004
 - Chen et al. Scaling Vision Transformers to Gigapixel Images via Hierarchical Self-Supervised Learning (2022), https://arxiv.org/abs/2206.02647
 - Lu et al. CLAM: Data-efficient and weakly supervised computational pathology on whole-slide images (2021), https://doi.org/10.1038/s41551-020-00682-w
 - Pati et al. HACT-Net: A Hierarchical Cell-to-Tissue Graph Neural Network for Histopathological Image Classification (2020), https://arxiv.org/abs/2007.00584
@@ -110,7 +110,7 @@ Note that learning is a iterative and continuous process. You will need to revis
 
 #### Genetics of tissue and organ shape
 
-- Genetic and functional insights into the fractal structure of the heart (2020), https:doi.org/10.1038/s41586-020-2635-8
+- Genetic and functional insights into the fractal structure of the heart (2020), https://doi.org/10.1038/s41586-020-2635-8
 - Self-supervised learning for characterising histomorphological diversity and spatial RNA expression prediction across 23 human tissue types (2023), https://doi.org/10.1101/2023.08.22.554251
 - The sex of organ geometry (2024), https://www.nature.com/articles/s41586-024-07463-4
 
@@ -128,15 +128,15 @@ Note that learning is a iterative and continuous process. You will need to revis
 - "Network medicine for disease module identification and drug repurposing with the NeDRex platform", https://www.nature.com/articles/s41467-021-27138-2 \<- prototypical study of "network of disease module will eventually find something"
 - "Genome-wide investigation of gene-cancer associations for the prediction of novel therapeutic targets in oncology", https://www.nature.com/articles/s41598-020-67846-1 \<- prototypical study of "let's put all the data together and pray"
 - "Multi-omics reveals clinically relevant proliferative drive associated with mTOR-MYC-OXPHOS activity in chronic lymphocytic leukemia", https://www.nature.com/articles/s43018-021-00216-6 \<- example of great study on primary human samples (leukemia) combining omics with functional readouts (drug sensitivity). Even if it is a great study, it may miss the mark by focusing on a disease for which there are already very good treatment options
-- "Systems immunology-based drug repurposing framework to target inflammation in atherosclerosis", https://www.nature.com/articles/s44161-023-00278-y \<- nice example of a study wtih great readouts focused on atherosclerosis that goes straight to drug discovery
+- "Systems immunology-based drug repurposing framework to target inflammation in atherosclerosis", https://www.nature.com/articles/s44161-023-00278-y \<- nice example of a study with great readouts focused on atherosclerosis that goes straight to drug discovery
 
 ## Courses
 
 ### Programming, Computer Science
 
 - UNIX, git, security (MIT) (https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)
-- Introduction to Computer Science and Programming Using Python https://www.edx.org/course/introduction-to-computer-science-and-programming-7
-- Hypermodern Python (CLAUDIO JOLOWICZ) (https://cjolowicz.github.io/posts/hypermodern-python-01-setup/)
+- Introduction to Computer Science and Programming in Python (MIT), https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/
+- Hypermodern Python (Claudio Jolowicz) (https://cjolowicz.github.io/posts/hypermodern-python-01-setup/)
 
 ### Machine Learning / Deep Learning
 
@@ -179,10 +179,9 @@ Note that learning is a iterative and continuous process. You will need to revis
 
 - The ageing genome: from mechanisms to disease, https://www.embl.org/about/info/course-and-conference-office/events/ees23-04/
 
-### Other courses (paid):
+### Other courses (paid)
 
 - https://carpentries.org/workshops/
-- https://www.biocode.ltd/courses
 
 ## Books
 
@@ -191,16 +190,16 @@ Note that learning is a iterative and continuous process. You will need to revis
 ## Tutorials
 
 - Gradient descent and backpropagation: [https://www.youtube.com/watch?v=VMj-3S1tku0](https://www.youtube.com/watch?v=VMj-3S1tku0)
-- Transformers from scratch: [https://e2eml.school/transformers.html](https://e2eml.school/transformers.html)
+- Transformers from scratch: [https://brandonrohrer.com/transformers.html](https://brandonrohrer.com/transformers.html)
 - Data visualization / figure making with Python: [https://github.com/frankligy/python_visualization_tutorial](https://github.com/frankligy/python_visualization_tutorial)
-- Histology @ Yale: [http://medcell.org/histology/histology.php](http://medcell.org/histology/histology.php)
-- Systems Cell Biology @ Yale: [http://medcell.med.yale.edu/systems_cell_biology/systems_cell_biology.php](http://medcell.med.yale.edu/systems_cell_biology/systems_cell_biology.php)
+- Histology @ Yale: [https://medcell.org/histology/histology.php](https://medcell.org/histology/histology.php)
+- Systems Cell Biology @ Yale: [https://medcell.org/systems_cell_biology/systems_cell_biology.php](https://medcell.org/systems_cell_biology/systems_cell_biology.php)
 - Immunology: [https://www.youtube.com/watch?v=iwB8kKdNgdQ](https://www.youtube.com/watch?v=iwB8kKdNgdQ)
 - Software development: many paths to learning: [https://www.youtube.com/watch?v=66tfvFeALBQ](https://www.youtube.com/watch?v=66tfvFeALBQ)
 
 ## Software packages
 
-These are some of the software packages we use often in the lab. You can more easily be aware of the direction of their development and new versions by subscribing to their releases on Github (bell sign -> custom -> releases).
+These are some of the software packages we use often in the lab. You can more easily be aware of the direction of their development and new versions by subscribing to their releases on GitHub (bell sign -> custom -> releases).
 
 ### Data science
 
@@ -210,7 +209,7 @@ These are some of the software packages we use often in the lab. You can more ea
 - Scanpy ([https://scanpy.readthedocs.io/en/stable/](https://scanpy.readthedocs.io/en/stable/))
 - Squidpy ([https://squidpy.readthedocs.io/en/stable/](https://squidpy.readthedocs.io/en/stable/))
 - Networkx ([https://networkx.org/](https://networkx.org/))
-- Scikit-networks ([https://scikit-network.readthedocs.io/](https://scikit-network.readthedocs.io/))
+- scikit-network ([https://scikit-network.readthedocs.io/](https://scikit-network.readthedocs.io/))
 
 ### Statistics / machine learning
 
@@ -219,7 +218,7 @@ These are some of the software packages we use often in the lab. You can more ea
 - sklearn ([https://scikit-learn.org/stable/](https://scikit-learn.org/stable/))
 - imbalanced-learn ([https://imbalanced-learn.org/](https://imbalanced-learn.org/))
 - pymer4 ([https://eshinjolly.com/pymer4/](https://eshinjolly.com/pymer4/))
-- PyMC (\[https://www.pymc.io/welcome.html, https://www.pymc.io/projects/docs/en/stable/learn.html\](https://www.pymc.io/welcome.html, https://www.pymc.io/)projects/docs/en/stable/learn.html)
+- PyMC ([https://www.pymc.io/welcome.html](https://www.pymc.io/welcome.html), [https://www.pymc.io/projects/docs/en/stable/learn.html](https://www.pymc.io/projects/docs/en/stable/learn.html))
 
 ### Tensor-specific
 
@@ -230,13 +229,13 @@ These are some of the software packages we use often in the lab. You can more ea
 
 - weightsandbiases ([https://wandb.ai/site](https://wandb.ai/site)) \<- join the lab's team at [https://wandb.ai/rendeiro-group](https://wandb.ai/rendeiro-group)
 - pytorch ([https://pytorch.org/](https://pytorch.org/))
-- pytorch-lightning ([https://www.pytorchlightning.ai/](https://www.pytorchlightning.ai/))
+- pytorch-lightning ([https://lightning.ai/](https://lightning.ai/))
 - pytorch-geometric ([https://pytorch-geometric.readthedocs.io/en/latest/](https://pytorch-geometric.readthedocs.io/en/latest/))
 - captum ([https://captum.ai/](https://captum.ai/))
 - fastai ([https://docs.fast.ai/](https://docs.fast.ai/))
-- timm, pytorch-image-models ([https://github.com/rwightman/pytorch-image-models](https://github.com/rwightman/pytorch-image-models))
+- timm, pytorch-image-models ([https://github.com/huggingface/pytorch-image-models](https://github.com/huggingface/pytorch-image-models))
 - TabPFN ([https://github.com/automl/TabPFN](https://github.com/automl/TabPFN))
-- fiftyone ([https://voxel51.com/docs/fiftyone/](https://voxel51.com/docs/fiftyone/))
+- fiftyone ([https://docs.voxel51.com/](https://docs.voxel51.com/))
 - transformers ([https://github.com/huggingface/transformers](https://github.com/huggingface/transformers))
 
 ### Visualization
@@ -244,7 +243,7 @@ These are some of the software packages we use often in the lab. You can more ea
 - matplotlib ([https://matplotlib.org/](https://matplotlib.org/))
 - seaborn ([https://seaborn.pydata.org/](https://seaborn.pydata.org/))
 - scikit-yb ([https://www.scikit-yb.org/en/latest](https://www.scikit-yb.org/en/latest))
-- inkscape ([https://inkscape.org/)](https://inkscape.org/):)
+- inkscape ([https://inkscape.org/](https://inkscape.org/)):
   - https://www.inkscapeforstem.com/Inkscape-For-STEM-ee6dacb7a2e543218f87a29f69177fee
   - https://bioicons.com/
 - napari ([https://napari.org/](https://napari.org/))
@@ -254,20 +253,20 @@ These are some of the software packages we use often in the lab. You can more ea
 
 ### Data-specific
 
-#### Imaging:
+#### Imaging
 
 - skimage ([https://scikit-image.org/](https://scikit-image.org/))
-- Deformetrica ([https://gitlab.com/icm-institute/aramislab/deformetrica, http://www.deformetrica.org/](https://gitlab.com/icm-institute/aramislab/)deformetrica, http://www.deformetrica.org/)
+- Deformetrica ([https://gitlab.com/icm-institute/aramislab/deformetrica](https://gitlab.com/icm-institute/aramislab/deformetrica))
 
-#### Survival data:
+#### Survival data
 
 - Lifelines ([https://lifelines.readthedocs.io/en/latest/](https://lifelines.readthedocs.io/en/latest/))
 - Auton-survival ([https://github.com/autonlab/auton-survival](https://github.com/autonlab/auton-survival))
 
-#### Computational Pathology:
+#### Computational pathology
 
 - QuPath ([https://qupath.github.io/](https://qupath.github.io/))
-- Cytomine (\[https://doc.cytomine.org/, https://cytomine.com/\](https://doc.cytomine.org/, https://cytomine.com/))
+- Cytomine ([https://doc.cytomine.org/](https://doc.cytomine.org/), [https://cytomine.com/](https://cytomine.com/))
 - PathML ([https://github.com/Dana-Farber-AIOS/pathml](https://github.com/Dana-Farber-AIOS/pathml))
 - HistomicsTK ([https://digitalslidearchive.github.io/HistomicsTK](https://digitalslidearchive.github.io/HistomicsTK))
 - CLAM ([https://github.com/mahmoodlab/CLAM](https://github.com/mahmoodlab/CLAM))
@@ -275,14 +274,14 @@ These are some of the software packages we use often in the lab. You can more ea
 
 ### Web
 
-- Flask ([https://flask.palletsprojects.com/en/2.1.x/](https://flask.palletsprojects.com/en/2.1.x/))
+- Flask ([https://flask.palletsprojects.com/](https://flask.palletsprojects.com/))
 - fastapi ([https://fastapi.tiangolo.com/](https://fastapi.tiangolo.com/))
-- nativefier ([https://github.com/nativefier/nativefier](https://github.com/nativefier/nativefier))
+- nativefier ([https://github.com/nativefier/nativefier](https://github.com/nativefier/nativefier)), no longer maintained
 
 ### Productivity and logistics
 
 - Note taking:
-  - obsidian (\[https://obsidian.md/, https://github.com/obsidianmd\](https://obsidian.md/, https://github.com/obsidianmd))
+  - obsidian ([https://obsidian.md/](https://obsidian.md/), [https://github.com/obsidianmd](https://github.com/obsidianmd))
 - Integrated development environment (IDE):
   - sublimetext ([https://www.sublimetext.com/](https://www.sublimetext.com/))
   - vscode ([https://code.visualstudio.com/](https://code.visualstudio.com/))
@@ -293,7 +292,7 @@ These are some of the software packages we use often in the lab. You can more ea
   - poetry ([https://python-poetry.org/](https://python-poetry.org/))
   - uv ([https://github.com/astral-sh/uv](https://github.com/astral-sh/uv))
   - conda ([https://docs.conda.io/en/latest/](https://docs.conda.io/en/latest/))
-  - docker ([https://www.docker.com/](https://www.docker.com/))
+  - docker ([https://www.docker.com/](https://www.docker.com/)); on the CeMM cluster use podman ([https://podman.io/](https://podman.io/)) instead, see [infrastructure](infrastructure.md#cluster-containers-podman)
 - Code improvement:
   - ruff ([https://github.com/astral-sh/ruff](https://github.com/astral-sh/ruff))
   - mypy ([https://mypy-lang.org/](https://mypy-lang.org/))
@@ -311,11 +310,11 @@ These are some of the software packages we use often in the lab. You can more ea
 
 - Generic:
   - Zenodo ([https://zenodo.org/](https://zenodo.org/))
-  - GigaDB ([http://gigadb.org/](http://gigadb.org/))
+  - GigaDB ([https://gigadb.org/](https://gigadb.org/))
   - Synapse ([https://www.synapse.org/](https://www.synapse.org/))
 - Transcriptomics:
   - GEO ([https://www.ncbi.nlm.nih.gov/geo/](https://www.ncbi.nlm.nih.gov/geo/))
-  - ArrayExpress ([https://www.ebi.ac.uk/arrayexpress/](https://www.ebi.ac.uk/arrayexpress/))
+  - ArrayExpress ([https://www.ebi.ac.uk/biostudies/arrayexpress](https://www.ebi.ac.uk/biostudies/arrayexpress))
 - Sensitive data:
   - EGA ([https://ega-archive.org/](https://ega-archive.org/))
-  - dbGAP ([https://dbgap.ncbi.nlm.nih.gov/](https://dbgap.ncbi.nlm.nih.gov/))
+  - dbGaP ([https://dbgap.ncbi.nlm.nih.gov/](https://dbgap.ncbi.nlm.nih.gov/))

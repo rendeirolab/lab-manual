@@ -6,7 +6,7 @@ All lab members must abide by the code of conduct:
 ## Be respectful
 
 No forms of harassment or discrimination are tolerated.
-All individuals, regardless of their age, gender identity, racial or ethnical background, sexual orientation, religion, culture, academic record, personal background, disability status, economic status, or mental health status, shall be treated with equal respect and recognition.
+All individuals, regardless of their age, gender identity, racial or ethnic background, sexual orientation, religion, culture, academic record, personal background, disability status, economic status, or mental health status, shall be treated with equal respect and recognition.
 
 Please follow the guidelines below:
 
@@ -16,7 +16,7 @@ Please follow the guidelines below:
 - use the individual's preferred pronouns, if known. Gender-neutral language is welcome, particularly when the identity of the person is not known or is irrelevant to the context (e.g. use 'they' for a manuscript reviewer);
 - be kind and sensitive with respect to personal, family and health issues of others, and provide moral support whenever possible;
 - be mindful of the privacy, personal space and belongings of others;
-- ask if unsure how someone wants be referred to or treated.
+- ask if unsure how someone wants to be referred to or treated.
 
 ## Be professional
 
@@ -34,7 +34,7 @@ Please follow the behaviours below:
 - be punctual for all events;
 - do not gossip;
 - kindly point out any potential unsafe or incorrect work procedures to others;
-- report incidents or concerns to Andre or other senior personell at CeMM;
+- report incidents or concerns to the PI (André) or other senior personnel at CeMM;
 - abide by the rules of CeMM.
 
 ## Be proactive and inclusive
@@ -47,7 +47,7 @@ The following is encouraged:
 - ask questions - we're all here to learn;
 - collaboration in research with other lab members;
 - equal participation by all other group members in group discussions;
-- report issues and accept responsability in them to prevent similar issues in the future;
+- report issues and accept responsibility for them to prevent similar issues in the future;
 - suggestions of group activities to foster the lab community, particularly those that encourage cultural exchange.
 
 This code of conduct was inspired by and adapts parts from the following:

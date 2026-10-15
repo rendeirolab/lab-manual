@@ -1,4 +1,4 @@
-# Record keeping guidelines
+# Record keeping
 
 This document serves as a comprehensive guide for maintaining and organizing records within the lab.
 It covers the management of source code, lab notebooks, shared files, and other key resources to ensure efficient and consistent documentation of lab activities.
@@ -23,7 +23,7 @@ It is essential to maintain detailed, up-to-date records of daily activities. Th
 
 ### Digital and Physical Notes
 
-- Use markdown-based notes in [Obsidian](https://github.com/rendeirolab/daily_notes) for digital documentation.
+- Use markdown-based notes in [Obsidian](https://obsidian.md/) for digital documentation, and keep them in the lab's [daily notes repository](https://github.com/rendeirolab/daily_notes) (private repository, lab members only).
 - Optionally, concatenate markdown notes and print them on sticky paper for inclusion in physical lab notebooks.
 
 ## Shared OneDrive Folder

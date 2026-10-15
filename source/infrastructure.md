@@ -1,24 +1,24 @@
-# Lab infrastructure
+# Infrastructure
 
 This document describes the infrastructure used in the lab, including CeMM-provided or our own infrastructure.
 So far it details only computational infrastructure.
 
 ## Lab infrastructure
 
-#### Hardware
+### Hardware
 
-- Hilde workstation: [setting up and maintaining the hilde workstation: hilde_workstation.md](https://github.com/rendeirolab/labdocs/blob/main/hilde_workstation.md)
+- Hilde workstation: [setting up and maintaining the Hilde workstation](https://github.com/rendeirolab/labdocs/blob/main/hilde_workstation.md) (private repository, lab members only)
   - Usage can be booked through its dedicated calendar:
-    - HTML: https://outlook.office365.com/owa/calendar/92e5463911e04b688330fbd26c75faab@cemm.oeaw.ac.at/7dce5f2f61f84753bca69c49a309581114314229400116418487/calendar.html
-    - ICS: https://outlook.office365.com/owa/calendar/92e5463911e04b688330fbd26c75faab@cemm.oeaw.ac.at/7dce5f2f61f84753bca69c49a309581114314229400116418487/calendar.ics
+    - [HTML](https://outlook.office365.com/owa/calendar/92e5463911e04b688330fbd26c75faab@cemm.oeaw.ac.at/7dce5f2f61f84753bca69c49a309581114314229400116418487/calendar.html)
+    - [ICS](https://outlook.office365.com/owa/calendar/92e5463911e04b688330fbd26c75faab@cemm.oeaw.ac.at/7dce5f2f61f84753bca69c49a309581114314229400116418487/calendar.ics)
 
-#### VMs
+### VMs
 
-- Cytomine: [setting up and maintaining the cytomine VM: cytomine.md](https://github.com/rendeirolab/labdocs/blob/main/cytomine.md)
+- Cytomine: [setting up and maintaining the Cytomine VM](https://github.com/rendeirolab/labdocs/blob/main/cytomine.md) (private repository, lab members only)
 
-#### Cloud resources
+### Cloud resources
 
-[Read the documentation on using Azure web services here: azure.md](https://github.com/rendeirolab/labdocs/blob/main/azure.md)
+[Documentation on using Azure web services](https://github.com/rendeirolab/labdocs/blob/main/azure.md) (private repository, lab members only).
 
 Finished projects are archived in the lab's Azure storage account: see [data archiving](data_archiving.md).
 
@@ -27,7 +27,7 @@ Finished projects are archived in the lab's Azure storage account: see [data arc
 Refer to the [CeMM Intranet documentation](https://cemmat.sharepoint.com/sites/Intranet) for updated information.
 Below are a few notes on things which are not covered there:
 
-#### Cluster containers (Podman)
+### Cluster containers (Podman)
 
 On the CeMM cluster, use **Podman** for directory isolation (not speed): mount project `data` **read-only**, write only under `/nobackup/.../results`, and do **not** mount `$HOME`. The job script loads Podman (`module load podman`). For partitions, QoS, and GPUs, use the [CeMM cluster documentation](https://cemmat.sharepoint.com/sites/IT-Resources); `tinyq` in the examples is CPU-only.
 
@@ -49,7 +49,7 @@ sbatch --export=ALL,DATA="$DATA",OUT="$OUT" 02_lazyslide.sbatch
 
 Without `SLIDE`, LazySlide runs `zs.datasets.sample()` and writes `sample.zarr` in `OUT`. Logs: `podman-bash-<jobid>.out` and `podman-lazyslide-<jobid>.out` in the submit directory.
 
-#### Printing from Linux
+### Printing from Linux
 
 CeMM has Canon imageFORCE C5140/5150 printers (upgraded from the iR-ADV C5735/5740
 series in 2026). They support printing from Linux via CUPS.

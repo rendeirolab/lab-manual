@@ -1,36 +1,52 @@
-set -e
+#!/usr/bin/env bash
+# Build the manual as a single HTML file and a PDF.
+# Page order is read from the ORDER file (created by `make set_order`).
+# Sources are copied to a staging directory, so files in the repository are never modified.
+set -euo pipefail
 
-# Add modifications
-## Version
-VERSION=$(git describe --tags)
-sed -i -e "s/<VERSION>/$VERSION/g" metadata.yaml
+VERSION=${VERSION:-$(git describe --tags --always --dirty 2>/dev/null || echo "dev")}
+HTML=build/html/rendeiro-lab_manual.html
+PDF=build/pdf/rendeiro-lab_manual.pdf
 
-readarray -d ' ' ORDER < ORDER
+read -ra ORDER < ORDER
 
-## Add newline at end of each file
-echo ${ORDER[@]:0:13} | xargs sed -i -e '$a\\n'
-## Add a page break after each file
-echo ${ORDER[@]:0:13} | xargs sed -i -e '$a<div style="page-break-after: always;"></div>'
+STAGE=$(mktemp -d)
+trap 'rm -rf "$STAGE"' EXIT
+
+# Set version
+sed -e "s/<VERSION>/$VERSION/g" metadata.yaml > "$STAGE/metadata.yaml"
+
+# Add a page break after each file except the last one
+LAST=$((${#ORDER[@]} - 1))
+for i in "${!ORDER[@]}"; do
+    FILE=${ORDER[$i]}
+    mkdir -p "$STAGE/$(dirname "$FILE")"
+    cp "$FILE" "$STAGE/$FILE"
+    if [ "$i" -lt "$LAST" ]; then
+        printf '\n\n<div style="page-break-after: always;"></div>\n' >> "$STAGE/$FILE"
+    fi
+done
 
 # Convert to HTML
-cat ORDER | pandoc \
+mkdir -p "$(dirname "$HTML")" "$(dirname "$PDF")"
+(cd "$STAGE" && pandoc \
     -V toc-title='Table of contents' \
     --embed-resources \
     --standalone \
-    --css=assets/style.css \
+    --css="$OLDPWD/assets/style.css" \
     --toc \
     --toc-depth 1 \
     -t html5 \
     --metadata-file=metadata.yaml \
-    -s `xargs` \
-    -o build/html/rendeiro-lab_manual.html
+    -o "$OLDPWD/$HTML" \
+    "${ORDER[@]}")
 
 # Copy images
 cp -r assets build/html/
 
 # Add content inside 'container'
-sed 's/<body>/<body><div class="container">/g' -i build/html/rendeiro-lab_manual.html
-sed 's/<\/body>/<\/div><\/body>/g' -i build/html/rendeiro-lab_manual.html
+sed -i 's/<body>/<body><div class="container">/g' "$HTML"
+sed -i 's/<\/body>/<\/div><\/body>/g' "$HTML"
 
 # Convert to PDF
 wkhtmltopdf \
@@ -40,14 +56,5 @@ wkhtmltopdf \
     --header-font-size 8 \
     --footer-center "[page]/[topage]" \
     --footer-font-size 8 \
-    build/html/rendeiro-lab_manual.html \
-    build/pdf/rendeiro-lab_manual.pdf
-
-
-# Undo modifications
-## Remove version
-sed -i -e "s/$VERSION/<VERSION>/g" metadata.yaml
-## Delete last 3 lines of each file
-echo ${ORDER[@]:0:13} | xargs sed -i -e '$ d'
-echo ${ORDER[@]:0:13} | xargs sed -i -e '$ d'
-echo ${ORDER[@]:0:13} | xargs sed -i -e '$ d'
+    "$HTML" \
+    "$PDF"

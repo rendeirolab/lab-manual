@@ -7,12 +7,14 @@ Some outstanding tasks to improve the manual's content, style and accessibility:
 - [x] Add section on 'Authorship'
 - [x] Add section on 'Engaging in new projects'
 - [x] Remove hackaton ideas section from 'Communication'
-- [ ] Add proper `href` for all links
-- [ ] Align all file names with `h1` heading (for easy linking and easier website deploy)
-- [ ] Update build and dependencies docs
-- [ ] Website deployment
+- [x] Add proper `href` for all links
+- [x] Align all file names with `h1` heading (for easy linking and easier website deploy)
+- [x] Update build and dependencies docs
+- [x] Website deployment
   - [x] Set up
   - [x] Fix `ul`, `ol` and `table` styling
   - [x] Fix intra-manual links (ending .md)
   - [x] Fix Python code blocks highlighting
-  - [ ] Build only on tagged versions, not on `main`
+  - [x] Build only on tagged versions, not on `main`
+- [ ] Fill in or remove the 'Lab retreats' section in [communication and meetings](source/communication_and_meetings.md)
+- [ ] Finish and include AI for research page (`source/ai_for_research.md`)

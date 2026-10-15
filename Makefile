@@ -1,9 +1,13 @@
 all: build
 
+.PHONY: all requirements clean format set_order build
+
 requirements:
 	sudo apt install \
 		pandoc \
-		wkhtmltopdf
+		wkhtmltopdf \
+		xfonts-75dpi
+	uv tool install mdformat --with mdformat-gfm
 # To have internal links in PDF
 # one must install xfonts-75dpi and wkhtmltopdf from a .deb
 # (https://stackoverflow.com/a/78727807/1469535)

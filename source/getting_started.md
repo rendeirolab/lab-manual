@@ -10,15 +10,13 @@ You are at the start of an adventure, don’t forget to enjoy the journey.
 
 The first step is to get informed about the lab's [mission and philosophy](mission_statement.md), the [code of conduct](code_of_conduct.md) and how we operate (rest of the manual).
 
-Feel free to go ahead and read the [mission statement](mission_statement.md) and [code of conduct](code_of_conduct.md) to get started.
-
-The rest of the content here are pointers for newcomers on practical aspects on how to get started in the lab.
+The rest of this page contains practical pointers for newcomers on how to get started in the lab.
 
 ## Get started
 
 ### Lab-specific
 
-Onboarding to-dos (responsability of the PI):
+Onboarding to-dos (responsibility of the PI):
 
 1. Ask the new team member for their contact information (optional, but recommended for safety reasons) - [add your own information here](https://cemmat.sharepoint.com/:x:/s/rendeirolab/ETVfBUPmJYpIgl-yDccPCGkBZRMFtOTE9ExejqyvMq6msA?e=lxEuzO);
 1. Add the new team member to lab Microsoft team and mailing list;
@@ -26,10 +24,10 @@ Onboarding to-dos (responsability of the PI):
    - the lab manual (this)
    - the lab code of conduct (see [code of conduct](code_of_conduct.md))
    - lab infrastructure (such as Cytomine, VMs, etc: [infrastructure](infrastructure.md))
-   - Github team ([https://github.com/rendeirolab](https://github.com/rendeirolab))
+   - GitHub team ([https://github.com/rendeirolab](https://github.com/rendeirolab))
    - Weights and Biases team ([https://wandb.ai/rendeiro-group](https://wandb.ai/rendeiro-group))
    - HuggingFace team ([https://huggingface.co/RendeiroLab](https://huggingface.co/RendeiroLab))
-1. Make sure the new team member follows up with the remaining of CeMM onboarding (IT, safety, etc)
+1. Make sure the new team member follows up with the rest of the CeMM onboarding (IT, safety, etc.)
 
 ### CeMM-specific
 
@@ -43,7 +41,7 @@ Consult the intranet for updated information on everything CeMM: [https://cemmat
 
 ##### Mail
 
-The default email addressess have the form `<user>@cemm.oeaw.ac.at` due to our relationship with the Austrian Academy of Sciences.
+The default email addresses have the form `<user>@cemm.oeaw.ac.at` due to our relationship with the Austrian Academy of Sciences.
 The short form `<user>@cemm.at` can also receive emails and is mandatory to access/register Microsoft Office 365 cloud resources: OneDrive, Teams, Word, Excel, PowerPoint, etc.
 
 - Web portal: `portal.office.com`
@@ -62,7 +60,8 @@ Windows shares:
 - Groupdata: `smb://int.cemm.at/data/groupdata/`
 - Labs: `smb://int.cemm.at/data/labs/`
 - Home Folder: `smb://int.cemm.at/data/home/<username>`
-  Cluster shares: `smb://hpctransfer`
+
+Cluster shares: `smb://hpctransfer`
 
 Login with your CeMM credentials and the domain name (if asked) is "cemmint".
 
@@ -70,7 +69,5 @@ Login with your CeMM credentials and the domain name (if asked) is "cemmint".
 
 1. Get a MUW ID by submitting a form to the CeMM IT team ([https://cemmat.sharepoint.com/sites/IT-Resources](https://cemmat.sharepoint.com/sites/IT-Resources)).
 1. Get authorization from MUW to access VPN, submit the form to the CeMM IT team.
-1. Connect:
-   - On Linux:
-     1. Get Cisco AnyConnect
-     1. Connect using [https://vpn.meduniwien.ac.at/](https://vpn.meduniwien.ac.at/), username and password
+1. Install the Cisco Secure Client (formerly Cisco AnyConnect), which is available for Linux, macOS and Windows.
+1. Connect to [https://vpn.meduniwien.ac.at/](https://vpn.meduniwien.ac.at/) with your MUW username and password.

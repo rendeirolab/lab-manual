@@ -9,23 +9,23 @@ Manuscript writing should really be called "manuscript crafting" as it involves 
 
 A crucial part of crafting a great manuscript is good communication of ideas through visual elements (figures), and their alignment with the text.
 
-Here are Andre's tips for figure making based on practice.
-This has changed a little over the time, but mostly coalesced on a fairly simple system.
+Here are André's tips for figure making based on practice.
+This has changed a little over time, but mostly coalesced on a fairly simple system.
 
-### Making plots (Python, matplotlib, seaborn):
+### Making plots (Python, matplotlib, seaborn)
 
-- Try to compartmentalize data processing from visualization (not just the early 'pipeline'-like processing, but also the analytical analysis) - but that does not mean that
+- Try to separate data processing from visualization (not just the early 'pipeline'-like processing, but also the statistical analysis).
 - Each script produces a set of plots into a `results` directory, with subdirectories matching the script or analysis name (more hierarchical if needed, e.g. different datasets).
 - Each plot file name should be self explanatory and contain enough information to track down its origin.
 - Except for obvious groupings or interrelations, avoid making figures with many subplots.
-- Create figures in matplotlib/seaborn always explicitly: `fig, ax = plt.subplots(figsize=(3, 3)`
-- For the most part aim for each subplot to have a square shape with about 3 by 3 inches. If creating a figure with multiple subplots, scale the figure size accordingly: `fig, axes = plt.subplots(4, 2, figsize=(2 * 3, 4 * 3)`
+- Create figures in matplotlib/seaborn always explicitly: `fig, ax = plt.subplots(figsize=(3, 3))`
+- For the most part aim for each subplot to have a square shape with about 3 by 3 inches. If creating a figure with multiple subplots, scale the figure size accordingly: `fig, axes = plt.subplots(4, 2, figsize=(2 * 3, 4 * 3))`
 - Always label the axes, and make use of a single statement to set many properties at once: `ax.set(xlabel="Time", ylabel="Expression (log)", yscale="log")`
-- For plot elements with many objects (e.g. scatter), rasterize that specific single element in order to reduce the size of the figure: `g = sns.clustermap(...); g.ax_heatmap.set(rasterized=True)`. Do not rasterized the whole axes as that will make e.g. text element uneditable.
+- For plot elements with many objects (e.g. scatter), rasterize only that element in order to reduce the size of the figure: `ax.scatter(..., rasterized=True)` or `sns.clustermap(..., rasterized=True)`. Do not rasterize the whole axes, as that will make e.g. text elements uneditable.
 - Choose consistent colors across a project. Consider thinking of all factors being highlighted in the paper before starting the project. See colormaps here: [https://matplotlib.org/stable/gallery/color/colormap_reference.html](https://matplotlib.org/stable/gallery/color/colormap_reference.html)
 - Choose continuous colormaps for continuous variables (magma, viridis). Use divergent colormaps (coolwarm, RdBu_r, PuOr_r) only when a central value has meaning (e.g. a Z-score).
 
-### Recommend settings for matplotlib
+### Recommended settings for matplotlib
 
 #### Inkscape: Export to SVG
 
@@ -41,7 +41,7 @@ plt.rcParams['font.family'] = 'Arial'  # Use Arial as the font
 
 #### Adobe Illustrator: Export to PDF
 
-This is similar as above, except that we change the font settings,
+This is similar to the above, except for the font settings:
 
 ```python
 import matplotlib.pyplot as plt
@@ -54,7 +54,7 @@ plt.rcParams['ps.fonttype'] = 42
 plt.rcParams['font.family'] = 'Arial'
 ```
 
-### Assemble plots manually into a figure:
+### Assemble plots manually into a figure
 
 #### Inkscape
 
@@ -76,7 +76,7 @@ Post assembly, automatic assembly and conversion of file types (bash, inkscape, 
 
 Only in very rare cases it is worth it to have a full final figure generated as a whole.
 
-#### Adobe Illustrator:
+#### Adobe Illustrator
 
 Open PDF in Adobe Illustrator
 
@@ -95,7 +95,7 @@ Congratulations! Now you have a clean plot ready for editing.
 ## Text
 
 Manuscript text is usually written in Microsoft Word (docx) or LibreOffice Writer (odt).
-Latex is also supported, talk with Andre about starting with a LaTeX template.
+LaTeX is also supported; talk with André about starting with a LaTeX template.
 
 ### Formatting
 
