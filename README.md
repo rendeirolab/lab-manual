@@ -2,6 +2,8 @@
 
 # Lab manual
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23398121.svg)](https://doi.org/10.5281/zenodo.23398121)
+
 Welcome to the Rendeiro Lab Manual.
 
 This manual provides comprehensive information about the lab's culture, procedures, and workflows to ensure a collaborative and efficient research environment.
@@ -45,7 +47,11 @@ The build workflow attaches the HTML and PDF versions of the manual to the relea
 
 ## Citing the manual
 
-If you use or adapt this manual, please cite it. Citation metadata is in [CITATION.cff](https://github.com/rendeirolab/lab-manual/blob/main/CITATION.cff), and the "Cite this repository" button on the [GitHub page](https://github.com/rendeirolab/lab-manual) exports it in common formats.
+If you use or adapt this manual, please cite it:
+
+> Rendeiro, A. F., Zheng, Y., Moustafa, S., Abila, E., Buljan, I., & Veres, T. Rendeiro lab manual. Zenodo. [https://doi.org/10.5281/zenodo.23398121](https://doi.org/10.5281/zenodo.23398121)
+
+This DOI always resolves to the latest version; each release also has its own DOI, listed on [Zenodo](https://doi.org/10.5281/zenodo.23398121). Citation metadata is in [CITATION.cff](https://github.com/rendeirolab/lab-manual/blob/main/CITATION.cff), and the "Cite this repository" button on the [GitHub page](https://github.com/rendeirolab/lab-manual) exports it in common formats.
 
 ## License
 
