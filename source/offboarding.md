@@ -81,7 +81,7 @@ See the [record keeping section](record_keeping.md).
 1. Remove the team member from:
    - Microsoft team
    - Mailing list
-   - Signal group (see [communication and meetings](communication_and_meetings.md))
+   - Signal group (see [communication](communication.md))
    - GitHub ([https://github.com/rendeirolab](https://github.com/rendeirolab))
    - Weights & Biases ([https://wandb.ai/rendeiro-group](https://wandb.ai/rendeiro-group))
    - HuggingFace ([https://huggingface.co/RendeiroLab](https://huggingface.co/RendeiroLab))

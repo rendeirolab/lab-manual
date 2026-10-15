@@ -16,5 +16,5 @@ Some outstanding tasks to improve the manual's content, style and accessibility:
   - [x] Fix intra-manual links (ending .md)
   - [x] Fix Python code blocks highlighting
   - [x] Build only on tagged versions, not on `main`
-- [x] Fill in or remove the 'Lab retreats' section in [communication and meetings](source/communication_and_meetings.md)
+- [x] Fill in or remove the 'Lab retreats' section in [communication](source/communication.md)
 - [ ] Finish and include AI for research page (`source/ai_for_research.md`)

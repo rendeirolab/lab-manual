@@ -1,4 +1,4 @@
-# Communication and meetings
+# Communication
 
 ## In-person meetings
 

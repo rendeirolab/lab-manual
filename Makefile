@@ -25,7 +25,7 @@ README.md \
 source/getting_started.md \
 source/mission_statement.md \
 source/code_of_conduct.md \
-source/communication_and_meetings.md \
+source/communication.md \
 source/infrastructure.md \
 source/project_planning.md \
 source/research.md \
